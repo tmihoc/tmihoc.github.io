@@ -154,9 +154,9 @@ Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/cita
 
 | upcoming, 2021 | *TBD*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21.                                                                                                 |
 | upcoming, 2021 | *From Chomsky through Confucius to Montague and Grice (Or what I've been up to since I left LBUS)*. Talk @ Lucian Blaga U of Sibiu, May 18.                                             |
-|           2018 | Teodora Mihoc. Modified numerals between polarity and valence. Talk @ Laboratoire de Linguistique de Nantes, CNRS/University of Nantes, Dec 3. ([[./files/talks/mihoc_2018_nantes.pdf][S]])                                |
-|           2018 | Teodora Mihoc. An extent-based GQT-style unified implicature account of bare and modified numerals. Talk @ Institute for Logic, Language, and Information, U of Amsterdam, June 12. ([[./files/talks/mihoc_2018_illc.pdf][S]]) |
-|           2014 | Teodora Mihoc. The broader epistemic future. Talk @ Commitment phenomena through the study of evidential markers in Romance languages, University of Neuchâtel, Sep 5. ([[./files/talks/mihoc_2014_neuchatel.pdf][S]])        |
+|           2018 | Teodora Mihoc. *Modified numerals between polarity and valence*. Talk @ Laboratoire de Linguistique de Nantes, CNRS/University of Nantes, Dec 3. ([[./files/talks/mihoc_2018_nantes.pdf][S]])                              |
+|           2018 | Teodora Mihoc. *An extent-based GQT-style unified implicature account of bare and modified numerals*. Talk @ Institute for Logic, Language, and Information, U of Amsterdam, June 12. ([[./files/talks/mihoc_2018_illc.pdf][S]]) |
+|           2014 | Teodora Mihoc. *The broader epistemic future*. Talk @ Commitment phenomena through the study of evidential markers in Romance languages, University of Neuchâtel, Sep 5. ([[./files/talks/mihoc_2014_neuchatel.pdf][S]])      |
 
 - other
 
