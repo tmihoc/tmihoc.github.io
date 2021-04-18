@@ -5,8 +5,7 @@
 #+EMAIL:      te.mihoc@gmail.com
 #+SETUPFILE: ./setup/theme-readtheorg.setup
 #+OPTIONS: num:nil
-#+HTML_LINK_UP: index.html
-#+HTML_LINK_HOME: index.html
+
 
 @@html:
 <style>
