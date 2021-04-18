@@ -48,7 +48,7 @@ My narrow research interest is in studying free choice, polarity sensitivity, an
 
 Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar profile]].
 
-** Education 
+* Education 
 
 - degree programs
 
@@ -69,7 +69,7 @@ Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/cita
 |    Spring 2009 | Erasmus exchange term, Aristotle U of Thessaloniki                                     |
 
 
-** Employment
+* Employment
 
 - academic positions
 |  <r>            |                                                                                              |
@@ -89,7 +89,7 @@ Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/cita
 |      2002-2009 | English as a Second Language (ESL) tutor                                               |
 
 
-** Awards and grants
+* Awards and grants
 
 | Spring 2019 | Conference travel grant, Harvard Graduate Student Council. $750.  |
 |   2018-2019 | Dissertation completion fellowship, Harvard U. $36,472.           |
@@ -172,4 +172,31 @@ Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/cita
 | 2013 | Teodora Mihoc. *Romanian presumptivity: The future case in point*. Talk @ Southern New England Workshop on Semantics (SNEWS), MIT, Nov 16.                                                               |
 | 2013 | Teodora Mihoc. *The Romanian presumptive mood and the key to the Romanian will-future*. Talk @ Toronto-Ottawa-Montreal Workshop on Semantics (TOM) 6, McGill U, Mar 23. ([[./files/talks/mihoc_2013_tom6.pdf][S]])                        |
 
+
+
+* Teaching
+
+(F = fall; S = spring; W = winter)
+
+
+- as instructor
+ 
+|   <r> |                                                                                                    |
+| S2020 | Introduction to Linguistics (full semester course). Harvard Extension School. ([[./files/teaching/2020_intro.pdf][syllabus]])           |
+| S2017 | The semantics and pragmatics of numerals (half-semester sophomore tutorial). Harvard U. ([[./files/teaching/2017_the_semantics_and.pdf][syllabus]]) |
+| S2016 | Logic in Linguistics (half-semester sophomore tutorial). Harvard U. ([[./files/teaching/2016_logic_in.pdf][syllabus]])                     |
+| F2015 | Inquisitive Semantics (half-semester junior tutorial). Harvard U. ([[./files/teaching/2015_inquisitive.pdf][syllabus]])                       |
+
+ 
+- as teaching fellow
+
+|   <r> |                                                                              |
+| F2017 | Semantic Theory I. Instructor: Kathryn Davidson. Harvard U.                  |
+| F2017 | Language, Structure, and Cognition. Instructor: Kathryn Davidson. Harvard U. |
+| F2016 | Language, Structure, and Cognition. Instructor: Kathryn Davidson. Harvard U. |
+| S2016 | Language, Structure, and Cognition. Instructor: Kathryn Davidson. Harvard U. |
+| F2015 | Syntactic Theory I. Instructor: C.-T. James Huang. Harvard U.                |
+| W2012 | Writing Systems. Instructor: Marie-Claude Séguin. U of Ottawa.               |
+| W2012 | Les langues dans le monde. Instructor: Andrés Pablo Salanova. U of Ottawa.   |
+| F2011 | Introduction to Linguistics. Instructor: Robert Truswell. U of Ottawa.       |
 
