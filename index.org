@@ -1,0 +1,175 @@
+#+TITLE:      Teodora Mihoc
+#+SUBTITLE:   
+------
+#+AUTHOR:     Teodora Mihoc
+#+EMAIL:      te.mihoc@gmail.com
+#+SETUPFILE: ./setup/theme-readtheorg.setup
+#+OPTIONS: num:nil
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: index.html
+
+@@html:
+<style>
+table colgroup col:nth-child(1) {
+    width: 200px;
+}
+table colgroup col:nth-child(2) {
+    width: 1200px;
+}
+</style>
+@@
+
+#+HTML_HEAD: <style> #content{max-width:1000px;}</style>
+#+HTML_HEAD: <style> p{max-width:800px;}</style>
+
+
+#+ATTR_html: :right nil
+
+#+ATTR_HTML: :align :left :width 200
+[[./files/dorapic-cropped.jpg]]
+
+* About
+
+I am a linguist. 
+
+My broad research interest is in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics. 
+
+My narrow research interest is in studying free choice, polarity sensitivity, and scalarity across categories. I have also worked on evidentiality and modality and bare nominals.
+# In my PhD thesis ([[./files/papers/mihoc_2019_phd_decomposing_logic.pdf][Decomposing logic: Modified numerals, polarity, and exhaustification]], 2019, Harvard U) I focused on unifying free choice, polarity sensitivity, and scalarity in indefinites, disjunction, and especially (bare and) comparative- and superlative-modified numerals. In ongoing work I study the same phenomena in plural indefinites, aspectual operators, modals, etc. I am also interested in these phenomena from an experimental perspective and have carried out experimental work on polarity sensitivity in modified numerals. 
+
+
+# Other topics I have worked on include:
+
+# - epistemic futures (e.g., English epistemic will, Romanian o, etc.) vs. epistemic necessity modals (e.g., epistemic must)
+# - bare nominals in English vs. in Romanian vs. in French
+# - numeral-negation scope endorsement asymmetries
+# - conjunctive and disjunctive particles, especially particles in Georgian and Russian that seem to mark both disjunction and conditionals
+
+
+Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar profile]].
+
+** Education 
+
+- degree programs
+
+|       2013-2019 | *PhD Linguistics, Harvard U*                                                                               |
+|                 | Thesis: [[./files/papers/mihoc_2019_phd_decomposing_logic.pdf][Decomposing logic: Modified numerals, polarity, and exhaustification]]                               |
+|                 | Committee: Gennaro Chierchia (chair), Kathryn Davidson, Anamaria Fălăuş, Roger Schwarzschild               |
+|       2011-2012 | *MA Linguistics, U of Ottawa*                                                                              |
+|                 | Memoire:  [[./files/papers/mihoc_2012_ma_the_romanian_presumptive_mood.pdf][The Romanian Presumptive Mood: Inferential evidentiality and upper-end degree epistemic modality]] |
+|                 | Advisor: Ana Arregui                                                                                       |
+|       2007-2010 | *BA Applied Modern Languages and French, Lucian Blaga U of Sibiu*                                          |
+
+
+- other
+
+|            <r> |                                                                                        |
+|  16-22/06/2012 | North American Summer School of Logic, Language, and Information (NASSLLI), U of Texas at Austin |
+| 2010-2011       | Mandarin Chinese language course, Beijing Language and Culture U                       |
+|    Spring 2009 | Erasmus exchange term, Aristotle U of Thessaloniki                                     |
+
+
+** Employment
+
+- academic positions
+|  <r>            |                                                                                              |
+| 07/2019-present | Associate of the Department, Dept of Linguistics, Harvard U  (access to facilities)          |
+| 01-05/2020      | Linguistics instructor, Harvard Extension School                                             |
+| 09/2019-05/2020 | Assistant Head Tutor, Dept of Linguistics, Harvard U                                         |
+| 06/2016-05/2018 | Lab manager, Meaning and Modality Lab, Dept of Linguistics, Harvard U (PI: Kathryn Davidson) |
+| 09/2015-05/2017 | Teaching Assistant and Tutorial Instructor, Dept of Linguistics, Harvard U                   |
+| 09/2012-08/2013 | Research Assistant, Depr of Linguistics, U of Ottawa (PI: Maria Luisa Rivero)               |
+| 09/2011-05/2012 | Teaching Assistant, Dept of Linguistics, U of Ottawa                                         |
+
+- other
+
+
+|     05-06/2011 | English as a Second Language (ESL) instructor, The Affiliated High-School of Peking U  |
+|      2007-2011 | Freelance English-Romanian translator and interpreter                                  |
+|      2002-2009 | English as a Second Language (ESL) tutor                                               |
+
+
+** Awards and grants
+
+| Spring 2019 | Conference travel grant, Harvard Graduate Student Council. $750.  |
+|   2018-2019 | Dissertation completion fellowship, Harvard U. $36,472.           |
+|   2015-2016 | Sosland Family Graduate Fellowship, Harvard U. $9,435.            |
+|   2014-2015 | Sosland Family Graduate Fellowship, Harvard U. $7,924.            |
+|   2013-2014 | Douglas Dillon Fellowship, Harvard U. $25,300.                    |
+|   2011-2012 | Differential admission scholarship, U of Ottawa. $18,450.         |
+|   2010-2011 | Study abroad scholarship, Confucius Institute Sibiu               |
+|   2007-2010 | Merit scholarships, Lucian Blaga U of Sibiu                       |
+| Spring 2009 | Study abroad scholarship, Erasmus Mundus                          |
+
+
+* Papers 
+
+(* = first author or equal contribution)
+
+- in reviewing cycles at journals
+
+|            <r>     |                                                                                                                  |
+| under revision | Teodora Mihoc. [[./files/papers/mihoc_2019_ignorance_and_polarity_sensitivity.pdf][Ignorance and polarity sensitivity in the grammar: From  disjunction and indefinites to numerals]]. |
+
+- in abstract-reviewed conference proceedings, and other
+
+| to appear | Teodora Mihoc. [[./files/papers/mihoc_2021_modified_numerals_and_polarity_sensitivity.pdf][Modified numerals and polarity sensitivity: Between O(nly)(DA) and E(ven)(SA)]]. In  /Proceedings of Sinn und Bedeutung (SuB) 25/.     |
+| to appear | Teodora Mihoc and Kathryn Davidson. [[./files/papers/mihoc_davidson_2021_superlative-modified numerals and negation.pdf][Superlative-modified numerals and negation: A multiply negotiable cost]]. In /Proceedings of Experiments in Linguistics Meaning (ELM) 1/.  |
+| to appear | Aurore Gonzalez* and Teodora Mihoc*. [[./files/papers/gonzalez_mihoc_2018_a_neo-carlsonian.pdf][A neo-Carlsonian approach to bare plural nominals in Romanian and French]]. In J. Sturm (ed.), /Harvard Working Papers in Linguistics 14/.                                                      |
+|      2020 | Teodora Mihoc. [[./files/papers/mihoc_2020_ignorance_and_antinegativity.pdf][Ignorance and anti-negativity in the grammar: /or/some/ and modified numerals]]. In M. Asatryan, Y. Song, and A Whitmal (eds.), /Proceedings of The Annual Meeting of the North East Linguistic Society (NELS) 50/. |
+|      2019 | Teodora Mihoc*, Diti Bhadra, and Anamaria Fălăuş. [[./files/papers/mihoc_bhadra_falaus_2019_epistemic_modals_deduction.pdf][Epistemic modals, deduction, and factivity]]. In K. Blake, F. Davis, K. Lamp, and J. Rhyne (eds.), /Proceedings of Semantics and Linguistic Theory (SALT) 29/, pp. 351-70.       |
+|      2014 | Teodora Mihoc. [[./files/papers/mihoc_2014_the_romanian_future_and.pdf][The Romanian future-and-presumptive auxiliary]]. In B. Buccola, M. Hamilton, A. McKillen, and J. Tanner (eds.), /McGill Working Papers in Linguistics/ 24(1), pp. 64-80.                                            |
+|      2013 | Teodora Mihoc. [[./files/papers/mihoc_2013_the_romanian_presumptive_mood_the_key.pdf][The Romanian Presumptive Mood: The key to the Romanian /will/-Future]]. /Cahiers linguistiques d'Ottawa/Ottawa Papers in Linguistics/, 38.                                                                          |
+
+- unpublished manuscripts
+
+| 2017 | Akshat Agrawal* and Teodora Mihoc*. *Numeral-negation scope endorsement asymmetry: An alternative Rational Speech Act (RSA) model*. |
+| 2015 | *Georgian /tu/: A /ka/ particle*.                                                                                                 |
+
+
+* Presentations 
+
+(talks and posters) 
+
+(* = first author or equal contributions)
+
+(A = abstract; H = handout; P = poster; S = slides; V = video)
+
+- refereed
+
+| upcoming, 2021 | Teodora Mihoc. *Polarity sensitivity across domains*. Talk @ Workshop: The meaning of functional categories in the verbal / sentential domain (Neg / Asp / Voice / Deg / little v), Universitat Autònoma de Barcelona, June 17-18. |  
+| upcoming, 2021 | Teodora Mihoc. *Singular, plural, modal*. Poster @ Linguistic Symposium on Romance Languages (LSRL) 51, U of Illinois at Urbana-Champaign (online), Apr 29-May 1. ([[./files/talks/mihoc_2021_lsrl_a.pdf][A]])                                        |
+|           2021 | Teodora Mihoc. *Aspectual operators and polarity sensitivity*. Talk @ Generative Linguistics in the Old World (GLOW) 44, GLOW Board (online), Apr 15-17. ([[./files/talks/mihoc_2021_glow_a.pdf][A]]) ([[./files/talks/mihoc_2021_glow_s.pdf][S]])                                      | 
+|           2021 | Teodora Mihoc. *Negative comparison between exactness, ignorance, and evaluativity*. Talk @ Penn Linguistics Conference (PLC) 45, U of Pennsylvania (online), Mar 19-21. ([[./files/talks/mihoc_2021_pc_a.pdf][A]]) ([[./files/talks/mihoc_2021_plc_s.pdf][S]])                       |
+|           2020 | Teodora Mihoc. *Epistemic indefinites, number marking, and certainty*. Talk @ Sensus 1, UMass Amherst, Apr 18-19 Sep 26-27. ([[./files/talks/mihoc_2020_sensus_a.pdf][A]]) ([[./files/talks/mihoc_2020_sensus_s.pdf][S]])                                                                    |
+|           2020 | Teodora Mihoc* and Kathryn Davidson. *Superlative-modified numerals and negation: A negotiable cost*. Talk @ Experiments in Linguistic Meaning (ELM) 1, U of Pennsylvania, June 10-12 Sep 22-24. ([[./files/talks/mihoc_davidson_2020_elm_a.pdf][A]]) ([[./files/talks/mihoc_davidson_2020_elm_s.pdf][S]]+[[https://elm-conference.net/wp-content/uploads/2020_talks/ELM1-3-4-11-Mihoc-etal.mp4][V]]) | 
+|           2020 | Teodora Mihoc. *Modified numerals and polarity sensitivity: Between O(nly) and E(ven)*. Talk @ Sinn und Bedeutung (SuB) 25, U College London / Queen Mary U of London, Sep 3-5. (online) ([[./files/talks/mihoc_2020_sub_a.pdf][A]]) ([[./files/talks/mihoc_2020_sub_s.pdf][S]]+[[https://osf.io/8pzmr/][V]])           |
+|           2019 | Teodora Mihoc. *Ignorance and anti-negativity in the grammar: [or/some] and modified numerals*. Talk @ The Annual Meeting of the North East Linguistic Society (NELS) 50, MIT, Oct 24-27. ([[./files/talks/mihoc_2019_nels_a.pdf][A]]) ([[./files/talks/mihoc_2019_nels_s.pdf][S]]+[[./files/talks/mihoc_2019_nels_h.pdf][H]]) | 
+|           2019 | Teodora Mihoc*, Diti Bhadra, and Anamaria Fălăuş. *Epistemic modals, deduction, and factivity*. Talk @ Semantics and Linguistic Theory (SALT) 29, UCLA, May 17-19. ([[./files/talks/mihoc_bhadra_falaus_2019_salt_a.pdf][A]])                                       |  
+|           2019 | Teodora Mihoc. *Ignorance and polarity sensitivity in modified numerals and beyond*. Poster @ Workshop: The meaning of numerals: cognitive, experimental, and semantic perspectives, ZAS, Berlin, Mar 27-28. ([[./files/talks/mihoc_2019_berlin_a.pdf][A]]) ([[./files/talks/mihoc_2019_berlin_p.pdf][P]]) |
+|           2018 | Teodora Mihoc. *The alternatives of bare and modified numerals*. Talk @ Rencontres d'Automne de Linguistique Formelle (RALFe), U Paris 8 / CNRS, Dec 6-7. ([[./files/talks/mihoc_2018_ralfe_a.pdf][A]]) ([[./files/talks/mihoc_2018_ralfe_s.pdf][S]])                                      |
+|           2017 | Teodora Mihoc* and Kathryn Davidson. *Testing a PPI analysis of superlative modified numerals*. Talk @ Experimental Pragmatics (XPrag) 7, University of Cologne, June 21-23. ([[./files/talks/mihoc_davidson_2017_xprag_a.pdf][A]]) ([[./files/talks/mihoc_davidson_2017_xprag_s.pdf][S]])                   |
+|           2017 | Aurore Gonzalez* and Teodora Mihoc*. *Bare nominals in French and Romanian*. Talk @ Linguistic Symposium on Romance Languages (LSRL) 47, U of Delaware, April 20-23. ([[./files/talks/gonzalez_mihoc_2017_lsrl.pdf][H]])                                     |
+
+- invited
+
+| upcoming, 2021 | *TBD*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21.                                                                                                 |
+| upcoming, 2021 | *From Chomsky through Confucius to Montague and Grice (Or what I've been up to since I left LBUS)*. Talk @ Lucian Blaga U of Sibiu, May 18.                                             |
+|           2018 | Teodora Mihoc. Modified numerals between polarity and valence. Talk @ Laboratoire de Linguistique de Nantes, CNRS/University of Nantes, Dec 3. ([[./files/talks/mihoc_2018_nantes.pdf][S]])                                |
+|           2018 | Teodora Mihoc. An extent-based GQT-style unified implicature account of bare and modified numerals. Talk @ Institute for Logic, Language, and Information, U of Amsterdam, June 12. ([[./files/talks/mihoc_2018_illc.pdf][S]]) |
+|           2014 | Teodora Mihoc. The broader epistemic future. Talk @ Commitment phenomena through the study of evidential markers in Romance languages, University of Neuchâtel, Sep 5. ([[./files/talks/mihoc_2014_neuchatel.pdf][S]])        |
+
+- other
+
+| 2018 | Teodora Mihoc. *Scope asymmetry, QUDs, and exhaustification*. Talk @ LingedIn, Harvard U, May 4. ([[./files/talks/mihoc_2018_lingedin.pdf][H]])                                                                                               |
+| 2017 | Teodora Mihoc. *Decomposing bare and modified numerals*. Talk @ LingedIn, Harvard U, Dec 7.                                                                                                              |
+| 2016 | Teodora Mihoc. *More evidence of heterogeneity in the class of comparative and superlative numeral modifiers*. Talk @ Language and Cognition group meeting, Harvard U, Nov 29.                           |
+| 2016 | Teodora Mihoc. *More evidence of heterogeneity in the class of comparative and superlative numeral modifiers*. Talk @ Experimental Syntax & Semantics Lab / Language Acquisition Lab Meeting, MIT, Oct 18. |
+| 2016 | Teodora Mihoc. *More evidence of heterogeneity in the class of comparative and superlative numeral modifiers*. Talk @ LingedIn, Harvard U, Sep 30.                                                       |
+| 2016 | Teodora Mihoc. *Confessing ignorance*. Talk @ LingedIn, Harvard, April 20.                                                                                                                               |
+| 2015 | Teodora Mihoc. *Romanian Bare Nominals and Derived Kind Predication*. Talk @ Southern New England Workshop on Semantics (SNEWS), Harvard U, Nov 21.                                                      |
+| 2015 | Teodora Mihoc* and Alexander Klapheke. *Two sets of alternatives for numerals*. Talk @ East Coast Graduate Student Workshop (ECO-5), Harvard U, Apr 11.                                                  |
+| 2013 | Teodora Mihoc. *Romanian presumptivity: The future case in point*. Talk @ Southern New England Workshop on Semantics (SNEWS), MIT, Nov 16.                                                               |
+| 2013 | Teodora Mihoc. *The Romanian presumptive mood and the key to the Romanian will-future*. Talk @ Toronto-Ottawa-Montreal Workshop on Semantics (TOM) 6, McGill U, Mar 23. ([[./files/talks/mihoc_2013_tom6.pdf][S]])                        |
+
+
