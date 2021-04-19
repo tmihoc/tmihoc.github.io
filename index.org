@@ -29,14 +29,11 @@ table colgroup col:nth-child(2) {
 
 * About
 
-I obtained my PhD in Linguistics from Harvard U in 2019.
-
-# I am a linguist. 
+I am a linguist.
 
 My broad research interest is in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics. 
 
 My narrow research interest is in studying free choice, polarity sensitivity, and scalarity across categories. I have also worked on evidentiality and modality and bare nominals.
-# In my PhD thesis ([[./files/papers/mihoc_2019_phd_decomposing_logic.pdf][Decomposing logic: Modified numerals, polarity, and exhaustification]], 2019, Harvard U) I focused on unifying free choice, polarity sensitivity, and scalarity in indefinites, disjunction, and especially (bare and) comparative- and superlative-modified numerals. In ongoing work I study the same phenomena in plural indefinites, aspectual operators, modals, etc. I am also interested in these phenomena from an experimental perspective and have carried out experimental work on polarity sensitivity in modified numerals. 
 
 
 # Other topics I have worked on include:
@@ -49,7 +46,7 @@ My narrow research interest is in studying free choice, polarity sensitivity, an
 
 For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar profile]].
 
-* COMMENT Education 
+* Education 
 
 - degree programs
 
@@ -105,7 +102,7 @@ For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.go
 
 * Papers 
 
-(* = first author or equal contribution)
+(* = first author or equal contribution)                                                                     |
 
 - in reviewing cycles at journals
 
@@ -201,3 +198,15 @@ For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.go
 | W2012 | Les langues dans le monde. Instructor: Andrés Pablo Salanova. U of Ottawa.   |
 | F2011 | Introduction to Linguistics. Instructor: Robert Truswell. U of Ottawa.       |
 
+
+
+* COMMENT Not exported
+
+
+- theses
+
+|  <r> |                                                                                                                     |
+| 2019 | [[./files/papers/mihoc_2019_phd_decomposing_logic.pdf][Decomposing logic: Modified numerals, polarity, and exhaustification]]                                                |
+|      | PhD Thesis. Harvard U. Committee: Gennaro Chierchia (chair), Kathryn Davidson, Anamaria Fălăuş, Roger Schwarzschild |
+| 2012 | [[./files/papers/mihoc_2012_ma_the_romanian_presumptive_mood.pdf][The Romanian Presumptive Mood: Inferential evidentiality and upper-end degree epistemic modality]]                    |
+|      | MA Memoire. U of Ottawa. Advisor: Ana Arregui  
