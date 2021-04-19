@@ -29,20 +29,9 @@ table colgroup col:nth-child(2) {
 
 * About
 
-I am a linguist.
+I am a linguist interested in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics. 
 
-My broad research interest is in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics. 
-
-My narrow research interest is in studying free choice, polarity sensitivity, and scalarity across categories. I have also worked on evidentiality and modality and bare nominals.
-
-
-# Other topics I have worked on include:
-
-# - epistemic futures (e.g., English epistemic will, Romanian o, etc.) vs. epistemic necessity modals (e.g., epistemic must)
-# - bare nominals in English vs. in Romanian vs. in French
-# - numeral-negation scope endorsement asymmetries
-# - conjunctive and disjunctive particles, especially particles in Georgian and Russian that seem to mark both disjunction and conditionals
-
+In current work I seek a unified approach to free choice, polarity sensitivity, and scalarity across categories.
 
 For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar profile]].
 
