@@ -29,7 +29,9 @@ table colgroup col:nth-child(2) {
 
 * About
 
-I am a linguist. 
+I obtained my PhD in Linguistics from Harvard U in 2019.
+
+# I am a linguist. 
 
 My broad research interest is in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics. 
 
@@ -45,9 +47,9 @@ My narrow research interest is in studying free choice, polarity sensitivity, an
 # - conjunctive and disjunctive particles, especially particles in Georgian and Russian that seem to mark both disjunction and conditionals
 
 
-Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar profile]].
+For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar profile]].
 
-* Education 
+* COMMENT Education 
 
 - degree programs
 
@@ -68,7 +70,7 @@ Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/cita
 |    Spring 2009 | Erasmus exchange term, Aristotle U of Thessaloniki                                     |
 
 
-* Employment
+* COMMENT Employment
 
 - academic positions
 |  <r>            |                                                                                              |
@@ -77,7 +79,7 @@ Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/cita
 | 09/2019-05/2020 | Assistant Head Tutor, Dept of Linguistics, Harvard U                                         |
 | 06/2016-05/2018 | Lab manager, Meaning and Modality Lab, Dept of Linguistics, Harvard U (PI: Kathryn Davidson) |
 | 09/2015-05/2017 | Teaching Assistant and Tutorial Instructor, Dept of Linguistics, Harvard U                   |
-| 09/2012-08/2013 | Research Assistant, Depr of Linguistics, U of Ottawa (PI: Maria Luisa Rivero)               |
+| 09/2012-08/2013 | Research Assistant, Dept of Linguistics, U of Ottawa (PI: Maria Luisa Rivero)               |
 | 09/2011-05/2012 | Teaching Assistant, Dept of Linguistics, U of Ottawa                                         |
 
 - other
@@ -88,7 +90,7 @@ Here is my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/cita
 |      2002-2009 | English as a Second Language (ESL) tutor                                               |
 
 
-* Awards and grants
+* COMMENT Awards and grants
 
 | Spring 2019 | Conference travel grant, Harvard Graduate Student Council. $750.  |
 |   2018-2019 | Dissertation completion fellowship, Harvard U. $36,472.           |
