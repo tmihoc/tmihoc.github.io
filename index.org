@@ -31,7 +31,9 @@ table colgroup col:nth-child(2) {
 
 I am a linguist interested in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics. 
 
-In current work I seek a unified approach to free choice, polarity sensitivity, and scalarity across categories.
+In current work I seek to unify free choice, polarity sensitivity, and scalarity across categories. 
+
+# Logically speaking, the English sentence /Jo invited Alice or Bob/ should convey merely that she invited at least one of Alice and Bob. In practice, however, it also conveys that the speaker is not sure which one, but sure that not both. Thus, natural language meaning is intriguingly different from logical meaning. In this project I will investigate differences like these and more, using the extremely successful theory that, while logical meaning is only about what is said, natural language meaning is also, and to a remarkable degree, about what is not said.
 
 For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar profile]].
 
@@ -101,7 +103,7 @@ For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.go
 - in abstract-reviewed conference proceedings, and other
 
 | to appear | Teodora Mihoc. [[./files/papers/mihoc_2021_modified_numerals_and_polarity_sensitivity.pdf][Modified numerals and polarity sensitivity: Between O(nly)(DA) and E(ven)(SA)]]. In  /Proceedings of Sinn und Bedeutung (SuB) 25/.     |
-| to appear | Teodora Mihoc and Kathryn Davidson. [[./files/papers/mihoc_davidson_2021_superlative-modified numerals and negation.pdf][Superlative-modified numerals and negation: A multiply negotiable cost]]. In /Proceedings of Experiments in Linguistics Meaning (ELM) 1/.  |
+| to appear | Teodora Mihoc* and Kathryn Davidson. [[./files/papers/mihoc_davidson_2021_superlative-modified numerals and negation.pdf][Superlative-modified numerals and negation: A multiply negotiable cost]]. In /Proceedings of Experiments in Linguistics Meaning (ELM) 1/. |
 | to appear | Aurore Gonzalez* and Teodora Mihoc*. [[./files/papers/gonzalez_mihoc_2018_a_neo-carlsonian.pdf][A neo-Carlsonian approach to bare plural nominals in Romanian and French]]. In J. Sturm (ed.), /Harvard Working Papers in Linguistics 14/.                                                      |
 |      2020 | Teodora Mihoc. [[./files/papers/mihoc_2020_ignorance_and_antinegativity.pdf][Ignorance and anti-negativity in the grammar: /or/some/ and modified numerals]]. In M. Asatryan, Y. Song, and A Whitmal (eds.), /Proceedings of The Annual Meeting of the North East Linguistic Society (NELS) 50/. |
 |      2019 | Teodora Mihoc*, Diti Bhadra, and Anamaria Fălăuş. [[./files/papers/mihoc_bhadra_falaus_2019_epistemic_modals_deduction.pdf][Epistemic modals, deduction, and factivity]]. In K. Blake, F. Davis, K. Lamp, and J. Rhyne (eds.), /Proceedings of Semantics and Linguistic Theory (SALT) 29/, pp. 351-70.       |
@@ -140,8 +142,8 @@ For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.go
 
 - invited
 
-| upcoming, 2021 | *TBD*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21.                                                                                                 |
-| upcoming, 2021 | *From Chomsky through Confucius to Montague and Grice (Or what I've been up to since I left LBUS)*. Talk @ Lucian Blaga U of Sibiu, May 18.                                             |
+| upcoming, 2021 | Teodora Mihoc. *TBD*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21.                                                                                  |
+| upcoming, 2021 | Teodora Mihoc. *From Chomsky through Confucius to Montague and Grice (Or what I've been up to since I left LBUS)*. Talk @ Lucian Blaga U of Sibiu, May 18.                              |
 |           2018 | Teodora Mihoc. *Modified numerals between polarity and valence*. Talk @ Laboratoire de Linguistique de Nantes, CNRS/University of Nantes, Dec 3. ([[./files/talks/mihoc_2018_nantes.pdf][S]])                              |
 |           2018 | Teodora Mihoc. *An extent-based GQT-style unified implicature account of bare and modified numerals*. Talk @ Institute for Logic, Language, and Information, U of Amsterdam, June 12. ([[./files/talks/mihoc_2018_illc.pdf][S]]) |
 |           2014 | Teodora Mihoc. *The broader epistemic future*. Talk @ Commitment phenomena through the study of evidential markers in Romance languages, University of Neuchâtel, Sep 5. ([[./files/talks/mihoc_2014_neuchatel.pdf][S]])      |
