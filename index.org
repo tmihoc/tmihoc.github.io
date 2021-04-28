@@ -96,7 +96,7 @@ For more details see my industry resume or my [[./files/mihoc_cv.pdf][academic C
 
 ** Papers
 
-(* = first author or equal contribution)                                                                     |
+(* = first author or equal contribution)                                                                     
 
 - in reviewing cycles at journals
 
