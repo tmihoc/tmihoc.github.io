@@ -123,7 +123,7 @@ For more details see my industry resume or my [[./files/mihoc_cv.pdf][academic C
 
 (talks and posters) 
 
-(* = first author or equal contributions)
+(* = first author or equal contribution)
 
 (A = abstract; H = handout; P = poster; S = slides; V = video)
 
