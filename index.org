@@ -35,7 +35,7 @@ Most of my past and ongoing work is about the pragmatic enrichment of logical me
 
 # Logically speaking, the English sentence /Jo invited Alice or Bob/ should convey merely that she invited at least one of Alice and Bob. In practice, however, it also conveys that the speaker is not sure which one, but sure that not both. Thus, natural language meaning is intriguingly different from logical meaning. In this project I will investigate differences like these and more, using the extremely successful theory that, while logical meaning is only about what is said, natural language meaning is also, and to a remarkable degree, about what is not said.
 
-For more details see my industry resume or my [[./files/mihoc_cv.pdf][academic CV]] and visit my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], and/or [[https://github.com/tmihoc][GitHub]] profile.
+For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./files/mihoc_cv.pdf][academic CV]] and visit my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], and/or [[https://github.com/tmihoc][GitHub]] profile.
 
 * Education 
 
