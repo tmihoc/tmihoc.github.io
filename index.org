@@ -29,13 +29,13 @@ table colgroup col:nth-child(2) {
 
 * About
 
-I am a linguist interested in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics. 
+I am a linguist interested in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics and in both fundamental and applied research. 
 
-In current work I seek to unify free choice, polarity sensitivity, and scalarity across categories. 
+Most of my past and ongoing work is about the pragmatic enrichment of logical meaning. Specifically, I show that this enrichment is often very similaracross  different categories of language empirically, and I provide ways to unify it theoretically also. 
 
 # Logically speaking, the English sentence /Jo invited Alice or Bob/ should convey merely that she invited at least one of Alice and Bob. In practice, however, it also conveys that the speaker is not sure which one, but sure that not both. Thus, natural language meaning is intriguingly different from logical meaning. In this project I will investigate differences like these and more, using the extremely successful theory that, while logical meaning is only about what is said, natural language meaning is also, and to a remarkable degree, about what is not said.
 
-For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar profile]].
+For more details see my industry resume or my [[./files/mihoc_cv.pdf][academic CV]] and visit my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], and/or [[https://github.com/tmihoc][GitHub]] profile.
 
 * Education 
 
@@ -58,23 +58,24 @@ For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.go
 |    Spring 2009 | Erasmus exchange term, Aristotle U of Thessaloniki                                     |
 
 
-* COMMENT Employment
+* Employment / Affiliation
 
 - academic positions
-|  <r>            |                                                                                              |
-| 07/2019-present | Associate of the Department, Dept of Linguistics, Harvard U  (access to facilities)          |
-| 01-05/2020      | Linguistics instructor, Harvard Extension School                                             |
+|             <r> |                                                                                              |
+| 03/2021-present | Visiting Scholar, Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona             |
+| 07/2019-02/2021 | Associate of the Department, Dept of Linguistics, Harvard U                                  |
+|      01-05/2020 | Linguistics instructor, Harvard Extension School                                             |
 | 09/2019-05/2020 | Assistant Head Tutor, Dept of Linguistics, Harvard U                                         |
 | 06/2016-05/2018 | Lab manager, Meaning and Modality Lab, Dept of Linguistics, Harvard U (PI: Kathryn Davidson) |
 | 09/2015-05/2017 | Teaching Assistant and Tutorial Instructor, Dept of Linguistics, Harvard U                   |
-| 09/2012-08/2013 | Research Assistant, Dept of Linguistics, U of Ottawa (PI: Maria Luisa Rivero)               |
+| 09/2012-08/2013 | Research Assistant, Dept of Linguistics, U of Ottawa (PI: Maria Luisa Rivero)                |
 | 09/2011-05/2012 | Teaching Assistant, Dept of Linguistics, U of Ottawa                                         |
 
 - other
 
 
-|     05-06/2011 | English as a Second Language (ESL) instructor, The Affiliated High-School of Peking U  |
-|      2007-2011 | Freelance English-Romanian translator and interpreter                                  |
+|      2007-now  | Freelance English-Romanian translator and interpreter; academic English proofreader, copyeditor |
+|     05-06/2011 | English as a Second Language (ESL) instructor, The Affiliated High-School of Peking U   |
 |      2002-2009 | English as a Second Language (ESL) tutor                                               |
 
 
@@ -91,7 +92,9 @@ For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.go
 | Spring 2009 | Study abroad scholarship, Erasmus Mundus                          |
 
 
-* Papers 
+* Research 
+
+** Papers
 
 (* = first author or equal contribution)                                                                     |
 
@@ -116,7 +119,7 @@ For more details see my [[./files/mihoc_cv.pdf][CV]] and my [[https://scholar.go
 | 2015 | *Georgian /tu/: A /ka/ particle*.                                                                                                 |
 
 
-* Presentations 
+** Presentations
 
 (talks and posters) 
 
