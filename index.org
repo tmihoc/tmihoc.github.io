@@ -31,9 +31,7 @@ table colgroup col:nth-child(2) {
 
 I am a linguist interested in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics and in both fundamental and applied research. 
 
-Most of my past and ongoing work is about the pragmatic enrichment of logical meaning. Specifically, I show that this enrichment is often very similaracross  different categories of language empirically, and I provide ways to unify it theoretically also. 
-
-# Logically speaking, the English sentence /Jo invited Alice or Bob/ should convey merely that she invited at least one of Alice and Bob. In practice, however, it also conveys that the speaker is not sure which one, but sure that not both. Thus, natural language meaning is intriguingly different from logical meaning. In this project I will investigate differences like these and more, using the extremely successful theory that, while logical meaning is only about what is said, natural language meaning is also, and to a remarkable degree, about what is not said.
+Most of my past and ongoing work is about three types of  pragmatic enrichment of logical meaning---free choice, polarity sensitivity, and scalarity---and their empirical and theoretical similarity across different categories of meaning---numerals, disjunction, indefinites, aspectual operators, etc.  In other work I have also tackled evidentiality and modality.
 
 For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./files/mihoc_cv.pdf][academic CV]] and visit my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], and/or [[https://github.com/tmihoc][GitHub]] profile.
 
