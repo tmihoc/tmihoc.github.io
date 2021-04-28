@@ -31,9 +31,9 @@ table colgroup col:nth-child(2) {
 
 I am a linguist interested in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics and in both fundamental and applied research. 
 
-Most of my past and ongoing work is about three types of  pragmatic enrichment of logical meaning---free choice, polarity sensitivity, and scalarity---and their empirical and theoretical similarity across different categories of meaning---numerals, disjunction, indefinites, aspectual operators, etc.  In other work I have also tackled evidentiality and modality.
+Most of my past and ongoing work is about three types of  pragmatic enrichment of logical meaning---free choice, polarity sensitivity, and scalarity---and their empirical and theoretical similarity across different categories of meaning---numerals, disjunction, indefinites, aspectual operators, etc.  In other work I have also tackled issues related to evidentiality and modality.
 
-For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./files/mihoc_cv.pdf][academic CV]] and visit my [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], and/or [[https://github.com/tmihoc][GitHub]] profile.
+For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./files/mihoc_cv.pdf][academic CV]] and visit me on [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], or [[https://github.com/tmihoc][GitHub]].
 
 * Education 
 
