@@ -71,10 +71,10 @@ For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./
 
 - other
 
-
-|      2007-now  | Freelance English-Romanian translator and interpreter; academic English proofreader, copyeditor |
-|     05-06/2011 | English as a Second Language (ESL) instructor, The Affiliated High-School of Peking U   |
-|      2002-2009 | English as a Second Language (ESL) tutor                                               |
+| <r>          |                                                                                                 |
+| 2007-present | Freelance English-Romanian translator and interpreter; academic English proofreader, copyeditor |
+| 05-06/2011   | English as a Second Language (ESL) instructor, The Affiliated High-School of Peking U           |
+| 2002-2009    | English as a Second Language (ESL) tutor                                                        |
 
 
 * COMMENT Awards and grants
