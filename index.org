@@ -60,8 +60,8 @@ For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./
 
 - academic positions
 |             <r> |                                                                                              |
-| 03/2021-present | Visiting Scholar, Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona             |
-| 07/2019-02/2021 | Associate of the Department, Dept of Linguistics, Harvard U                                  |
+| 03/2021-present | Research affiliate (visiting scholar), Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona |
+| 07/2019-02/2021 | Research affiliate (associate of the department), Dept of Linguistics, Harvard U |
 |      01-05/2020 | Linguistics instructor, Harvard Extension School                                             |
 | 09/2019-05/2020 | Assistant Head Tutor, Dept of Linguistics, Harvard U                                         |
 | 06/2016-05/2018 | Lab manager, Meaning and Modality Lab, Dept of Linguistics, Harvard U (PI: Kathryn Davidson) |
@@ -143,11 +143,11 @@ For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./
 
 - invited
 
-| upcoming, 2021 | Teodora Mihoc. *Ignorance and positive polarity in indefinites, disjunction, and numerals*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21.                                                                                       |
-|           2021 | Teodora Mihoc. *From Chomsky through Confucius to Montague and Grice (Or what I've been up to since I left LBUS)*. Talk @ Lucian Blaga U of Sibiu, May 17.                              |
-|           2018 | Teodora Mihoc. *Modified numerals between polarity and valence*. Talk @ Laboratoire de Linguistique de Nantes, CNRS/University of Nantes, Dec 3. ([[./files/talks/mihoc_2018_nantes.pdf][S]])                              |
-|           2018 | Teodora Mihoc. *An extent-based GQT-style unified implicature account of bare and modified numerals*. Talk @ Institute for Logic, Language, and Information, U of Amsterdam, June 12. ([[./files/talks/mihoc_2018_illc.pdf][S]]) |
-|           2014 | Teodora Mihoc. *The broader epistemic future*. Talk @ Commitment phenomena through the study of evidential markers in Romance languages, University of Neuchâtel, Sep 5. ([[./files/talks/mihoc_2014_neuchatel.pdf][S]])      |
+| 2021 | Teodora Mihoc. *Ignorance and positive polarity in indefinites, disjunction, and numerals*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21. ([[https://tmihoc.github.io/files/talks/mihoc_2021_uab_seminar.pdf][S]])          |
+| 2021 | Teodora Mihoc. *From Chomsky through Confucius to Montague and Grice (Or what I've been up to since I left LBUS)*. Talk @ Lucian Blaga U of Sibiu, May 17.                                |
+| 2018 | Teodora Mihoc. *Modified numerals between polarity and valence*. Talk @ Laboratoire de Linguistique de Nantes, CNRS/University of Nantes, Dec 3. ([[./files/talks/mihoc_2018_nantes.pdf][S]])                                      |
+| 2018 | Teodora Mihoc. *An extent-based GQT-style unified implicature account of bare and modified numerals*. Talk @ Institute for Logic, Language, and Information, U of Amsterdam, June 12. ([[./files/talks/mihoc_2018_illc.pdf][S]]) |
+| 2014 | Teodora Mihoc. *The broader epistemic future*. Talk @ Commitment phenomena through the study of evidential markers in Romance languages, University of Neuchâtel, Sep 5. ([[./files/talks/mihoc_2014_neuchatel.pdf][S]])              |
 
 - other
 
