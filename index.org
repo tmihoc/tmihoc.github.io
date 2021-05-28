@@ -61,7 +61,7 @@ For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./
 - academic positions
 |             <r> |                                                                                              |
 | 03/2021-present | Research affiliate (visiting scholar), Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona |
-| 07/2019-02/2021 | Research affiliate (associate of the department), Dept of Linguistics, Harvard U |
+| 07/2019-present | Research affiliate (associate of the department), Dept of Linguistics, Harvard U |
 |      01-05/2020 | Linguistics instructor, Harvard Extension School                                             |
 | 09/2019-05/2020 | Assistant Head Tutor, Dept of Linguistics, Harvard U                                         |
 | 06/2016-05/2018 | Lab manager, Meaning and Modality Lab, Dept of Linguistics, Harvard U (PI: Kathryn Davidson) |
