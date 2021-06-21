@@ -127,7 +127,7 @@ For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./
 
 - refereed
 
-| 2021 | Teodora Mihoc. *Polarity sensitivity across domains*. Talk @ Workshop: The meaning of functional categories in the verbal / sentential domain (Neg / Asp / Voice / Deg / little v), Universitat Autònoma de Barcelona, June 17-18. ([[.files/talks/mihoc_2021_uabworkshop_s][S]]) |
+| 2021 | Teodora Mihoc. *Polarity sensitivity across domains*. Talk @ Workshop: The meaning of functional categories in the verbal / sentential domain (Neg / Asp / Voice / Deg / little v), Universitat Autònoma de Barcelona, June 17-18. ([[./files/talks/mihoc_2021_uabworkshop_s][S]]) |
 | 2021 | Teodora Mihoc. *Singular, plural, modal*. Poster @ Linguistic Symposium on Romance Languages (LSRL) 51, U of Illinois at Urbana-Champaign (online), Apr 29-May 1. ([[./files/talks/mihoc_2021_lsrl_a.pdf][A]]) ([[./files/talks/mihoc_2021_lsrl51.pdf][P]]+[[https://osf.io/efs26/][V]])                                                            |
 | 2021 | Teodora Mihoc. *Aspectual operators and polarity sensitivity*. Talk @ Generative Linguistics in the Old World (GLOW) 44, GLOW Board (online), Apr 15-17. ([[./files/talks/mihoc_2021_glow_a.pdf][A]]) ([[./files/talks/mihoc_2021_glow_s.pdf][S]])                                                                       |
 | 2021 | Teodora Mihoc. *Negative comparison between exactness, ignorance, and evaluativity*. Talk @ Penn Linguistics Conference (PLC) 45, U of Pennsylvania (online), Mar 19-21. ([[./files/talks/mihoc_2021_pc_a.pdf][A]]) ([[./files/talks/mihoc_2021_plc_s.pdf][S]])                                                       |
