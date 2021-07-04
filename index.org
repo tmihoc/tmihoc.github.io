@@ -31,7 +31,7 @@ table colgroup col:nth-child(2) {
 
 I am a linguist interested in formal, experimental, and computational modeling approaches to natural language semantics and pragmatics and in both fundamental and applied research. 
 
-In most of my recent and ongoing work I focus on investigating empirical and theoretical similarity with respect to free choice, polarity sensitivity, and scalarity across different categories of meaning---numerals, disjunction, indefinites, aspectual operators, etc.  In other work I also tackleh issues related to evidentiality and modality.
+In most of my recent and ongoing work I focus on investigating empirical and theoretical similarity with respect to free choice, polarity sensitivity, and scalarity across different categories of meaning---numerals, disjunction, indefinites, aspectual operators, etc.  In other work I also tackle issues related to evidentiality and modality.
 
 For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./files/mihoc_cv.pdf][academic CV]] and visit me on [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], or [[https://github.com/tmihoc][GitHub]], or email me at te (dot) mihoc (at) gmail (dot) com.
 
