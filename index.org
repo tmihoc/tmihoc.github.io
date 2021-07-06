@@ -33,7 +33,7 @@ I am a linguist interested in formal, experimental, and computational modeling a
 
 In most of my recent and ongoing work I focus on investigating empirical and theoretical similarity with respect to free choice, polarity sensitivity, and scalarity across different categories of meaning---numerals, disjunction, indefinites, aspectual operators, etc.  In other work I also tackle issues related to evidentiality and modality.
 
-For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./files/mihoc_cv.pdf][academic CV]] and visit me on [[https://scholar.google.com/citations?user=J4PCqxsAAAAJ&hl=en&authuser=1][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], or [[https://github.com/tmihoc][GitHub]], or email me at te (dot) mihoc (at) gmail (dot) com.
+For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./files/mihoc_cv.pdf][academic CV]] and visit me on [[https://scholar.google.com/citations?user=W3vg4h0AAAAJ&hl=en&authuser=2][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], or [[https://github.com/tmihoc][GitHub]], or email me at te (dot) mihoc (at) gmail (dot) com.
 
 * Education 
 
