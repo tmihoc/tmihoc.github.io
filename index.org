@@ -98,14 +98,19 @@ For more details see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./
 
 - in reviewing cycles at journals
 
-|            <r>     |                                                                                                                  |
-| under revision | Teodora Mihoc. [[./files/papers/mihoc_2019_ignorance_and_polarity_sensitivity.pdf][Ignorance and polarity sensitivity in the grammar: From  disjunction and indefinites to numerals]]. |
+|            <r> |                                                                                                                                                                                                       |
+| under revision | Teodora Mihoc. [[./files/papers/mihoc_2019_ignorance_and_polarity_sensitivity.pdf][Ignorance and polarity sensitivity in the grammar: From  disjunction and indefinites to numerals]].                                                                                      |
+|        in prep | Aspectual operators and polarity sensitivity. In /Glossa/ special issue: /GLOWing papers 44: Selected Papers from the GLOW Online Conference in 2021/.   |
+|        in prep | Singular, plural, modal. In /Isogloss/ special issue: /Romance Languages and Linguistic Theory (RLLT) 18:  Selected Papers from LSRL 51/. |
+
+
 
 - in abstract-reviewed conference proceedings, and other
 
-| to appear | Teodora Mihoc. [[./files/papers/mihoc_2021_modified_numerals_and_polarity_sensitivity.pdf][Modified numerals and polarity sensitivity: Between O(nly)(DA) and E(ven)(SA)]]. In  /Proceedings of Sinn und Bedeutung (SuB) 25/.     |
-| to appear | Teodora Mihoc* and Kathryn Davidson. [[./files/papers/mihoc_davidson_2021_superlative-modified_numerals_and_negation.pdf][Superlative-modified numerals and negation: A multiply negotiable cost]]. In /Proceedings of Experiments in Linguistics Meaning (ELM) 1/. |
-| to appear | Aurore Gonzalez* and Teodora Mihoc*. [[./files/papers/gonzalez_mihoc_2018_a_neo-carlsonian.pdf][A neo-Carlsonian approach to bare plural nominals in Romanian and French]]. In J. Sturm (ed.), /Harvard Working Papers in Linguistics 14/.                                                      |
+|   in prep | Teodora Mihoc. Negative comparison, or how to be judgmental and ignorant with scalar alternatives.n /Proceedings of Penn Linguistics Conference (PLC) 45/.                                                                       |
+| to appear | Teodora Mihoc. [[./files/papers/mihoc_2021_modified_numerals_and_polarity_sensitivity.pdf][Modified numerals and polarity sensitivity: Between O(nly)(DA) and E(ven)(SA)]]. In  /Proceedings of Sinn und Bedeutung (SuB) 25/.                                                                                  |
+| to appear | Teodora Mihoc* and Kathryn Davidson. [[./files/papers/mihoc_davidson_2021_superlative-modified_numerals_and_negation.pdf][Superlative-modified numerals and negation: A multiply negotiable cost]]. In /Proceedings of Experiments in Linguistics Meaning (ELM) 1/.                                                     |
+| to appear | Aurore Gonzalez* and Teodora Mihoc*. [[./files/papers/gonzalez_mihoc_2018_a_neo-carlsonian.pdf][A neo-Carlsonian approach to bare plural nominals in Romanian and French]]. In J. Sturm (ed.), /Harvard Working Papers in Linguistics 14/.                                                    |
 |      2020 | Teodora Mihoc. [[./files/papers/mihoc_2020_ignorance_and_antinegativity.pdf][Ignorance and anti-negativity in the grammar: /or/some/ and modified numerals]]. In M. Asatryan, Y. Song, and A Whitmal (eds.), /Proceedings of The Annual Meeting of the North East Linguistic Society (NELS) 50/. |
 |      2019 | Teodora Mihoc*, Diti Bhadra, and Anamaria Fălăuş. [[./files/papers/mihoc_bhadra_falaus_2019_epistemic_modals_deduction.pdf][Epistemic modals, deduction, and factivity]]. In K. Blake, F. Davis, K. Lamp, and J. Rhyne (eds.), /Proceedings of Semantics and Linguistic Theory (SALT) 29/, pp. 351-70.       |
 |      2014 | Teodora Mihoc. [[./files/papers/mihoc_2014_the_romanian_future_and.pdf][The Romanian future-and-presumptive auxiliary]]. In B. Buccola, M. Hamilton, A. McKillen, and J. Tanner (eds.), /McGill Working Papers in Linguistics/ 24(1), pp. 64-80.                                            |
