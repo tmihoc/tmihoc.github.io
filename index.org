@@ -55,7 +55,7 @@ For more details see below. For even more details, see my [[./files/mihoc_resume
 * Employment / Affiliation
 
 |             <r> |                                                                                                     |
-| 08/2021-present | Canonical, Juju Team: Technical writer                                                              |
+| 08/2021-present | *Canonical, Juju Team: Technical writer*                                                            |
 | 05/2021-present | U Autònoma de Barcelona, Centre de Lingüística Teòrica: Research affiliate (visiting scholar)       |
 |    2007-present | Freelance: academic English proofreader and copyeditor, English-Romanian translator and interpreter |
 | 07/2019-present | Harvard U, Dept of Linguistics: Research affiliate (associate of the department)                    |
