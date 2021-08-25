@@ -29,7 +29,7 @@ table colgroup col:nth-child(2) {
 
 * About
 
-I am a linguist with an interest in free and open source software, and I am currently working as technical writer for the [[https://juju.is/][Juju]] team at [[https://canonical.com/][Canonical]].
+I am a linguist with an interest in free and open source software, and I am currently working as a technical writer for the [[https://juju.is/][Juju]] team at [[https://canonical.com/][Canonical]].
 
 For more details see below. For even more details, see my [[./files/mihoc_resume.pdf][industry resume]] or my [[./files/mihoc_cv.pdf][academic CV]] and visit me on [[https://scholar.google.com/citations?user=W3vg4h0AAAAJ&hl=en&authuser=2][Google Scholar]], [[https://www.linkedin.com/][LinkedIn]], or [[https://github.com/tmihoc][GitHub]], or email me at te (dot) mihoc (at) gmail (dot) com.
 
