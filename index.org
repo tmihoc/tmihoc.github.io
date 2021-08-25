@@ -38,44 +38,35 @@ For more details see below. For even more details, see my [[./files/mihoc_resume
 
 * Education 
 
-- degree programs
 
-|       2013-2019 | *PhD Linguistics, Harvard U*                                                                               |
-|                 | Thesis: [[./files/papers/mihoc_2019_phd_decomposing_logic.pdf][Decomposing logic: Modified numerals, polarity, and exhaustification]]                               |
-|                 | Committee: Gennaro Chierchia (chair), Kathryn Davidson, Anamaria Fălăuş, Roger Schwarzschild               |
-|       2011-2012 | *MA Linguistics, U of Ottawa*                                                                              |
-|                 | Memoire:  [[./files/papers/mihoc_2012_ma_the_romanian_presumptive_mood.pdf][The Romanian Presumptive Mood: Inferential evidentiality and upper-end degree epistemic modality]] |
-|                 | Advisor: Ana Arregui                                                                                       |
-|       2007-2010 | *BA Applied Modern Languages and French, Lucian Blaga U of Sibiu*                                          |
+|     2013-2019 | *Harvard U: PhD Linguistics*                                                                               |
+|               | Thesis: [[./files/papers/mihoc_2019_phd_decomposing_logic.pdf][Decomposing logic: Modified numerals, polarity, and exhaustification]]                               |
+|               | Committee: Gennaro Chierchia (chair), Kathryn Davidson, Anamaria Fălăuş, Roger Schwarzschild               |
+|     2011-2012 | *U of Ottawa: MA Linguistics*                                                                              |
+|               | Memoire:  [[./files/papers/mihoc_2012_ma_the_romanian_presumptive_mood.pdf][The Romanian Presumptive Mood: Inferential evidentiality and upper-end degree epistemic modality]] |
+|               | Advisor: Ana Arregui                                                                                       |
+| 16-22/06/2012 | U of Texas at Austin: North American Summer School of Logic, Language, and Information (NASSLLI)           |
+|     2010-2011 | Beijing Language and Culture U: Mandarin Chinese language course                                           |
+|     2007-2010 | *BA Applied Modern Languages and French, Lucian Blaga U of Sibiu*                                          |
+|    Spring 2009 | Aristotle U of Thessaloniki: Erasmus exchange term                                     |
 
-
-- other
-
-|            <r> |                                                                                        |
-|  16-22/06/2012 | North American Summer School of Logic, Language, and Information (NASSLLI), U of Texas at Austin |
-| 2010-2011       | Mandarin Chinese language course, Beijing Language and Culture U                       |
-|    Spring 2009 | Erasmus exchange term, Aristotle U of Thessaloniki                                     |
 
 
 * Employment / Affiliation
 
-- academic positions
-|             <r> |                                                                                              |
-| 03/2021-present | Research affiliate (visiting scholar), Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona |
-| 07/2019-present | Research affiliate (associate of the department), Dept of Linguistics, Harvard U |
-|      01-05/2020 | Linguistics instructor, Harvard Extension School                                             |
-| 09/2019-05/2020 | Assistant Head Tutor, Dept of Linguistics, Harvard U                                         |
-| 06/2016-05/2018 | Lab manager, Meaning and Modality Lab, Dept of Linguistics, Harvard U (PI: Kathryn Davidson) |
-| 09/2015-05/2017 | Teaching Assistant and Tutorial Instructor, Dept of Linguistics, Harvard U                   |
-| 09/2012-08/2013 | Research Assistant, Dept of Linguistics, U of Ottawa (PI: Maria Luisa Rivero)                |
-| 09/2011-05/2012 | Teaching Assistant, Dept of Linguistics, U of Ottawa                                         |
-
-- other
-
-| <r>          |                                                                                                 |
-| 2007-present | Freelance English-Romanian translator and interpreter; academic English proofreader, copyeditor |
-| 05-06/2011   | English as a Second Language (ESL) instructor, The Affiliated High-School of Peking U           |
-| 2002-2009    | English as a Second Language (ESL) tutor                                                        |
+|             <r> |                                                                                                     |
+| 08/2021-present | Canonical, Juju Team: Technical writer                                                              |
+| 05/2021-present | U Autònoma de Barcelona, Centre de Lingüística Teòrica: Research affiliate (visiting scholar)       |
+|    2007-present | Freelance: academic English proofreader and copyeditor, English-Romanian translator and interpreter |
+| 07/2019-present | Harvard U, Dept of Linguistics: Research affiliate (associate of the department)                    |
+|      01-05/2020 | Harvard Extension School: Linguistics instructor                                                    |
+| 09/2019-05/2020 | Harvard U, Dept of Linguistics: Advising and administrative affiliate (assistant head tutor)        |
+| 06/2016-05/2018 | Harvard U, Meaning and Modality Lab: Lab manager (PI: Kathryn Davidson)                             |
+| 09/2015-05/2017 | Harvard U, Dept of Linguistics: Teaching Assistant and tutorial Instructor                          |
+| 09/2012-08/2013 | U of Ottawa, Dept of Linguistics: Research Assistant (PI: Maria Luisa Rivero)                       |
+| 09/2011-05/2012 | U of Ottawa, Dept of Linguistics: Teaching Assistant                                                |
+| 05/2011-06/2011 | The Affiliated High-School of Peking U: EFL instructor                                              |
+|       2002-2009 | Freelance: EFL tutor                                                                                |
 
 
 * COMMENT Awards and grants
