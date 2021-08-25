@@ -87,7 +87,7 @@ For more details about  my training and work as a linguist please see below. For
 In most of my recent and ongoing work I focus on investigating empirical and theoretical similarity with respect to free choice, polarity sensitivity, and scalarity across different categories of meaning—numerals, disjunction,
 indefinites, aspectual operators, etc. In other work I also tackle issues related to evidentiality and modality.
 
-** Papers
+*** Papers
 
 (* = first author or equal contribution)                                                                     
 
@@ -116,7 +116,7 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 | 2015 | *Georgian /tu/: A /ka/ particle*.                                                                                                 |
 
 
-** Presentations
+*** Presentations
 
 (talks and posters) 
 
