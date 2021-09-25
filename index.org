@@ -93,9 +93,9 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 
 - in reviewing cycles at journals
 
-|            <r> |                                                                                                                                                                                                       |
-| under revision | Teodora Mihoc. [[./files/papers/mihoc_2019_ignorance_and_polarity_sensitivity.pdf][Ignorance and polarity sensitivity in the grammar: From  disjunction and indefinites to numerals]].                                                                                      |
-|        in prep | Teodora Mihoc. Aspectual operators and polarity sensitivity. In /Glossa/ special issue: /GLOWing papers 44: Selected Papers from the GLOW Online Conference in 2021/. |
+|            <r> |                                                                                                                  |
+| under revision | Teodora Mihoc. [[./files/papers/mihoc_2019_ignorance_and_polarity_sensitivity.pdf][Ignorance and polarity sensitivity in the grammar: From  disjunction and indefinites to numerals]]. |
+|   under review | Teodora Mihoc. [[./files/papers/mihoc_2021_aspectual_operators.pdf][Aspectual operators and polarity sensitivity]]. |
 
 
 
@@ -193,6 +193,7 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 
 * COMMENT Not exported
 
+In /Glossa/ special issue: /GLOWing papers 44: Selected Papers from the GLOW Online Conference in 2021/.
 
 - theses
 
