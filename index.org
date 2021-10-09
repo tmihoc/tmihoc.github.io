@@ -5,6 +5,11 @@
 #+EMAIL:      te.mihoc@gmail.com
 #+SETUPFILE: ./setup/theme-readtheorg.setup
 #+OPTIONS: num:nil
+#+LATEX_HEADER: \usepackage{tabularx}
+#+LATEX_HEADER: \usepackage[margin=1.5cm,top=1in, bottom=1in, footskip=30pt,]{geometry} 
+#+LATEX_HEADER: \usepackage[bitstream-charter]{mathdesign} 
+#+latex_class_options: [10.5pt]
+#+LATEX_HEADER: \usepackage{fancyhdr} \pagestyle{fancy} \fancyhf{} \renewcommand{\headrulewidth}{0pt} \usepackage{lastpage}\rfoot{CV, Mihoc~ \thepage\ / \pageref{LastPage}}\renewcommand{\headrulewidth}{0pt}\fancypagestyle{firststyle}{\rhead{\textcolor{gray}{last updated: \today} }}
 
 
 @@html:
@@ -25,6 +30,7 @@ table colgroup col:nth-child(2) {
 #+ATTR_html: :right nil
 
 #+ATTR_HTML: :align :left :width 200
+#+ATTR_LATEX: :width 5cm 
 [[./files/dorapic-cropped.jpg]]
 
 * About
@@ -39,11 +45,12 @@ For more details about  my training and work as a linguist please see below. For
 * Education 
 
 
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 |     2013-2019 | *Harvard U: PhD Linguistics*                                                                               |
-|               | Thesis: [[./files/papers/mihoc_2019_phd_decomposing_logic.pdf][Decomposing logic: Modified numerals, polarity, and exhaustification]]                               |
+|               | [[./files/papers/mihoc_2019_phd_decomposing_logic.pdf][Decomposing logic: Modified numerals, polarity, and exhaustification]]                                       |
 |               | Committee: Gennaro Chierchia (chair), Kathryn Davidson, Anamaria Fălăuş, Roger Schwarzschild               |
 |     2011-2012 | *U of Ottawa: MA Linguistics*                                                                              |
-|               | Memoire:  [[./files/papers/mihoc_2012_ma_the_romanian_presumptive_mood.pdf][The Romanian Presumptive Mood: Inferential evidentiality and upper-end degree epistemic modality]] |
+|               |  [[./files/papers/mihoc_2012_ma_the_romanian_presumptive_mood.pdf][The Romanian Presumptive Mood: Inferential evidentiality and upper-end degree epistemic modality]]          |
 |               | Advisor: Ana Arregui                                                                                       |
 | 16-22/06/2012 | U of Texas at Austin: North American Summer School of Logic, Language, and Information (NASSLLI)           |
 |     2010-2011 | Beijing Language and Culture U: Mandarin Chinese language course                                           |
@@ -54,6 +61,7 @@ For more details about  my training and work as a linguist please see below. For
 
 * Employment / Affiliation
 
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 |             <r> |                                                                                                     |
 | 08/2021-present | *Canonical, Juju Team: Technical writer*                                                            |
 | 05/2021-present | U Autònoma de Barcelona, Centre de Lingüística Teòrica: Research affiliate (visiting scholar)       |
@@ -71,6 +79,7 @@ For more details about  my training and work as a linguist please see below. For
 
 * COMMENT Awards and grants
 
+#+ATTR_LATEX: :environment longtable :width \textwidth :align rp{.82\textwidth}
 | Spring 2019 | Conference travel grant, Harvard Graduate Student Council. $750.  |
 |   2018-2019 | Dissertation completion fellowship, Harvard U. $36,472.           |
 |   2015-2016 | Sosland Family Graduate Fellowship, Harvard U. $9,435.            |
@@ -88,11 +97,10 @@ In most of my recent and ongoing work I focus on investigating empirical and the
 indefinites, aspectual operators, etc. In other work I also tackle issues related to evidentiality and modality.
 
 *** Papers
-
 (* = first author or equal contribution)                                                                     
 
 - in reviewing cycles at journals
-
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 |            <r> |                                                                                                                  |
 | under revision | Teodora Mihoc. [[./files/papers/mihoc_2019_ignorance_and_polarity_sensitivity.pdf][Ignorance and polarity sensitivity in the grammar: From  disjunction and indefinites to numerals]]. |
 |   under review | Teodora Mihoc. [[./files/papers/mihoc_2021_aspectual_operators.pdf][Aspectual operators: Temporality, evaluativity, and polarity sensitivity]]. |
@@ -100,9 +108,9 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 
 
 - in abstract-reviewed conference proceedings, and other
-
-|   in prep | Teodora Mihoc. Negative comparison, or how to be judgmental and ignorant with scalar alternatives. In /Proceedings of Penn Linguistics Conference (PLC) 45/.                                                                             |
-| to appear | Teodora Mihoc. [[./files/papers/mihoc_2021_modified_numerals_and_polarity_sensitivity.pdf][Modified numerals and polarity sensitivity: Between O(nly)(DA) and E(ven)(SA)]]. In  /Proceedings of Sinn und Bedeutung (SuB) 25/.                                                                                          |
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
+|   in prep | Teodora Mihoc. [[./files/papers/mihoc_2021_negative_comparison][Negative comparison, or how to be judgmental and ignorant with scalar alternatives]]. In /Proceedings of Penn Linguistics Conference (PLC) 45/.                                                        |
+| to appear | Teodora Mihoc. [[./files/papers/mihoc_2021_modified_numerals_and_polarity_sensitivity.pdf][Modified numerals and polarity sensitivity: Between O(nly)(DA) and E(ven)(SA)]]. In  /Proceedings of Sinn und Bedeutung (SuB) 25/.            |
 | to appear | Aurore Gonzalez* and Teodora Mihoc*. [[./files/papers/gonzalez_mihoc_2018_a_neo-carlsonian.pdf][A neo-Carlsonian approach to bare plural nominals in Romanian and French]]. In J. Sturm (ed.), /Harvard Working Papers in Linguistics 14/.                                                            |
 |      2021 | Teodora Mihoc* and Kathryn Davidson. [[./files/papers/mihoc_davidson_2021_superlative-modified_numerals_and_negation.pdf][Superlative-modified numerals and negation: A multiply negotiable cost]]. In A. Beltrama, F. Schwarz, A. Papafragou (eds.), /Proceedings of Experiments in Linguistics Meaning (ELM) 1/, pp. 212-223. |
 |      2020 | Teodora Mihoc. [[./files/papers/mihoc_2020_ignorance_and_antinegativity.pdf][Ignorance and anti-negativity in the grammar: /or/some/ and modified numerals]]. In M. Asatryan, Y. Song, and A Whitmal (eds.), /Proceedings of The Annual Meeting of the North East Linguistic Society (NELS) 50/.         |
@@ -111,21 +119,16 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 |      2013 | Teodora Mihoc. [[./files/papers/mihoc_2013_the_romanian_presumptive_mood_the_key.pdf][The Romanian Presumptive Mood: The key to the Romanian /will/-Future]]. /Cahiers linguistiques d'Ottawa/Ottawa Papers in Linguistics/, 38.                                                                                  |
 
 - unpublished manuscripts
-
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 | 2017 | Akshat Agrawal* and Teodora Mihoc*. *Numeral-negation scope endorsement asymmetry: An alternative Rational Speech Act (RSA) model*. |
 | 2015 | *Georgian /tu/: A /ka/ particle*.                                                                                                 |
 
 
 *** Presentations
-
-(talks and posters) 
-
-(* = first author or equal contribution)
-
-(A = abstract; H = handout; P = poster; S = slides; V = video)
+(talks and posters) (* = first author or equal contribution) (A = abstract; H = handout; P = poster; S = slides; V = video)
 
 - refereed
-
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 | 2021 | Teodora Mihoc. *Polarity sensitivity across domains*. Talk @ Workshop: The meaning of functional categories in the verbal / sentential domain (Neg / Asp / Voice / Deg / little v), Universitat Autònoma de Barcelona, June 17-18. ([[./files/talks/mihoc_2021_uabworkshop_s.pdf][S]]) |
 | 2021 | Teodora Mihoc. *Singular, plural, modal*. Poster @ Linguistic Symposium on Romance Languages (LSRL) 51, U of Illinois at Urbana-Champaign (online), Apr 29-May 1. ([[./files/talks/mihoc_2021_lsrl_a.pdf][A]]) ([[./files/talks/mihoc_2021_lsrl_p.pdf][P]]+[[https://osf.io/efs26/][V]])                                                            |
 | 2021 | Teodora Mihoc. *Aspectual operators and polarity sensitivity*. Talk @ Generative Linguistics in the Old World (GLOW) 44, GLOW Board (online), Apr 15-17. ([[./files/talks/mihoc_2021_glow_a.pdf][A]]) ([[./files/talks/mihoc_2021_glow_s.pdf][S]])                                                                       |
@@ -141,15 +144,15 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 | 2017 | Aurore Gonzalez* and Teodora Mihoc*. *Bare nominals in French and Romanian*. Talk @ Linguistic Symposium on Romance Languages (LSRL) 47, U of Delaware, April 20-23. ([[./files/talks/gonzalez_mihoc_2017_lsrl.pdf][H]])                                                               |
 
 - invited
-
-| 2021 | Teodora Mihoc. *Ignorance and positive polarity in indefinites, disjunction, and numerals*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21. ([[https://tmihoc.github.io/files/talks/mihoc_2021_uab_seminar.pdf][S]])          |
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
+| 2021 | Teodora Mihoc. *Ignorance and positive polarity in indefinites, disjunction, and numerals*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21. ([[./files/talks/mihoc_2021_uab_seminar.pdf][S]])          |
 | 2021 | Teodora Mihoc. *From Chomsky through Confucius to Montague and Grice (Or what I've been up to since I left LBUS)*. Talk @ Lucian Blaga U of Sibiu, May 17.                                |
 | 2018 | Teodora Mihoc. *Modified numerals between polarity and valence*. Talk @ Laboratoire de Linguistique de Nantes, CNRS/University of Nantes, Dec 3. ([[./files/talks/mihoc_2018_nantes.pdf][S]])                                      |
 | 2018 | Teodora Mihoc. *An extent-based GQT-style unified implicature account of bare and modified numerals*. Talk @ Institute for Logic, Language, and Information, U of Amsterdam, June 12. ([[./files/talks/mihoc_2018_illc.pdf][S]]) |
 | 2014 | Teodora Mihoc. *The broader epistemic future*. Talk @ Commitment phenomena through the study of evidential markers in Romance languages, University of Neuchâtel, Sep 5. ([[./files/talks/mihoc_2014_neuchatel.pdf][S]])              |
 
 - other
-
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 | 2018 | Teodora Mihoc. *Scope asymmetry, QUDs, and exhaustification*. Talk @ LingedIn, Harvard U, May 4. ([[./files/talks/mihoc_2018_lingedin.pdf][H]])                                                                                               |
 | 2017 | Teodora Mihoc. *Decomposing bare and modified numerals*. Talk @ LingedIn, Harvard U, Dec 7.                                                                                                              |
 | 2016 | Teodora Mihoc. *More evidence of heterogeneity in the class of comparative and superlative numeral modifiers*. Talk @ Language and Cognition group meeting, Harvard U, Nov 29.                           |
@@ -169,7 +172,7 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 
 
 - as instructor
- 
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 |   <r> |                                                                                                    |
 | S2020 | Introduction to Linguistics (full semester course). Harvard Extension School. ([[./files/teaching/2020_intro.pdf][syllabus]])           |
 | S2017 | The semantics and pragmatics of numerals (half-semester sophomore tutorial). Harvard U. ([[./files/teaching/2017_the_semantics_and.pdf][syllabus]]) |
@@ -178,7 +181,7 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 
  
 - as teaching fellow
-
+#+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 |   <r> |                                                                              |
 | F2017 | Semantic Theory I. Instructor: Kathryn Davidson. Harvard U.                  |
 | F2017 | Language, Structure, and Cognition. Instructor: Kathryn Davidson. Harvard U. |
