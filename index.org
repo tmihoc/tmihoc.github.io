@@ -145,6 +145,7 @@ indefinites, aspectual operators, etc. In other work I also tackle issues relate
 
 - invited
 #+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
+| 2021 | Teodora Mihoc. *Aspectual operators: Temporality, evaluativity, and polarity sensitivity*. Talk @ Grup de Lingüística Formal (GLiF), U Pompeu Fabra, Nov 25. ([[./files/talks/mihoc_2021_glif.pdf][S]])                  |
 | 2021 | Teodora Mihoc. *Ignorance and positive polarity in indefinites, disjunction, and numerals*. Talk @ Centre de Lingüística Teòrica, Universitat Autònoma de Barcelona, May 21. ([[./files/talks/mihoc_2021_uab_seminar.pdf][S]])          |
 | 2021 | Teodora Mihoc. *From Chomsky through Confucius to Montague and Grice (Or what I've been up to since I left LBUS)*. Talk @ Lucian Blaga U of Sibiu, May 17.                                |
 | 2018 | Teodora Mihoc. *Modified numerals between polarity and valence*. Talk @ Laboratoire de Linguistique de Nantes, CNRS/University of Nantes, Dec 3. ([[./files/talks/mihoc_2018_nantes.pdf][S]])                                      |
