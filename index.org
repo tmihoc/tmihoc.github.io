@@ -41,13 +41,19 @@ table colgroup col:nth-child(2) {
 
 ------
 
-* Quick intro
 
 
-I am a linguist with an interest in free and open source software, and I am currently working as a technical writer for the [[https://juju.is/][Juju]] team at [[https://canonical.com/][Canonical]]. For more information about that and other, please read on below / view  my  [[./files/mihoc_resume.pdf][resume]] / view my (slightly longer) [[./files/mihoc_cv.pdf][CV]],  or visit me on [[https://www.linkedin.com/][LinkedIn]], [[https://scholar.google.com/citations?user=W3vg4h0AAAAJ&hl=en&authuser=2][Google Scholar]], [[https://ling.auf.net/lingbuzz/_search?q=mihoc][LingBuzz]] or [[https://github.com/tmihoc][GitHub]], or email me at te (dot) mihoc (at) gmail (dot) com or teodora (dot) mihoc (at) canonical (dot) com.
+
+I am a linguist with an interest in free and open source software, and I am currently working as a technical writer for the [[https://juju.is/][Juju]] team at [[https://canonical.com/][Canonical]]. 
+
+For more information about that and other, please see  my  [[./files/mihoc_resume.pdf][resume]] /  (slightly longer) [[./files/mihoc_cv.pdf][CV]].
+
+You can also visit me on [[https://www.linkedin.com/][LinkedIn]], [[https://scholar.google.com/citations?user=W3vg4h0AAAAJ&hl=en&authuser=2][Google Scholar]], [[https://ling.auf.net/lingbuzz/_search?q=mihoc][LingBuzz]] or [[https://github.com/tmihoc][GitHub]], or email me at te (dot) mihoc (at) gmail (dot) com or teodora (dot) mihoc (at) canonical (dot) com.
 
 
-**  Professional timeline
+
+
+** COMMENT  Professional timeline
 #+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 |               <r> |                                                                                                                              |
 | *08/2021-present* | *Technical writer, [[https://juju.is/][Juju]]*, *[[https://canonical.com/][Canonical]]*                                                                                        |
@@ -88,7 +94,7 @@ I am a linguist with an interest in free and open source software, and I am curr
 
 
 
-*  Education 
+* COMMENT  Education 
 
 
  #+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
@@ -109,7 +115,7 @@ I am a linguist with an interest in free and open source software, and I am curr
 
 
 
-*  Awards and grants
+* COMMENT  Awards and grants
 
 #+ATTR_LATEX: :environment longtable :width \textwidth :align >{\raggedleft}p{.15\textwidth}p{.82\textwidth}
 |         <r> |                                                                                                         |
@@ -126,7 +132,7 @@ I am a linguist with an interest in free and open source software, and I am curr
 
 
 
-* Research 
+* COMMENT Research 
 
 
 In my Linguistics research I tackle issues related to unifying free choice, polarity sensitivity, and scalarity across different categories of meaning—numerals, disjunction, indefinites, aspectual operators, etc.; and evidentiality and modality.
@@ -198,7 +204,7 @@ In my Linguistics research I tackle issues related to unifying free choice, pola
 
 
  
-* Teaching
+* COMMENT Teaching
 
 (F = Fall; S = Spring; W = Winter)
 
@@ -243,7 +249,7 @@ In my Linguistics research I tackle issues related to unifying free choice, pola
 
 
 
-* Professional service | Linguistics
+* COMMENT Professional service | Linguistics
 
 - reviewing  (for abstracts, number indicates number of actual abstracts)
 
