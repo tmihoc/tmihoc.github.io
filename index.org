@@ -44,9 +44,11 @@ table colgroup col:nth-child(2) {
 
 
 
-I am a linguist with an interest in free and open source software, and I am currently working as a technical writer for the [[https://juju.is/][Juju]] team at [[https://canonical.com/][Canonical]]. 
+I am a technical writer at [[https://canonical.com/][Canonical]]. In my day-to-day work  I collaborate with engineers, product managers, web designers, marketing specialists, etc., and the community to produce comprehensive and high-quality documentation about  [[https://juju.is/][Juju]]. This involves documentation for both developers and end users, involving a GUI, CLIs, and a programming framework. 
 
-For more information about that and other, please see  my  [[./files/mihoc_resume.pdf][resume]] /  (slightly longer) [[./files/mihoc_cv.pdf][CV]].
+I am also a linguist specialized in semantics and pragmatics. The bulk of my research is formal, but I have also carried out experimental work and dabbled in computational methods.
+
+For more, please see  my  [[./files/mihoc_resume.pdf][resume]] /  (slightly longer) [[./files/mihoc_cv.pdf][CV]].
 
 You can also visit me on [[https://www.linkedin.com/][LinkedIn]], [[https://scholar.google.com/citations?user=W3vg4h0AAAAJ&hl=en&authuser=2][Google Scholar]], [[https://ling.auf.net/lingbuzz/_search?q=mihoc][LingBuzz]] or [[https://github.com/tmihoc][GitHub]], or email me at te (dot) mihoc (at) gmail (dot) com or teodora (dot) mihoc (at) canonical (dot) com.
 
