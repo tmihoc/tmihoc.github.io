@@ -44,7 +44,7 @@ table colgroup col:nth-child(2) {
 
 
 
-I am a technical writer at [[https://canonical.com/][Canonical]]. In my day-to-day work  I collaborate with engineers, product managers, web designers, marketing specialists, etc., and the community to produce comprehensive and high-quality documentation about  [[https://juju.is/][Juju]]. This involves documentation for both developers and end users, involving a GUI, CLIs, and a programming framework. 
+I am a technical writer at [[https://canonical.com/][Canonical]]. In this role I help document  [[https://juju.is/][Juju]]---an open source ecosystem of tools, with a rich history and an ambitious scope, designed to facilitate cloud operations. Documenting Juju involves 1 GUI, 2 rich CLIs, and 1 programming framework, for a target audience including both end users and developers. My work is guided by [[https://diataxis.fr/][Diataxis]] and informed by close collaboration with  engineers, product managers, marketing specialists, web designers, etc., as well as the wonderful and sophisticated Juju community.
 
 I am also a linguist specialized in semantics and pragmatics. The bulk of my research is formal, but I have also carried out experimental work and dabbled in computational methods.
 
