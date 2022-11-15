@@ -48,7 +48,7 @@ I am a technical writer at [[https://canonical.com/][Canonical]]. In this role I
 
 I am also a linguist specialized in semantics and pragmatics. The bulk of my research is formal, but I have also carried out experimental work and dabbled in computational methods.
 
-For more, please see  my  [[./files/mihoc_resume.pdf][resume]] /  (slightly longer) [[./files/mihoc_cv.pdf][CV]].
+For more, please see  my  [[./files/mihoc_resume.pdf][resume / CV]].
 
 You can also visit me on [[https://www.linkedin.com/][LinkedIn]], [[https://scholar.google.com/citations?user=W3vg4h0AAAAJ&hl=en&authuser=2][Google Scholar]], [[https://ling.auf.net/lingbuzz/_search?q=mihoc][LingBuzz]] or [[https://github.com/tmihoc][GitHub]], or email me at te (dot) mihoc (at) gmail (dot) com or teodora (dot) mihoc (at) canonical (dot) com.
 
