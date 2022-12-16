@@ -46,7 +46,7 @@ table colgroup col:nth-child(2) {
 
 I am a technical writer at [[https://canonical.com/][Canonical]]. In this role I help document  [[https://juju.is/][Juju]]---an open source ecosystem of tools, with a rich history and an ambitious scope, designed to facilitate cloud operations. Documenting Juju involves 1 GUI, 2 rich CLIs, and 1 programming framework, for a target audience including both end users and developers. My work is guided by [[https://diataxis.fr/][Diataxis]] and informed by close collaboration with  engineers, product managers, marketing specialists, web designers, etc., as well as the wonderful and sophisticated Juju community.
 
-I am also a linguist specialized in semantics and pragmatics. The bulk of my research is formal, but I have also carried out experimental work and dabbled in computational methods.
+I am also a linguist specialized in semantics and pragmatics, with a PhD under [[https://scholar.harvard.edu/chierchia/home][Gennaro Chierchia]] at [[https://linguistics.fas.harvard.edu/][Harvard]]. The bulk of my research is formal, but I have also carried out experimental work and dabbled in computational methods.
 
 For more, please see  my  [[./files/mihoc_resume.pdf][resume / CV]].
 
