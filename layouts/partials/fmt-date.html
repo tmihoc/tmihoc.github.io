@@ -1,0 +1,13 @@
+{{/* Input: "YYYY[-MM[-DD]]". Output: "D Mon YYYY" / "Mon YYYY" / "YYYY".
+     Uses a string map to avoid Go's octal-parsing of month strings like "08". */}}
+{{ $s := . | string }}
+{{ $p := split $s "-" }}
+{{ $mm := dict "01" "Jan" "02" "Feb" "03" "Mar" "04" "Apr" "05" "May" "06" "Jun"
+               "07" "Jul" "08" "Aug" "09" "Sep" "10" "Oct" "11" "Nov" "12" "Dec" }}
+{{ $r := $s }}
+{{ if eq (len $p) 3 }}
+  {{ $r = printf "%s %s %s" (index $p 2) (index $mm (index $p 1)) (index $p 0) }}
+{{ else if eq (len $p) 2 }}
+  {{ $r = printf "%s %s" (index $mm (index $p 1)) (index $p 0) }}
+{{ end }}
+{{ return $r }}

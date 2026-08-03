@@ -1,0 +1,44 @@
+baseURL = 'https://tmihoc.github.io/'
+title = 'Teodora Mihoc | Senior Technical Author'
+theme = 'PaperMod'
+enableRobotsTXT = true
+
+defaultContentLanguage = 'en'
+
+[languages]
+    [languages.en]
+        locale = 'en-US'
+        label = 'English'
+        weight = 1
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+    defaultTheme = "auto"
+    showShareButtons = false
+    showReadingTime = true
+    displayFullContent = false
+    description = "Teodora Mihoc is a senior technical author at Canonical and a linguist specialized in formal semantics and pragmatics (PhD, Harvard). This CV is a queryable, tag-based database of her roles, research, documentation work, and recognitions."
+
+    [params.schema]
+        publisherType = "Person"
+        sameAs = [
+            "https://www.linkedin.com/in/tmihoc/",
+            "https://scholar.google.com/citations?user=W3vg4h0AAAAJ&hl=en&authuser=2",
+            "https://ling.auf.net/lingbuzz/_search?q=mihoc",
+            "https://github.com/tmihoc",
+        ]
+
+    [params.assets]
+        favicon = "favicon.svg"
+
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/tmihoc/"
+    [[params.socialIcons]]
+        name = "googlescholar"
+        url = "https://scholar.google.com/citations?user=W3vg4h0AAAAJ&hl=en&authuser=2"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/tmihoc"

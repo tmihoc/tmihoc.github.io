@@ -1,0 +1,365 @@
+{{- define "main" }}
+<style>
+/* PaperMod gives the header/nav bar a wider column (--nav-width: 1024px) than the main content
+   area (--main-width: 720px) — a deliberate choice for narrow long-form blog prose, but it makes
+   the page title sit visibly further left than a dense filter+list UI like this one, which reads
+   as misaligned rather than intentional. Match them so the whole page uses one consistent column. */
+:root { --main-width: 1024px; }
+.cv-filter-section {
+  margin-bottom: 2rem; padding: 0.75rem 0;
+  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+}
+.cv-filter-header { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 0.5rem; }
+.cv-filter-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--secondary); margin: 0; }
+#cv-clear { display: none; font-size: 0.68rem; padding: 0.05rem 0.45rem; border-radius: 0.2rem; border: 1px solid var(--border); background: transparent; color: var(--secondary); cursor: pointer; }
+.cv-filter-cloud { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.3rem; }
+.cv-group-lbl {
+  font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--secondary); background: transparent;
+  border: none; border-left: 1px solid var(--border);
+  padding: 0 0 0 0.5rem; margin-left: 0.5rem; cursor: default;
+}
+.cv-group-lbl:first-child { margin-left: 0; padding-left: 0; border-left: none; }
+.cv-tag-btn {
+  padding: 0.15rem 0.6rem; border-radius: 2rem; border: 1px solid var(--border);
+  background: var(--theme); color: var(--primary); font-size: 0.76rem;
+  cursor: pointer; transition: background 0.12s, color 0.12s;
+}
+.cv-tag-btn:hover { background: var(--entry); }
+.cv-tag-btn.active { background: var(--primary); color: var(--theme); }
+.cv-tag-btn.dim { opacity: 0.25; pointer-events: auto; }
+
+#cv-list { border-top: 1px solid var(--border); }
+.cv-item {
+  display: grid; grid-template-columns: 8.5rem 1fr;
+  gap: 0.4rem 1rem; padding: 0.55rem 0;
+  border-bottom: 1px solid var(--border); align-items: start;
+}
+.cv-year  { font-size: 0.78rem; color: var(--secondary); padding-top: 0.15rem; white-space: nowrap; }
+.cv-body  { font-size: 0.92rem; line-height: 1.5; }
+.cv-desc  { display: block; color: var(--secondary); font-size: 0.82rem; margin-top: 0.15rem; }
+.cv-tags  { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.3rem; }
+.cv-chip  { font-size: 0.68rem; padding: 0.08rem 0.4rem; border-radius: 0.2rem; background: var(--entry); color: var(--secondary); border: none; cursor: pointer; }
+.cv-chip:hover { background: var(--border); color: var(--primary); }
+.cv-chip.active { background: var(--primary); color: var(--theme); }
+.cv-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.2rem; align-items: baseline; }
+/* Solid fill, not just an outline — a link navigates away (a different action from a tag chip,
+   which filters in place) and needs to look distinct from .cv-chip at a glance, not just on hover. */
+/* Plain underlined text — no box shape at all, matching .cv-intro a exactly (same rule below).
+   No box means no possible confusion with a filter tag pill, active or not, regardless of
+   fill/border/color choices — the FORM itself (text vs. button) is what a tag chip can never
+   be mistaken for. */
+.cv-link { font-size: 0.8rem; text-decoration: underline; text-decoration-color: var(--primary); text-underline-offset: 2px; }
+.cv-link:hover { color: var(--primary); }
+.cv-cite-btn {
+  font-size: 0.74rem; padding: 0.08rem 0.5rem; border-radius: 0.2rem;
+  background: none; color: var(--primary); border: 1px dashed var(--border);
+  cursor: pointer; transition: background 0.12s, color 0.12s;
+}
+.cv-cite-btn:hover { background: var(--entry); border-color: var(--primary); }
+/* PaperMod's social icons are bare 26px glyphs with no border/pill — every other clickable
+   element on this page (tags, links) uses a bordered pill, so match that instead of the theme
+   default, which reads as a different, unrelated visual language. */
+.social-icons { margin-bottom: 1rem; display: flex; gap: 0.4rem; }
+.social-icons a {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0.35rem; border-radius: 0.3rem; color: var(--primary);
+  background: var(--entry); border: 1px solid var(--border);
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+}
+.social-icons a:hover { background: var(--primary); border-color: var(--primary); color: var(--theme); }
+.social-icons a svg { height: 16px; width: 16px; }
+.cv-cite-box { display: none; position: relative; margin-top: 0.4rem; padding: 0.5rem 0.7rem; background: var(--entry); border-radius: 0.25rem; font-size: 0.72rem; font-family: monospace; white-space: pre; overflow-x: auto; line-height: 1.5; }
+.cv-cite-box.open { display: block; }
+.cv-copy-btn { position: absolute; top: 0.35rem; right: 0.5rem; font-size: 0.65rem; background: none; border: 1px solid var(--border); border-radius: 0.2rem; cursor: pointer; padding: 0.1rem 0.35rem; color: var(--secondary); }
+#cv-noresults { display: none; color: var(--secondary); padding: 1.5rem 0; font-size: 0.9rem; }
+.cv-intro { margin-bottom: 2rem; }
+.cv-intro p { margin-bottom: 1rem; }
+.cv-fl { cursor: pointer; text-decoration: underline dashed; text-decoration-color: var(--primary); text-underline-offset: 2px; }
+.cv-fl:hover { color: var(--primary); }
+.cv-intro a { text-decoration: underline; text-decoration-color: var(--primary); text-underline-offset: 2px; }
+.cv-intro a:hover { color: var(--primary); }
+.cv-fl.active { background: var(--primary); color: var(--theme); border-bottom-color: transparent; padding: 0 0.15rem; border-radius: 0.15rem; }
+@media (max-width: 540px) { .cv-item { grid-template-columns: 1fr; gap: 0.15rem; } }
+</style>
+
+{{ $groups  := site.Data.groups }}
+{{ $entries := site.Data.entries }}
+
+{{/* ── walk the (up to 3-level-deep) tag tree once: build id→sort-order, id→label,
+     and id→expand-set (itself + every descendant leaf — a parent's click = OR over this set).
+     A leaf's expand-set is just itself, which falls out for free since its nested ranges below
+     simply don't iterate. ── */}}
+{{ $tagOrder    := dict }}
+{{ $tagLabel    := dict }}
+{{ $tagIdx      := 0 }}
+{{ $expand      := dict }}
+
+{{ range $groups }}
+  {{ $groupID := .id }}
+  {{ $tagOrder = merge $tagOrder (dict $groupID $tagIdx) }}
+  {{ $tagLabel = merge $tagLabel (dict $groupID .label) }}
+  {{ $tagIdx = add $tagIdx 1 }}
+  {{ range .tags }}
+    {{ $l1 := .id }}
+    {{ $tagOrder = merge $tagOrder (dict $l1 $tagIdx) }}
+    {{ $tagLabel = merge $tagLabel (dict $l1 .label) }}
+    {{ $tagIdx = add $tagIdx 1 }}
+    {{ $l1Leaves := slice $l1 }}
+    {{ range .tags }}
+      {{ $l2 := .id }}
+      {{ $tagOrder = merge $tagOrder (dict $l2 $tagIdx) }}
+      {{ $tagLabel = merge $tagLabel (dict $l2 .label) }}
+      {{ $tagIdx = add $tagIdx 1 }}
+      {{ $l2Leaves := slice $l2 }}
+      {{ range .tags }}
+        {{ $l3 := .id }}
+        {{ $tagOrder = merge $tagOrder (dict $l3 $tagIdx) }}
+        {{ $tagLabel = merge $tagLabel (dict $l3 .label) }}
+        {{ $tagIdx = add $tagIdx 1 }}
+        {{ $expand = merge $expand (dict $l3 (slice $l3)) }}
+        {{ $l2Leaves = $l2Leaves | append $l3 }}
+      {{ end }}
+      {{ $expand = merge $expand (dict $l2 $l2Leaves) }}
+      {{ $l1Leaves = $l1Leaves | union $l2Leaves }}
+    {{ end }}
+    {{ $expand = merge $expand (dict $l1 $l1Leaves) }}
+  {{ end }}
+{{ end }}
+
+{{/* ── sort entries by date (use end of range when available) ── */}}
+{{ $sorted := slice }}
+{{ range $entries }}
+  {{ $parts     := split (.date | string) "/" }}
+  {{ $isPresent := and (gt (len $parts) 1) (eq (index $parts 1) "present") }}
+  {{ $sk := "" }}
+  {{ if $isPresent }}
+    {{ $sk = index $parts 0 }}
+  {{ else if gt (len $parts) 1 }}
+    {{ $sk = index $parts 1 }}
+  {{ else }}
+    {{ $sk = index $parts 0 }}
+  {{ end }}
+  {{ $skp := split $sk "-" }}
+  {{ if eq (len $skp) 1 }}{{ $sk = printf "%s-01-01" $sk }}{{ end }}
+  {{ if eq (len $skp) 2 }}{{ $sk = printf "%s-01"    $sk }}{{ end }}
+  {{ if $isPresent }}{{ $sk = printf "Z-%s" $sk }}{{ else }}{{ $sk = printf "A-%s" $sk }}{{ end }}
+  {{ $sorted = append (merge . (dict "sk" $sk)) $sorted }}
+{{ end }}
+{{ $sorted = sort $sorted "sk" "desc" }}
+
+{{ if site.Params.socialIcons }}{{ partial "social_icons.html" (dict "align" "left") }}{{ end }}
+{{ if .Content }}<div class="cv-intro">{{ .Content }}</div>{{ end }}
+
+{{/* ── FILTER PANEL ──
+     Every group label is a plain, inert organizing header — never clickable, never counted
+     (ADR-16). Exactly ONE tier of pills renders under each header: a tag's own children (if any)
+     are never pre-populated into the panel — deeper structure still exists in the data (chips on
+     entries still resolve and roll it up correctly), it's just discovered there, not here. A
+     `hidden: true` node renders no pill of its own; rendering continues one level into its
+     children instead (used for roles' institutions, since a position's label already names its
+     institution — "PhD Student @ Harvard" — making a separate "Harvard" pill redundant).
+     Whichever tier is the first non-hidden one is what renders; nothing past it does. ── */}}
+<div class="cv-filter-section">
+  <div class="cv-filter-header">
+    <p class="cv-filter-label" title="Selecting multiple tags shows only entries that carry all of them (intersection, not union) — unless that combination is empty, in which case the oldest conflicting selection is dropped automatically.">Filter</p>
+    <button id="cv-clear">clear</button>
+  </div>
+  <div class="cv-filter-cloud">
+    {{ range $groups }}
+    <span class="cv-group-lbl cv-facet-hdr">{{ .label }}</span>
+    {{ range .tags }}
+      {{ if .hidden }}
+        {{ range .tags }}<button class="cv-tag-btn" data-tag="{{ .id }}">{{ .label }}</button>{{ end }}
+      {{ else }}
+        <button class="cv-tag-btn" data-tag="{{ .id }}">{{ .label }}</button>
+      {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+{{/* ── ENTRY LIST ── */}}
+<div id="cv-list">
+  {{ range $sorted }}
+  {{ $tagStr := delimit .tags "|" }}
+  <div class="cv-item" data-tags="{{ $tagStr }}">
+    <div class="cv-year">{{ partial "fmt-period.html" .date }}</div>
+    <div class="cv-body">
+      {{ .sentence | safeHTML }}
+      {{ if .desc }}<span class="cv-desc">{{ .desc | safeHTML }}</span>{{ end }}
+      {{ if or .links .bibtex }}
+      <div class="cv-links">
+        {{ with .links }}
+          {{ with .pdf      }}<a href="{{ . }}" class="cv-link" target="_blank">pdf</a>{{ end }}
+          {{ with .published}}<a href="{{ . }}" class="cv-link" target="_blank">published</a>{{ end }}
+          {{ with .lingbuzz }}<a href="{{ . }}" class="cv-link" target="_blank">lingbuzz</a>{{ end }}
+          {{ with .slides   }}<a href="{{ . }}" class="cv-link" target="_blank">slides</a>{{ end }}
+          {{ with .abstract }}<a href="{{ . }}" class="cv-link" target="_blank">abstract</a>{{ end }}
+          {{ with .handout  }}<a href="{{ . }}" class="cv-link" target="_blank">handout</a>{{ end }}
+          {{ with .poster   }}<a href="{{ . }}" class="cv-link" target="_blank">poster</a>{{ end }}
+          {{ with .video    }}<a href="{{ . }}" class="cv-link" target="_blank">video</a>{{ end }}
+          {{ with .docs     }}<a href="{{ . }}" class="cv-link" target="_blank">docs</a>{{ end }}
+          {{ with .web      }}<a href="{{ . }}" class="cv-link" target="_blank">web</a>{{ end }}
+          {{ with .hof      }}<a href="{{ . }}" class="cv-link" target="_blank">hall of fame</a>{{ end }}
+          {{ with .syllabus }}<a href="{{ . }}" class="cv-link" target="_blank">syllabus</a>{{ end }}
+        {{ end }}
+        {{ if .bibtex }}<button class="cv-cite-btn" data-id="{{ .id }}">cite</button>{{ end }}
+      </div>
+      {{ end }}
+      {{ if .bibtex }}<div class="cv-cite-box" id="cite-{{ .id }}"><button class="cv-copy-btn" data-id="{{ .id }}">copy</button>{{ .bibtex }}</div>{{ end }}
+      <div class="cv-tags">
+        {{ $seen := dict }}{{ $chips := slice }}
+        {{ range .tags }}{{ if not (index $seen .) }}
+          {{ $seen = merge $seen (dict . true) }}
+          {{ $chips = append (dict "id" . "ord" (index $tagOrder . | default 9999)) $chips }}
+        {{ end }}{{ end }}
+        {{ range sort $chips "ord" "asc" }}<button class="cv-chip" data-tag="{{ .id }}">{{ index $tagLabel .id | default .id }}</button>{{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
+<p id="cv-noresults">No matching entries.</p>
+
+<script>
+var active   = new Set();
+var items    = document.querySelectorAll('#cv-list .cv-item');
+var noRes    = document.getElementById('cv-noresults');
+var clearBtn = document.getElementById('cv-clear');
+
+// id -> [ids to OR-match]. Every clickable tag behaves identically, no exceptions.
+var expand = {{ $expand | jsonify | safeJS }};
+
+function tagsMatch(entryTags, criterion) {
+  var set = expand[criterion] || [criterion];
+  return set.some(function (x) { return entryTags.indexOf(x) !== -1; });
+}
+
+function jointCount(criteria) {
+  var arr = Array.from(criteria), n = 0;
+  items.forEach(function (item) {
+    var tags = item.dataset.tags.split('|');
+    if (arr.every(function (c) { return tagsMatch(tags, c); })) n++;
+  });
+  return n;
+}
+
+// Sync active visual state across ALL elements sharing data-tag (panel buttons + entry chips).
+function syncTagVisual(t, isActive) {
+  document.querySelectorAll('[data-tag="' + t + '"]').forEach(function(el) {
+    el.classList.toggle('active', isActive);
+  });
+}
+
+function filter() {
+  var n = 0, arr = Array.from(active);
+  items.forEach(function(item) {
+    var tags = item.dataset.tags.split('|');
+    var show = active.size === 0 || arr.every(function(c){ return tagsMatch(tags, c); });
+    item.style.display = show ? '' : 'none';
+    if (show) n++;
+  });
+  noRes.style.display  = n === 0 ? 'block' : 'none';
+  clearBtn.style.display = active.size > 0 ? 'inline-block' : 'none';
+  updateCompat();
+}
+
+// Dim, not count: a binary "does any currently-visible entry match" claim, nothing about
+// magnitude. Counts were tried and dropped (ADR-16) — entry-count reflects how granularly
+// something got written up, not real-world frequency, and that's actively misleading.
+function updateCompat() {
+  var dimActive = active.size > 0;
+  document.querySelectorAll('.cv-tag-btn').forEach(function(btn) {
+    if (btn.classList.contains('active')) { btn.classList.remove('dim'); return; }
+    var id = btn.dataset.tag, possible = false;
+    items.forEach(function(item) {
+      if (item.style.display === 'none') return;
+      if (tagsMatch(item.dataset.tags.split('|'), id)) possible = true;
+    });
+    btn.classList.toggle('dim', dimActive && !possible);
+  });
+}
+
+function clearActive() {
+  active.clear();
+  document.querySelectorAll('.cv-tag-btn.active, .cv-group-lbl.active, .cv-chip.active, .cv-fl.active')
+    .forEach(function(b){ b.classList.remove('active'); });
+}
+
+// Every tag is selected the same way — no partition, no radio, no kind/facet split. Clicking a
+// tag that would make the ACTUAL JOINT intersection empty drops the oldest conflicting selection
+// and rechecks, rather than silently rendering a dead end (a naive pairwise check is NOT sound
+// here with 3+ active tags — verified against a real counterexample before shipping this).
+function selectTag(t) {
+  if (active.has(t)) { active.delete(t); syncTagVisual(t, false); filter(); return; }
+  var candidate = new Set(active);
+  candidate.add(t);
+  while (candidate.size > 1 && jointCount(candidate) === 0) {
+    var oldest = Array.from(candidate).find(function (x) { return x !== t; });
+    candidate.delete(oldest);
+    syncTagVisual(oldest, false);
+  }
+  active = candidate;
+  syncTagVisual(t, true);
+  filter();
+}
+
+document.querySelectorAll('.cv-tag-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() { selectTag(btn.dataset.tag); });
+});
+
+// Entry chips — same selection logic as panel buttons
+document.querySelectorAll('.cv-chip').forEach(function(chip) {
+  chip.addEventListener('click', function() { selectTag(chip.dataset.tag); });
+});
+
+// Cite toggle
+document.querySelectorAll('.cv-cite-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var box = document.getElementById('cite-' + btn.dataset.id);
+    var open = box.classList.toggle('open');
+    btn.textContent = open ? 'hide' : 'cite';
+  });
+});
+
+// Copy bibtex
+document.querySelectorAll('.cv-copy-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var box = document.getElementById('cite-' + btn.dataset.id);
+    var text = box.innerText.replace(/^copy\n?/, '').trim();
+    navigator.clipboard.writeText(text).then(function() {
+      btn.textContent = 'copied!';
+      setTimeout(function() { btn.textContent = 'copy'; }, 2000);
+    });
+  });
+});
+
+// Intro filter links
+document.querySelectorAll('.cv-fl[data-tag]').forEach(function(el) {
+  el.addEventListener('click', function() { selectTag(el.dataset.tag); });
+});
+
+clearBtn.addEventListener('click', function() {
+  active.clear();
+  document.querySelectorAll('.cv-tag-btn.active, .cv-group-lbl.active, .cv-chip.active, .cv-fl.active').forEach(function(b){ b.classList.remove('active'); });
+  filter();
+});
+
+// Activate tag filter(s) from the URL hash. Single tag: tmihoc.github.io/#paper
+// Intersection: tmihoc.github.io/#documentation+writing (AND of all tags).
+(function() {
+  var h = decodeURIComponent(window.location.hash.slice(1));
+  if (!h) return;
+  var matched = false;
+  h.split('+').forEach(function(t) {
+    t = t.trim();
+    if (!t || !expand[t]) return;
+    active.add(t);
+    syncTagVisual(t, true);
+    matched = true;
+  });
+  if (matched) filter();
+})();
+</script>
+{{- end }}

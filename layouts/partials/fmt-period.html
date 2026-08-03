@@ -1,0 +1,36 @@
+{{/* Input: date string, possibly "start/end". Output: display period string. */}}
+{{ $s  := . | string }}
+{{ $mm := dict "01" "Jan" "02" "Feb" "03" "Mar" "04" "Apr" "05" "May" "06" "Jun"
+               "07" "Jul" "08" "Aug" "09" "Sep" "10" "Oct" "11" "Nov" "12" "Dec" }}
+{{ $r  := $s }}
+
+{{ if not (strings.Contains $s "/") }}
+  {{ $r = partial "fmt-date.html" $s }}
+{{ else }}
+  {{ $halves   := split $s "/" }}
+  {{ $startRaw := index $halves 0 }}
+  {{ $endRaw   := index $halves 1 }}
+
+  {{ $sp := split $startRaw "-" }}
+  {{ $startFmt := $startRaw }}
+  {{ if eq (len $sp) 2 }}
+    {{ $startFmt = printf "%s/%s" (index $mm (index $sp 1)) (index $sp 0) }}
+  {{ else if eq (len $sp) 3 }}
+    {{ $startFmt = printf "%s %s %s" (index $sp 2) (index $mm (index $sp 1)) (index $sp 0) }}
+  {{ end }}
+
+  {{ if eq $endRaw "present" }}
+    {{ $r = printf "%s–present" $startFmt }}
+  {{ else }}
+    {{ $ep := split $endRaw "-" }}
+    {{ $endFmt := $endRaw }}
+    {{ if eq (len $ep) 2 }}
+      {{ $endFmt = printf "%s/%s" (index $mm (index $ep 1)) (index $ep 0) }}
+    {{ else if eq (len $ep) 3 }}
+      {{ $endFmt = printf "%s %s %s" (index $ep 2) (index $mm (index $ep 1)) (index $ep 0) }}
+    {{ end }}
+    {{ $r = printf "%s–%s" $startFmt $endFmt }}
+  {{ end }}
+{{ end }}
+
+{{ return $r }}

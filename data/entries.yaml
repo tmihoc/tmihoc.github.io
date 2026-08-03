@@ -1,0 +1,2246 @@
+- id: docset-jaas
+  sentence: I help write and maintain the JAAS documentation at Canonical.
+  date: 2024-11/present
+  links:
+    docs: https://canonical.com/juju/docs/jaas/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - documentation
+  - writing
+  - docs-as-code
+  - git
+  - markdown
+  - read-the-docs
+  - sphinx
+  - linux
+  - docset
+- id: docset-terraform-provider-juju
+  sentence: I help write and maintain the Terraform Provider for Juju documentation at Canonical.
+  date: 2024-07/present
+  links:
+    docs: https://canonical.com/juju/docs/terraform-provider-juju/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - documentation
+  - writing
+  - docs-as-code
+  - git
+  - markdown
+  - read-the-docs
+  - sphinx
+  - linux
+  - docset
+- id: ongoing-mentoring
+  sentence: As part of my senior duties, I run stand-ups, conduct 1:1s, and give performance
+    evaluations for technical authors at Canonical.
+  date: 2024-05/present
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - mentoring
+  - people-management
+  - jira
+- id: pos-senior-ta-canonical
+  sentence: I am a Senior Technical Author at Canonical.
+  date: 2024-01/present
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - documentation
+  - linux
+- id: ongoing-hiring
+  sentence: I assist in technical author hiring at Canonical (to date, more than 200 interviews).
+  date: 2022-06/present
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - canonical-technical-author
+  - documentation
+  - hiring
+- id: docset-juju-cli
+  sentence: I help write and maintain the Juju documentation at Canonical.
+  date: 2021-08/present
+  links:
+    docs: https://canonical.com/juju/docs/juju-cli/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - writing
+  - docs-as-code
+  - git
+  - markdown
+  - read-the-docs
+  - sphinx
+  - linux
+  - docset
+- id: pos-research-affiliate-uab
+  sentence: I was a visiting scholar at the Centre de Lingüística Teòrica, UAB.
+  date: 2021-05/2021-12
+  tags:
+  - uab
+  - uab-visiting-scholar
+  - linguistics
+  - research
+- id: pos-research-affiliate-harvard
+  sentence: I was a research affiliate (associate of the department) in Linguistics at Harvard.
+  date: 2019-07/2021-07
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - research
+- id: talk-2026-technically-true
+  sentence: I argued that documentation should follow the actual shape of the software and
+    the story it already tells from within, rather than reinvent that story from the outside
+    — for example, don't restructure a modular system's docs as if it were a monolith.
+  date: '2026-05-13'
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - knowledge-engineering
+  - speaking
+  - talk
+  desc: Mihoc, Teodora. 2026. Technically true is the only kind of true, and it shall set
+    you free. Lightning talk, Canonical Engineering Sprint, May 13.
+- id: talk-2026-tree-to-graph
+  sentence: I argued that our ecosystem is graph-shaped and proposed a way for the docs to
+    catch up to that.
+  date: '2026-02-12'
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - knowledge-engineering
+  - speaking
+  - talk
+  desc: 'Mihoc, Teodora. 2026. From tree to graph: An answer to the solution docs vs. product
+    docs challenge. Internal talk, Canonical, Feb 12.'
+- id: rec-vca-2026
+  sentence: I received a Valuable Contribution Award from Canonical for my work refining the technical-author
+    secondment program.
+  date: 2026-02-03
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - people-management
+  - employer-award
+- id: course-design-academy
+  sentence: I completed the Canonical Design Academy UX training program.
+  date: 2025-12/2026-04
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - ux
+  - learning
+  - user-research
+  - miro
+- id: talk-2025-wtd-foss-contribution
+  sentence: As an attendee at Write the Docs Berlin, I ran an unconference session introducing
+    the <a href="https://documentation.academy/" target="_blank">Canonical Open Documentation
+    Academy</a>, a program helping people make their first contribution to FOSS docs.
+  date: 2025-10-28
+  links:
+    web: https://docs.google.com/spreadsheets/d/11O2NRC3mQRIdH44OGgjSil3Y6YqpBIfvKqvVTYAsacQ/edit?gid=23980799#gid=23980799
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - community
+  - speaking
+  - talk
+- id: talk-2025-wtd-illustrated-docs
+  sentence: 'As an attendee at Write the Docs Berlin, I ran an unconference session arguing
+    that software diagrams raise three main concerns — branding, expressive power, and maintainability
+    (e.g., diagrams-as-code) — and that expressive power matters most: no matter how polished
+    a tool is, if it can''t tell the story you need to tell, it''s no good.'
+  date: 2025-10-27
+  links:
+    web: https://docs.google.com/spreadsheets/d/11O2NRC3mQRIdH44OGgjSil3Y6YqpBIfvKqvVTYAsacQ/edit?gid=1637667081#gid=1637667081
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - speaking
+  - talk
+- id: rec-thank-you-2025
+  sentence: I received a Canonical Thank You Award for helping shorten the Juju issues backlog
+    and resolve high-profile bugs.
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - employer-award
+- id: interview-oda-joost
+  sentence: I conducted an interview with Joost De Cock from FreeSewing.org on sewing, open
+    source, and docs, as a session for Canonical's Open Documentation Academy.
+  date: 2024-12-06
+  links:
+    video: https://www.youtube.com/watch?v=SWyzQ3ChZ1I
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - community
+  - speaking
+  - interview
+- id: talk-2024-user-research-docs
+  sentence: I gave a lightning talk (with Lidia Luna Puerta) on user research and docs at
+    Canonical Engineering Sprint.
+  date: 2024-10-22
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - ux
+  - speaking
+  - user-research
+  - talk
+  desc: 'Puerta, Lidia Luna, and Teodora Mihoc. 2024. When in doubt: User research and docs.
+    Lightning talk, Canonical Sprint, Oct 22.'
+- id: training-canonical-user-research
+  sentence: I attended an internal Canonical user research bootcamp.
+  date: 2024-08-05/2024-08-13
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - ux
+  - learning
+  - user-research
+  - dovetail
+  - maze
+- id: project-juju-docs-redesign
+  sentence: I designed and implemented a new architecture for the core tools in the Juju ecosystem
+    docs, moving from 2 hybrid persona-component monoliths to 6 modular, interoperable, component-based
+    docsets that are easy to govern, maintain, and version.
+  date: 2024-07/2025-01
+  links:
+    docs: https://canonical.com/juju/docs
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - documentation
+  - knowledge-engineering
+  - ux
+  - writing
+  - user-research
+  - docs-as-code
+  - git
+  - markdown
+  - read-the-docs
+  - sphinx
+  - figma
+- id: talk-2024-documentation-creed
+  sentence: I gave a lightning talk on my documentation creed at Canonical Engineering Sprint.
+  date: 2024-05-14
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - speaking
+  - talk
+  desc: Mihoc, Teodora. 2024. My documentation creed, currently. Lightning talk, Canonical
+    Sprint, May 14.
+- id: project-charmhub-user-ui
+  sentence: I helped write the copy for the Charmhub charm user UI.
+  date: 2024-04/2024-05
+  links:
+    web: https://charmhub.io/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - ux
+  - writing
+- id: project-charmhub-author-ui
+  sentence: I helped write the copy for the Charmhub charm author UI.
+  date: 2024-03/2024-04
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - ux
+  - writing
+- id: docset-ubuntu-pro-wsl
+  sentence: As part of a secondment, I helped document Ubuntu Pro for WSL.
+  date: 2023-11/2024-05
+  links:
+    docs: https://ubuntu.com/wsl/docs/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - canonical-technical-author
+  - documentation
+  - writing
+  - linux
+  - docset
+- id: project-charmhub-discovery
+  sentence: I led a cross-team session on the Charmhub charm discovery experience.
+  date: 2023-11-08
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - ux
+  - community
+  - user-research
+- id: workshop-nomad-docs
+  sentence: I was an invited speaker, running a documentation workshop at a NOMAD group retreat
+    hosted by FAIRmat.
+  date: 2023-10-10
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - teaching
+  - workshop
+  desc: Mihoc, Teodora. 2023. How to win over hearts and minds with NOMAD docs. Workshop,
+    FAIRmat Meets Domain Experts retreat, Arnsberg, Oct 9-12.
+- id: talk-2023-juju-community-docs
+  sentence: I gave a talk on Juju community and docs at a Juju Community Workshop.
+  date: 2023-08-25
+  links:
+    web: https://discourse.charmhub.io/t/community-and-docs/11659
+  tags:
+  - canonical
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - community
+  - speaking
+  - talk
+- id: lsp-ulwa
+  sentence: I contributed as a proofreader to <em>A grammar of Ulwa (Papua New Guinea)</em>,
+    published by Language Science Press, an open-access publisher.
+  date: 2023-06
+  links:
+    web: https://langsci-press.org/catalog/book/372
+    hof: https://langsci-press.org/halloffame
+  tags:
+  - linguistics
+  - editing
+- id: workshop-fairmat
+  sentence: I co-ran (with Daniele Procida) a documentation workshop at Humboldt University
+    of Berlin, hosted by FAIRmat.
+  date: 2023-05-08
+  links:
+    web: https://www.fairmat-nfdi.eu/lisenews/fairmat_documentation_workshop/73
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - community
+  - teaching
+  - workshop
+- id: workshop-reference-docs
+  sentence: I ran a workshop on how to generate complete reference and how-to docs quickly
+    based on my approach to reference as a dictionary of primitive concepts, entities, tools,
+    and processes, and of (first-order) how-to guides as entity-lifecycle stories.
+  date: 2023-05-04
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - knowledge-engineering
+  - teaching
+  - workshop
+  desc: Mihoc, Teodora. 2023. How to generate decent Reference docs quickly. Workshop, Canonical
+    Engineering Sprint, May 4.
+- id: talk-2023-juju-command-docs
+  sentence: I gave a lightning talk (with Jordan Barrett and Juan Tirado) on how we improved
+    truth in our reference docs by autogenerating the CLI command docs from source.
+  date: 2023-05-03
+  tags:
+  - canonical
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - speaking
+  - talk
+  desc: Barrett, Jordan, Teodora Mihoc, and Juan M. Tirado. 2023. How we got Juju command
+    docs to relax and stop lying. Lightning talk, Canonical Engineering Sprint, May 3.
+- id: workshop-charmhub-docs
+  sentence: At a Canonical Engineering Sprint, I ran a workshop on how to add docs to charms
+    on Charmhub.
+  date: 2023-05-02
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - community
+  - teaching
+  - workshop
+  desc: Mihoc, Teodora. 2023. Let's add docs to our charms on Charmhub! Workshop / campaign,
+    Canonical Engineering Sprint, May 2.
+- id: rec-juju-callout-2023
+  sentence: I received a Juju Documentation Community Call-Out.
+  date: 2023-02-14
+  desc: 'James Beedy: "The Juju docs now set the standard for good documentation."'
+  links:
+    web: https://discourse.charmhub.io/t/juju-documentation-call-out/8746
+  tags:
+  - canonical
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - knowledge-engineering
+  - community-recognition
+- id: rec-vca-2023
+  sentence: I received a Valuable Contribution Award from Canonical for revitalizing hundreds
+    of Juju and Operator Framework documents into a more cohesive whole.
+  date: 2023-01-20
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - knowledge-engineering
+  - writing
+  - employer-award
+- id: review-salt33
+  sentence: I reviewed 4 abstracts for Semantics and Linguistic Theory (SALT) 33.
+  date: 2023-01
+  tags:
+  - linguistics
+  - peer-review
+- id: review-minds-machines
+  sentence: I reviewed a paper for Minds and Machines arguing that GPT-3 generates internally
+    coherent outputs that are however not coherent with one another.
+  date: 2022-12
+  tags:
+  - ai-ml
+  - linguistics
+  - peer-review
+- id: docset-charmed-kubeflow
+  sentence: As part of a secondment, I helped document Charmed Kubeflow.
+  date: 2022-11/2023-02
+  links:
+    docs: https://charmed-kubeflow.io/docs
+  tags:
+  - canonical
+  - canonical-technical-author
+  - ai-ml
+  - documentation
+  - writing
+  - linux
+  - docset
+- id: project-juju-is-menu
+  sentence: I helped write the copy and design the content flow for the juju.is menu.
+  date: 2022-11/2023-01
+  links:
+    web: https://juju.is/
+  tags:
+  - canonical
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - ux
+  - writing
+- id: rec-thank-you-2022
+  sentence: I received a Canonical Thank You Award for being the first Technical Author to
+    be seconded to another team, spending about an hour a day for three months coaching the
+    Multipass team on documentation practices.
+  date: 2022-10-20
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - employer-award
+- id: rec-vca-2022
+  sentence: I received a Valuable Contribution Award from Canonical for the work I led during
+    my secondment with the Multipass team.
+  date: 2022-08-20
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - knowledge-engineering
+  - employer-award
+- id: paper-2022-aspectual-operators
+  sentence: I wrote a paper arguing that <em>still</em>, <em>already</em>, <em>yet</em>, and
+    <em>anymore</em> share temporal, evaluative, and polarity properties that prior accounts
+    of aspectual operators had left unaddressed, and explained them by drawing on existing
+    analyses of disjunction, indefinites, minimizers, and numerals, which show the same patterns.
+  date: 2022-06
+  desc: 'Mihoc, Teodora. 2022. Aspectual operators: Temporality, evaluativity, and polarity
+    sensitivity. Preprint, LingBuzz.'
+  links:
+    pdf: /linguistics/papers/mihoc_2022_aspectual_operators.pdf
+    lingbuzz: https://ling.auf.net/lingbuzz/006213
+  bibtex: "@misc{mihoc2022aspectual,\n  author       = {Mihoc, Teodora},\n  title        =\
+    \ {Aspectual operators: {T}emporality, evaluativity, and polarity sensitivity},\n  year\
+    \         = {2022},\n  howpublished = {\\url{https://ling.auf.net/lingbuzz/006213}}\n\
+    }\n"
+  tags:
+  - linguistics
+  - polarity-sensitivity
+  - research
+  - writing
+  - theoretical
+  - paper
+- id: blog-ubuntu-grice
+  sentence: I wrote a blog post arguing that odd-seeming documentation feedback is usually
+    rational once read through Grice's Cooperative Principle, and used that to lay out how
+    to collect better feedback.
+  date: 2022-06
+  links:
+    web: https://ubuntu.com/blog/humans-may-be-rational-or-how-to-collect-better-documentation-feedback-with-linguistic-theory
+  desc: Mihoc, Teodora. 2022. Humans may be rational, or how to collect better documentation
+    feedback with linguistic theory. Ubuntu Blog, Canonical.
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - linguistics
+  - writing
+  - blog-post
+- id: lsp-proto-bantu
+  sentence: I contributed as a proofreader to <em>On reconstructing Proto-Bantu grammar</em>,
+    published by Language Science Press, an open-access publisher.
+  date: 2022-06
+  links:
+    web: https://langsci-press.org/catalog/book/373
+    hof: https://langsci-press.org/halloffame
+  tags:
+  - linguistics
+  - editing
+- id: docset-multipass
+  sentence: As part of a secondment, I helped document Multipass, where I first worked out
+    the idea of reference as a dictionary of primitive concepts, entities, processes, and
+    tools.
+  date: 2022-03/2022-05
+  links:
+    docs: https://canonical.com/multipass/docs
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - knowledge-engineering
+  - virtualization
+  - writing
+  - linux
+  - docset
+- id: paper-2022-negative-comparison
+  sentence: I wrote a paper proposing that <em>no more than n</em> and <em>not more than n</em>
+    differ in exactness, evaluativity, and ignorance because <em>not</em>, unlike <em>no</em>,
+    generates an extra layer of negation alternatives.
+  date: 2022-01
+  desc: Mihoc, Teodora. 2022. Negative comparison, or how to be judgmental and ignorant with
+    scalar alternatives. University of Pennsylvania <em>University of Pennsylvania Working
+    Papers in Linguistics</em> 28(1).
+  links:
+    pdf: /linguistics/papers/mihoc_2021_negative_comparison.pdf
+    published: https://repository.upenn.edu/pwpl/vol28/iss1/14
+  bibtex: "@article{mihoc2022negative,\n  author  = {Mihoc, Teodora},\n  title   = {Negative\
+    \ comparison, or how to be judgmental and ignorant with scalar alternatives},\n  journal\
+    \ = {University of Pennsylvania Working Papers in Linguistics},\n  volume  = {28},\n \
+    \ number  = {1},\n  year    = {2022}\n}\n"
+  tags:
+  - linguistics
+  - polarity-sensitivity
+  - scalar-phenomena
+  - research
+  - writing
+  - theoretical
+  - paper
+- id: lsp-syntactic-architecture-iii
+  sentence: I contributed as a proofreader to <em>Syntactic architecture and its consequences
+    III</em>, published by Language Science Press, an open-access publisher.
+  date: 2021-12
+  links:
+    web: https://langsci-press.org/catalog/book/277
+    hof: https://langsci-press.org/halloffame
+  tags:
+  - linguistics
+  - syntax
+  - editing
+- id: talk-2021-glif
+  sentence: I gave an invited talk at GLiF arguing that <em>still</em>, <em>already</em>,
+    and <em>yet</em> share temporal, evaluative, and polarity properties, drawing on existing
+    analyses of disjunction, indefinites, minimizers, and numerals — which show the same patterns
+    — to derive a unified account of the aspectual operators.
+  date: 2021-11-25
+  links:
+    slides: /linguistics/talks/mihoc_2021_glif.pdf
+  tags:
+  - uab
+  - uab-visiting-scholar
+  - linguistics
+  - aspectual-operators
+  - polarity-sensitivity
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: 'Mihoc, Teodora. 2021. Aspectual operators: Temporality, evaluativity, and polarity
+    sensitivity. Invited talk at Grup de Lingüística Formal (GLiF), Universitat Pompeu Fabra,
+    Nov 25.'
+  bibtex: "@misc{mihoc2021glif,\n  author       = {Mihoc, Teodora},\n  title        = {Aspectual\
+    \ operators: {T}emporality, evaluativity, and polarity sensitivity},\n  year         =\
+    \ {2021},\n  howpublished = {Invited talk at Grup de Ling\\\"{u}\\'{\\i}stica Formal ({GLiF}),\
+    \ Universitat Pompeu Fabra, Nov 25}\n}\n"
+- id: talk-2021-juju-demystifying
+  sentence: I gave a talk on demystifying Juju docs and writing at a Juju Community Workshop.
+  date: 2021-10-25
+  links:
+    slides: /linguistics/talks/mihoc_2021_cw_demystifying.pdf
+  tags:
+  - canonical
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - community
+  - speaking
+  - talk
+- id: project-juju-is-home
+  sentence: I helped rewrite the juju.is Home and About pages.
+  date: 2021-10/2022-05
+  links:
+    web: https://juju.is/
+  tags:
+  - canonical
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - ux
+  - writing
+- id: ongoing-juju-community-moderation
+  sentence: I co-moderated Juju community workshop meetings.
+  date: 2021-09/2025-04
+  links:
+    web: https://discourse.charmhub.io/tag/community-workshop
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - community
+- id: pos-ta-canonical
+  sentence: I was a Technical Author at Canonical.
+  date: 2021-08/2023-12
+  tags:
+  - canonical
+  - canonical-technical-author
+  - cloud-operations
+  - documentation
+  - linux
+- id: docset-ops
+  sentence: I helped document Ops at Canonical.
+  date: 2021-08/2025-11
+  links:
+    docs: https://canonical.com/juju/docs/ops/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - canonical-technical-author
+  - documentation
+  - writing
+  - docs-as-code
+  - git
+  - markdown
+  - read-the-docs
+  - sphinx
+  - linux
+  - python
+  - docset
+- id: docset-charmcraft
+  sentence: I helped document Charmcraft at Canonical.
+  date: 2021-08/2025-07
+  links:
+    docs: https://documentation.ubuntu.com/charmcraft/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - canonical-technical-author
+  - documentation
+  - writing
+  - docs-as-code
+  - git
+  - markdown
+  - read-the-docs
+  - sphinx
+  - linux
+  - docset
+- id: rec-juan-de-la-cierva
+  sentence: I received (and declined) a Juan de la Cierva 2-year Postdoctoral Fellowship to
+    conduct independent research hosted by Laia Mayol at Universitat Pompeu Fabra.
+  date: 2021-08
+  tags:
+  - linguistics
+  - funding
+- id: talk-2021-uab-workshop
+  sentence: I gave an invited talk at the UAB Functional Categories Workshop arguing that
+    polarity sensitivity in aspectual operators (<em>still</em>, <em>already</em>, <em>yet</em>)
+    and in indefinites and numerals can be unified within an alternatives-and-exhaustification
+    framework.
+  date: 2021-06-17
+  links:
+    slides: /linguistics/talks/mihoc_2021_uabworkshop_s.pdf
+  tags:
+  - uab
+  - uab-visiting-scholar
+  - linguistics
+  - polarity-sensitivity
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2021. Polarity sensitivity across domains. Invited talk at The Meaning
+    of Functional Categories, Universitat Autònoma de Barcelona, June 17–18.
+  bibtex: "@misc{mihoc2021uabfunctional,\n  author       = {Mihoc, Teodora},\n  title    \
+    \    = {Polarity sensitivity across domains},\n  year         = {2021},\n  howpublished\
+    \ = {Invited talk at The Meaning of Functional Categories, Universitat Aut\\`onoma de\
+    \ Barcelona, June 17--18}\n}\n"
+- id: paper-2021-superlative-numerals-negation
+  sentence: I co-authored a paper reporting three experiments confirming that superlative-modified
+    numerals are degraded under negation in ways that go beyond any one of four competing
+    theoretical accounts, requiring insight from each.
+  date: 2021-06
+  desc: 'Mihoc, Teodora and Kathryn Davidson. 2021. Superlative-modified numerals and negation:
+    A multiply negotiable cost. <em>Proceedings of Experiments in Linguistic Meaning</em>
+    1, pp. 212–223.'
+  links:
+    pdf: /linguistics/papers/mihoc_davidson_2021_superlative-modified_numerals_and_negation.pdf
+    published: https://journals.linguisticsociety.org/proceedings/index.php/ELM/article/view/4860/4708
+  bibtex: "@inproceedings{mihoc-davidson2021superlative,\n  author    = {Mihoc, Teodora and\
+    \ Davidson, Kathryn},\n  title     = {Superlative-modified numerals and negation: {A}\
+    \ multiply negotiable cost},\n  booktitle = {Proceedings of Experiments in Linguistic\
+    \ Meaning},\n  volume    = {1},\n  pages     = {212--223},\n  year      = {2021}\n}\n"
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - research
+  - writing
+  - experimental
+  - theoretical
+  - r
+  - paper
+- id: lsp-russian-verbal
+  sentence: 'I contributed as a proofreader to <em>Russian verbal prefixation: a frame semantic
+    analysis</em>, published by Language Science Press, an open-access publisher.'
+  date: 2021-06
+  links:
+    web: https://langsci-press.org/catalog/book/150
+    hof: https://langsci-press.org/halloffame
+  tags:
+  - linguistics
+  - syntax
+  - editing
+- id: talk-2021-uab-clt
+  sentence: I gave an invited talk at the UAB CLT Seminar arguing that obligatory ignorance
+    and anti-negativity in <em>some</em>, <em>or</em>, and superlative-modified numerals all
+    follow from a single alternatives-and-exhaustification account, with differences derived
+    from the structure of their domain alternatives.
+  date: 2021-05-21
+  links:
+    slides: /linguistics/talks/mihoc_2021_uab_seminar.pdf
+  tags:
+  - uab
+  - uab-visiting-scholar
+  - linguistics
+  - disjunction
+  - indefinites
+  - modified-numerals
+  - polarity-sensitivity
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2021. Ignorance and positive polarity in indefinites, disjunction,
+    and numerals. Invited talk at Centre de Lingüística Teòrica (CLT), Universitat Autònoma
+    de Barcelona, May 21.
+  bibtex: "@misc{mihoc2021uabclt,\n  author       = {Mihoc, Teodora},\n  title        = {Ignorance\
+    \ and positive polarity in indefinites, disjunction, and numerals},\n  year         =\
+    \ {2021},\n  howpublished = {Invited talk at Centre de Ling\\\"{u}\\'{\\i}stica Te\\`orica\
+    \ ({CLT}), Universitat Aut\\`onoma de Barcelona, May 21}\n}\n"
+- id: talk-2021-lbus
+  sentence: I gave an invited talk on my research trajectory at LBUS.
+  date: 2021-05-18
+  tags:
+  - linguistics
+  - speaking
+  - talk
+  desc: Mihoc, Teodora. 2021. From Chomsky through Confucius to Montague and Grice (Or what
+    I've been up to since I left LBUS). Invited talk at Lucian Blaga U of Sibiu, May 18.
+- id: poster-2021-lsrl
+  sentence: I presented a poster at LSRL 51 arguing that Spanish <em>algún</em>, German <em>irgendein</em>,
+    and English <em>some</em> are all modal indefinites in both singular and plural, with
+    their varying certainty compatibility derived from a uniform alternatives-based account.
+  date: 2021-04-29
+  links:
+    abstract: /linguistics/talks/mihoc_2021_lsrl_a.pdf
+    poster: /linguistics/talks/mihoc_2021_lsrl_p.pdf
+    video: https://osf.io/efs26/
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - aspectual-operators
+  - polarity-sensitivity
+  - research
+  - speaking
+  - theoretical
+  - poster
+  desc: Mihoc, Teodora. 2021. Singular, plural, modal. Refereed poster at Linguistic Symposium
+    on Romance Languages (LSRL) 51, U of Illinois at Urbana-Champaign (online), Apr 29–May
+    1.
+  bibtex: "@misc{mihoc2021lsrl51,\n  author       = {Mihoc, Teodora},\n  title        = {Singular,\
+    \ plural, modal},\n  year         = {2021},\n  howpublished = {Poster at Linguistic Symposium\
+    \ on Romance Languages ({LSRL}) 51, U of Illinois at Urbana-Champaign (online), Apr 29--May\
+    \ 1}\n}\n"
+- id: talk-2021-glow
+  sentence: I gave a talk at GLOW 44 arguing that <em>already</em>, <em>still</em>, <em>yet</em>,
+    and <em>anymore</em> share temporal, continuity, and evaluativity inferences, and that
+    their two forms of polarity sensitivity — PPI vs. NPI status, and predicate sensitivity
+    — fall out from a unified account.
+  date: 2021-04-05
+  links:
+    abstract: /linguistics/talks/mihoc_2021_glow_a.pdf
+    slides: /linguistics/talks/mihoc_2021_glow_s.pdf
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - aspectual-operators
+  - polarity-sensitivity
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2021. Aspectual operators and polarity sensitivity. Refereed talk
+    at Generative Linguistics in the Old World (GLOW) 44, online, Apr 5–7.
+  bibtex: "@misc{mihoc2021glow44,\n  author       = {Mihoc, Teodora},\n  title        = {Aspectual\
+    \ operators and polarity sensitivity},\n  year         = {2021},\n  howpublished = {Talk\
+    \ at Generative Linguistics in the Old World ({GLOW}) 44, online, Apr 5--7}\n}\n"
+- id: talk-2021-plc
+  sentence: I gave a talk at PLC 45 arguing that <em>no more than n</em> and <em>not more
+    than n</em> differ in exactness, evaluativity, and ignorance because the two negations
+    asymmetrically affect scalar alternative generation.
+  date: 2021-03-19
+  links:
+    abstract: /linguistics/talks/mihoc_2021_pc_a.pdf
+    slides: /linguistics/talks/mihoc_2021_plc_s.pdf
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - polarity-sensitivity
+  - scalar-phenomena
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2021. Negative comparison between exactness, ignorance, and evaluativity.
+    Refereed talk at Penn Linguistics Conference (PLC) 45, U of Pennsylvania (online), Mar
+    19–21.
+  bibtex: "@misc{mihoc2021plc45,\n  author       = {Mihoc, Teodora},\n  title        = {Negative\
+    \ comparison between exactness, ignorance, and evaluativity},\n  year         = {2021},\n\
+    \  howpublished = {Talk at Penn Linguistics Conference ({PLC}) 45, U of Pennsylvania (online),\
+    \ Mar 19--21}\n}\n"
+- id: paper-2021-modified-numerals-polarity
+  sentence: I wrote a paper arguing that bare, comparative-, and superlative-modified numerals
+    differ less than prior literature had claimed in their scalar implicatures, ignorance,
+    and polarity sensitivity — with both the similarities and the remaining differences falling
+    out in a principled way once their truth conditions, alternatives, and exhaustification
+    mechanism are properly worked out.
+  date: 2021-01
+  desc: 'Mihoc, Teodora. 2021. Modified numerals and polarity sensitivity: Between O(nly)DA
+    and E(ven)SA. <em>Proceedings of Sinn und Bedeutung</em> 25, pp. 648–665.'
+  links:
+    pdf: /linguistics/papers/mihoc_2021_modified_numerals_and_polarity_sensitivity.pdf
+    published: https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/959
+  bibtex: "@inproceedings{mihoc2021modified,\n  author    = {Mihoc, Teodora},\n  title   \
+    \  = {Modified numerals and polarity sensitivity: {B}etween {O(nly)DA} and {E(ven)SA}},\n\
+    \  booktitle = {Proceedings of Sinn und Bedeutung},\n  volume    = {25},\n  pages    \
+    \ = {648--665},\n  year      = {2021}\n}\n"
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - research
+  - writing
+  - theoretical
+  - paper
+- id: review-nsf
+  sentence: I reviewed 1 grant proposal for the National Science Foundation (NSF).
+  date: 2021-01
+  tags:
+  - linguistics
+  - peer-review
+- id: review-sub26
+  sentence: I reviewed 3 abstracts for Sinn und Bedeutung (SuB) 26.
+  date: 2021-01
+  tags:
+  - linguistics
+  - peer-review
+- id: editorial-elm1
+  sentence: I was a member of the editorial committee for Proceedings of Experiments in Linguistic
+    Meaning (ELM) 1.
+  date: 2021-01
+  tags:
+  - linguistics
+  - editing
+  - peer-review
+- id: lsp-syntactic-architecture-ii
+  sentence: I contributed as a proofreader to <em>Syntactic architecture and its consequences
+    II</em>, published by Language Science Press, an open-access publisher.
+  date: 2020-12
+  links:
+    web: https://langsci-press.org/catalog/book/276
+    hof: https://langsci-press.org/halloffame
+  tags:
+  - linguistics
+  - syntax
+  - editing
+- id: talk-2020-sensus
+  sentence: I gave a talk at Sensus arguing that epistemic indefinites across Spanish, English,
+    and German share ignorance effects but differ in certainty compatibility in ways that
+    track item identity rather than singular/plural number.
+  date: 2020-09-26
+  links:
+    abstract: /linguistics/talks/mihoc_2020_sensus_a.pdf
+    slides: /linguistics/talks/mihoc_2020_sensus_s.pdf
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - indefinites
+  - polarity-sensitivity
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2020. Epistemic indefinites, number marking, and certainty. Refereed
+    talk at Sensus 1, U of Massachusetts at Amherst (online), Sep 26–27.
+  bibtex: "@misc{mihoc2020sensus,\n  author       = {Mihoc, Teodora},\n  title        = {Epistemic\
+    \ indefinites, number marking, and certainty},\n  year         = {2020},\n  howpublished\
+    \ = {Talk at Sensus 1, U of Massachusetts at Amherst (online), Sep 26--27}\n}\n"
+- id: talk-2020-elm
+  sentence: I co-presented experimental work at ELM 1 showing that superlative-modified numerals
+    (<em>at least/most n</em>) are worse than comparative-modified numerals (<em>more/less
+    than n</em>) under negation, with results pointing beyond any single theoretical account.
+  date: 2020-09-16
+  links:
+    abstract: /linguistics/talks/mihoc_davidson_2020_elm_a.pdf
+    slides: /linguistics/talks/mihoc_davidson_2020_elm_s.pdf
+    video: https://elm-conference.net/wp-content/uploads/2020_talks/ELM1-3-4-11-Mihoc-etal.mp4
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - scalar-phenomena
+  - research
+  - speaking
+  - experimental
+  - theoretical
+  - r
+  - talk
+  desc: 'Mihoc, Teodora and Kathryn Davidson. 2020. Superlative-modified numerals and negation:
+    A negotiable cost. Refereed talk at Experiments in Linguistic Meaning (ELM) 1, U of Pennsylvania
+    (online), Sep 16–18.'
+  bibtex: "@misc{mihoc-davidson2020elm,\n  author       = {Mihoc, Teodora and Davidson, Kathryn},\n\
+    \  title        = {Superlative-modified numerals and negation: {A} negotiable cost},\n\
+    \  year         = {2020},\n  howpublished = {Talk at Experiments in Linguistic Meaning\
+    \ ({ELM}) 1, U of Pennsylvania (online), Sep 16--18}\n}\n"
+- id: talk-2020-sub
+  sentence: I gave a talk at SuB 25 proposing a new unified alternatives-and-exhaustification
+    account of scalar implicatures, ignorance, and two types of polarity sensitivity in superlative-modified
+    numerals, using O(nly) over domain alternatives and E(ven) over scalar alternatives.
+  date: 2020-09-03
+  links:
+    abstract: /linguistics/talks/mihoc_2020_sub_a.pdf
+    slides: /linguistics/talks/mihoc_2020_sub_s.pdf
+    video: https://osf.io/8pzmr/
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: 'Mihoc, Teodora. 2020. Modified numerals and polarity sensitivity: Between O(nly)DA
+    and E(ven)SA. Refereed talk at Sinn und Bedeutung (SuB) 25, University College London
+    / Queen Mary U of London (online), Sep 3–5.'
+  bibtex: "@misc{mihoc2020sub25,\n  author       = {Mihoc, Teodora},\n  title        = {Modified\
+    \ numerals and polarity sensitivity: {B}etween {O(nly)$_{DA}$} and {E(ven)$_{SA}$}},\n\
+    \  year         = {2020},\n  howpublished = {Talk at Sinn und Bedeutung ({SuB}) 25, University\
+    \ College London / Queen Mary U of London (online), Sep 3--5}\n}\n"
+- id: lsp-language-learning-data
+  sentence: I contributed as a proofreader to <em>Interpreting language-learning data</em>,
+    published by Language Science Press, an open-access publisher.
+  date: 2020-07
+  links:
+    web: https://langsci-press.org/catalog/book/278
+    hof: https://langsci-press.org/halloffame
+  tags:
+  - linguistics
+  - editing
+- id: lsp-syntactic-architecture-i
+  sentence: I contributed as a proofreader to <em>Syntactic architecture and its consequences
+    I</em>, published by Language Science Press, an open-access publisher.
+  date: 2020-06
+  links:
+    web: https://langsci-press.org/catalog/book/275
+    hof: https://langsci-press.org/halloffame
+  tags:
+  - linguistics
+  - syntax
+  - editing
+- id: pos-teaching-affiliate-hes
+  sentence: I was an Instructor in Linguistics at the Harvard Extension School.
+  date: 2020-01/2020-05
+  tags:
+  - harvard
+  - hes-instructor
+  - linguistics
+  - teaching
+- id: paper-2020-ignorance-antinegativity
+  sentence: I wrote a paper arguing that <em>or</em>/<em>some</em> and comparative-/superlative-modified
+    numerals show the same pattern of ignorance and anti-negativity, unified within a single
+    alternatives-and-exhaustification account.
+  date: 2020-01
+  desc: 'Mihoc, Teodora. 2020. Ignorance and anti-negativity in the grammar: or/some and modified
+    numerals. <em>Proceedings of NELS</em> 50, pp. 197–210.'
+  links:
+    pdf: /linguistics/papers/mihoc_2020_ignorance_and_antinegativity.pdf
+  bibtex: "@inproceedings{mihoc2020ignorance,\n  author    = {Mihoc, Teodora},\n  title  \
+    \   = {Ignorance and anti-negativity in the grammar: or/some and modified numerals},\n\
+    \  booktitle = {Proceedings of {NELS}},\n  volume    = {50},\n  pages     = {197--210},\n\
+    \  year      = {2020}\n}\n"
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - scalar-phenomena
+  - research
+  - writing
+  - theoretical
+  - paper
+- id: course-intro-linguistics-hes
+  sentence: I taught <em>Introduction to Linguistics</em>.
+  date: 2020-01/2020-05
+  links:
+    syllabus: /linguistics/teaching/2020_intro.pdf
+  tags:
+  - harvard
+  - hes-instructor
+  - linguistics
+  - teaching
+  - course
+- id: review-sub25
+  sentence: I reviewed 1 abstract for Sinn und Bedeutung (SuB) 25.
+  date: 2020-01
+  tags:
+  - linguistics
+  - peer-review
+- id: review-sinfonija13
+  sentence: I reviewed 1 abstract for Syntax, Phonology and Language Analysis (SinFonIJA)
+    13.
+  date: 2020-01
+  tags:
+  - linguistics
+  - peer-review
+- id: talk-2019-nels
+  sentence: I gave a talk at NELS 50 arguing that <em>or</em> and <em>some</em>, and comparative-
+    and superlative-modified numerals, display the same pattern of ignorance and anti-negativity,
+    unified in a single alternatives-and-exhaustification account.
+  date: 2019-10-24
+  links:
+    abstract: /linguistics/talks/mihoc_2019_nels_a.pdf
+    slides: /linguistics/talks/mihoc_2019_nels_s.pdf
+    handout: /linguistics/talks/mihoc_2019_nels_h.pdf
+  tags:
+  - harvard
+  - harvard-associate-of-department
+  - linguistics
+  - disjunction
+  - indefinites
+  - modified-numerals
+  - polarity-sensitivity
+  - scalar-phenomena
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: 'Mihoc, Teodora. 2019. Ignorance and anti-negativity in the grammar: <em>or</em>/<em>some</em>
+    and modified numerals. Refereed talk at North East Linguistic Society (NELS) 50, MIT,
+    Oct 24–27.'
+  bibtex: "@misc{mihoc2019nels50,\n  author       = {Mihoc, Teodora},\n  title        = {Ignorance\
+    \ and anti-negativity in the grammar: {\\textit{or}/\\textit{some}} and modified numerals},\n\
+    \  year         = {2019},\n  howpublished = {Talk at North East Linguistic Society ({NELS})\
+    \ 50, {MIT}, Oct 24--27}\n}\n"
+- id: pos-assistant-head-tutor-harvard
+  sentence: I was Assistant Head Tutor in the Dept of Linguistics at Harvard.
+  date: 2019-09/2020-05
+  tags:
+  - harvard
+  - harvard-assistant-head-tutor
+  - linguistics
+  - mentoring
+  - people-management
+- id: paper-2019-ignorance-polarity
+  sentence: I wrote a paper deriving the ignorance and polarity sensitivity of <em>some</em>,
+    comparative-modified, and superlative-modified numerals from a single alternatives-and-exhaustification
+    account, with their differences traced to a novel morphological decomposition.
+  date: 2019-06
+  desc: 'Mihoc, Teodora. 2019. Ignorance and polarity sensitivity in the grammar: From disjunction
+    and indefinites to numerals. Unpublished manuscript.'
+  links:
+    pdf: /linguistics/papers/mihoc_2019_ignorance_and_polarity_sensitivity.pdf
+  bibtex: "@unpublished{mihoc2019ignorance,\n  author = {Mihoc, Teodora},\n  title  = {Ignorance\
+    \ and polarity sensitivity in the grammar: {F}rom disjunction and indefinites to numerals},\n\
+    \  year   = {2019},\n  note   = {Unpublished manuscript}\n}\n"
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - scalar-phenomena
+  - research
+  - writing
+  - theoretical
+  - paper
+- id: talk-2019-salt
+  sentence: I co-presented cross-linguistic evidence at SALT 29 that epistemic <em>will</em>
+    and epistemic <em>must</em> are not equivalent, diverging in deduction and factive contexts,
+    with a formal solution based on variable modal strength.
+  date: 2019-05-17
+  links:
+    abstract: /linguistics/talks/mihoc_bhadra_falaus_2019_salt_a.pdf
+    slides: /linguistics/talks/mihoc_bhadra_falaus_2019_salt_s.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - epistemic-modals
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora, Diti Bhadra, and Anamaria Fălăuș. 2019. Epistemic modals, deduction,
+    and factivity. Refereed talk at Semantics and Linguistic Theory (SALT) 29, UCLA, May 17–19.
+  bibtex: "@misc{mihoc-etal2019salt,\n  author       = {Mihoc, Teodora and Bhadra, Diti and\
+    \ F\\u{a}l\\u{a}u\\c{s}, Anamaria},\n  title        = {Epistemic modals, deduction, and\
+    \ factivity},\n  year         = {2019},\n  howpublished = {Talk at Semantics and Linguistic\
+    \ Theory ({SALT}) 29, {UCLA}, May 17--19}\n}\n"
+- id: degree-phd
+  sentence: I obtained my PhD in Linguistics from Harvard University.
+  date: 2019-05
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - degree
+- id: paper-2019-epistemic-modals
+  sentence: I co-authored a paper providing novel English and Romanian evidence that epistemic
+    <em>will</em> and epistemic <em>must</em> are not equivalent, diverging in deduction and
+    factive contexts, and proposing a unified analysis based on modal weakness and factive
+    presupposition.
+  date: 2019-05
+  desc: 'Mihoc, Teodora, Diti Bhadra, and Anamaria Fălăuș. 2019. Epistemic modals, deduction,
+    and factivity: New insights from the epistemic future. <em>Proceedings of SALT</em> 29,
+    pp. 351–370.'
+  links:
+    pdf: /linguistics/papers/mihoc_bhadra_falaus_2019_epistemic_modals_deduction.pdf
+  bibtex: "@inproceedings{mihoc-bhadra-falaus2019epistemic,\n  author    = {Mihoc, Teodora\
+    \ and Bhadra, Diti and Fălăuș, Anamaria},\n  title     = {Epistemic modals, deduction,\
+    \ and factivity: {N}ew insights from the epistemic future},\n  booktitle = {Proceedings\
+    \ of {SALT}},\n  volume    = {29},\n  pages     = {351--370},\n  year      = {2019}\n\
+    }\n"
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - epistemic-modals
+  - research
+  - writing
+  - theoretical
+  - paper
+- id: thesis-phd
+  sentence: 'I wrote my PhD thesis on decomposing logic: modified numerals, polarity, and
+    exhaustification.'
+  date: 2019-05
+  desc: 'Mihoc, Teodora. 2019. Decomposing logic: Modified numerals, polarity, and exhaustification.
+    PhD thesis, Harvard University.'
+  links:
+    pdf: /linguistics/papers/mihoc_2019_phd_decomposing_logic.pdf
+    lingbuzz: https://ling.auf.net/lingbuzz/004898
+  bibtex: "@phdthesis{mihoc2019decomposing,\n  author = {Mihoc, Teodora},\n  title  = {Decomposing\
+    \ logic: {M}odified numerals, polarity, and exhaustification},\n  school = {Harvard University},\n\
+    \  year   = {2019}\n}\n"
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - exhaustification
+  - modified-numerals
+  - polarity-sensitivity
+  - research
+  - writing
+  - theoretical
+  - thesis
+- id: poster-2019-berlin
+  sentence: I presented a poster in Berlin arguing that ignorance and polarity sensitivity
+    in <em>some</em>, comparative-modified numerals, and superlative-modified numerals all
+    follow from a unified alternatives-and-exhaustification account, with differences derived
+    from morphological decomposition.
+  date: 2019-03-27
+  links:
+    abstract: /linguistics/talks/mihoc_2019_berlin_a.pdf
+    poster: /linguistics/talks/mihoc_2019_berlin_p.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - scalar-phenomena
+  - research
+  - speaking
+  - theoretical
+  - poster
+  desc: 'Mihoc, Teodora. 2019. Ignorance and polarity sensitivity in modified numerals and
+    beyond. Refereed poster at Workshop: The meaning of numerals: cognitive, experimental,
+    and semantic perspectives, ZAS, Berlin, Mar 27–28.'
+  bibtex: "@misc{mihoc2019berlin,\n  author       = {Mihoc, Teodora},\n  title        = {Ignorance\
+    \ and polarity sensitivity in modified numerals and beyond},\n  year         = {2019},\n\
+    \  howpublished = {Poster at Workshop: The meaning of numerals: cognitive, experimental,\
+    \ and semantic perspectives, {ZAS}, Berlin, Mar 27--28}\n}\n"
+- id: rec-harvard-travel-grant
+  sentence: I received a Conference Travel Grant from Harvard.
+  date: 2019-03
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - funding
+- id: talk-2018-ralfe
+  sentence: I gave a talk at RALFE proposing a unified morphology-driven theory of bare numerals
+    and comparative- and superlative-modified numerals that derives entailments, scalar implicatures,
+    ignorance, and polarity sensitivity from a principled decomposition of their morphological
+    pieces.
+  date: 2018-12-06
+  links:
+    abstract: /linguistics/talks/mihoc_2018_ralfe_a.pdf
+    slides: /linguistics/talks/mihoc_2018_ralfe_s.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - scalar-phenomena
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2018. The alternatives of bare and modified numerals. Refereed talk
+    at Rencontres d'Automne de Linguistique Formelle (RALFe), U of Paris 8 / CNRS, Paris,
+    Dec 6–7.
+  bibtex: "@misc{mihoc2018ralfe,\n  author       = {Mihoc, Teodora},\n  title        = {The\
+    \ alternatives of bare and modified numerals},\n  year         = {2018},\n  howpublished\
+    \ = {Talk at Rencontres d'Automne de Linguistique Formelle ({RALFe}), U of Paris~8 / {CNRS},\
+    \ Paris, Dec 6--7}\n}\n"
+- id: talk-2018-nantes
+  sentence: I gave an invited talk in Nantes on how polarity sensitivity (PPI vs. NPI behavior)
+    and scalar valence (lower vs. upper bound) interact in comparative- and superlative-modified
+    numerals.
+  date: 2018-12-03
+  links:
+    slides: /linguistics/talks/mihoc_2018_nantes.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2018. Modified numerals between polarity and valence. Invited talk
+    at Laboratoire de Linguistique de Nantes, CNRS/U of Nantes, Dec 3.
+  bibtex: "@misc{mihoc2018nantes,\n  author       = {Mihoc, Teodora},\n  title        = {Modified\
+    \ numerals between polarity and valence},\n  year         = {2018},\n  howpublished =\
+    \ {Invited talk at Laboratoire de Linguistique de Nantes, {CNRS}/U of Nantes, Dec 3}\n\
+    }\n"
+- id: rec-dissertation-fellowship
+  sentence: I received a GSAS Dissertation Completion Fellowship from Harvard for the 2018–19
+    academic year.
+  date: 2018-09
+  desc: Awarded to enable full-time dissertation completion, free from teaching obligations.
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - funding
+- id: talk-2018-illc
+  sentence: I gave an invited talk at the ILLC Colloquium presenting an extent-based, generalized-quantifier-style
+    unified account of scalar implicatures, ignorance, and polarity sensitivity in bare and
+    modified numerals.
+  date: 2018-06-12
+  links:
+    slides: /linguistics/talks/mihoc_2018_illc.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - scalar-phenomena
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2018. An extent-based GQT-style unified implicature account of bare
+    and modified numerals. Invited talk at Institute for Logic, Language, and Computation
+    (ILLC), U of Amsterdam, June 12.
+  bibtex: "@misc{mihoc2018illc,\n  author       = {Mihoc, Teodora},\n  title        = {An\
+    \ extent-based {GQT}-style unified implicature account of bare and modified numerals},\n\
+    \  year         = {2018},\n  howpublished = {Invited talk at Institute for Logic, Language,\
+    \ and Computation ({ILLC}), U of Amsterdam, June 12}\n}\n"
+- id: talk-2018-lingedin-scope
+  sentence: I gave a talk at LingEdIn on how questions under discussion and exhaustification
+    account for scope asymmetries in quantified sentences.
+  date: 2018-05-04
+  links:
+    handout: /linguistics/talks/mihoc_2018_lingedin.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - exhaustification
+  - scalar-phenomena
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2018. Scope asymmetry, QUDs, and exhaustification. Talk at LingedIn,
+    Harvard U, May 4.
+  bibtex: "@misc{mihoc2018scope,\n  author       = {Mihoc, Teodora},\n  title        = {Scope\
+    \ asymmetry, {QUDs}, and exhaustification},\n  year         = {2018},\n  howpublished\
+    \ = {Talk at LingedIn, Harvard U, May 4}\n}\n"
+- id: interview-harvard-gazette
+  sentence: I gave an interview for an article on experimental linguistic research, Harvard
+    Gazette, Feb 21.
+  date: 2018-02-21
+  links:
+    web: https://news.harvard.edu/gazette/story/2018/02/linguistics-lab-applies-scientific-methods-to-studying-how-we-communicate/
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - speaking
+  - interview
+- id: paper-2018-bare-nominals
+  sentence: I co-authored a paper arguing that Romanian bare plurals and French bare plural
+    partitives share with English bare plurals only the narrow-scope existential reading,
+    deriving cross-linguistic differences from the presence or absence of a Derived Kind Predication
+    operation spelled out by French partitive <em>de</em>.
+  date: 2018-01
+  desc: Gonzalez, Aurore and Teodora Mihoc. 2018. A neo-Carlsonian approach to bare plural
+    nominals in Romanian and French. Unpublished manuscript.
+  links:
+    pdf: /linguistics/papers/gonzalez_mihoc_2018_a_neo-carlsonian.pdf
+  bibtex: "@unpublished{gonzalez-mihoc2018bare,\n  author = {Gonzalez, Aurore and Mihoc, Teodora},\n\
+    \  title  = {A neo-{C}arlsonian approach to bare plural nominals in {Romanian} and {French}},\n\
+    \  year   = {2018},\n  note   = {Unpublished manuscript}\n}\n"
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - bare-nominals
+  - syntax
+  - research
+  - writing
+  - cross-linguistic
+  - theoretical
+  - paper
+- id: talk-2017-lingedin-decomposing
+  sentence: I gave a talk on decomposing bare and modified numerals at LingEdIn.
+  date: 2017-12-07
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - research
+  - speaking
+  - theoretical
+  - talk
+- id: course-semantic-theory-i-ta
+  sentence: As a teaching assistant for <em>Semantic Theory I</em> at Harvard, I led problem-solving
+    sections, graded homework, and helped design, proctor, and grade exams.
+  date: 2017-09/2017-12
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - course
+- id: course-language-structure-cognition-ta-2017
+  sentence: As a teaching assistant for <em>Language, Structure, and Cognition</em> at Harvard,
+    I led problem-solving sections, graded homework, and helped design, proctor, and grade
+    exams.
+  date: 2017-09/2017-12
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - course
+- id: talk-2017-xprag
+  sentence: I co-presented experimental work at XPrag 7 testing three predictions of a positive-polarity-item
+    (PPI) analysis of superlative-modified numerals, with results confirming their anti-licensing
+    under negation and acceptability in restrictors, but not their rescue under embedded DE
+    operators.
+  date: 2017-06-21
+  links:
+    abstract: /linguistics/talks/mihoc_davidson_2017_xprag_a.pdf
+    slides: /linguistics/talks/mihoc_davidson_2017_xprag_s.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - polarity-sensitivity
+  - research
+  - speaking
+  - experimental
+  - theoretical
+  - r
+  - talk
+  desc: Mihoc, Teodora and Kathryn Davidson. 2017. Testing a PPI analysis of superlative-modified
+    numerals. Refereed talk at Experimental Pragmatics (XPrag) 7, U of Cologne, June 21–23.
+  bibtex: "@misc{mihoc-davidson2017xprag,\n  author       = {Mihoc, Teodora and Davidson,\
+    \ Kathryn},\n  title        = {Testing a {PPI} analysis of superlative-modified numerals},\n\
+    \  year         = {2017},\n  howpublished = {Talk at Experimental Pragmatics ({XPrag})\
+    \ 7, U of Cologne, June 21--23}\n}\n"
+- id: workshop-experiments-intro
+  sentence: I co-ran (with Aurore Gonzalez) an intro-to-experiments workshop at Harvard.
+  date: 2017-04-25
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - experimental
+  - r
+  - workshop
+- id: talk-2017-lsrl
+  sentence: I co-presented a crosslinguistic analysis at LSRL 47 arguing that bare plurals
+    in Romanian and bare plural partitives in French lack the generic and kind readings available
+    in English, with all cross-linguistic variation derived from the presence or absence of
+    a Derived Kind Predication operation.
+  date: 2017-04-20
+  links:
+    handout: /linguistics/talks/gonzalez_mihoc_2017_lsrl.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - bare-nominals
+  - syntax
+  - research
+  - speaking
+  - cross-linguistic
+  - theoretical
+  - talk
+  desc: González, Aurore and Teodora Mihoc. 2017. Bare nominals in French and Romanian. Refereed
+    talk at Linguistic Symposium on Romance Languages (LSRL) 47, U of Delaware, Apr 20–23.
+  bibtex: "@misc{gonzalez-mihoc2017lsrl,\n  author       = {Gonz\\'{a}lez, Aurore and Mihoc,\
+    \ Teodora},\n  title        = {Bare nominals in {F}rench and {R}omanian},\n  year    \
+    \     = {2017},\n  howpublished = {Talk at Linguistic Symposium on Romance Languages ({LSRL})\
+    \ 47, U of Delaware, Apr 20--23}\n}\n"
+- id: paper-2018-rsa-model
+  sentence: I co-authored a paper extending a Bayesian Rational Speech Act model of numeral-negation
+    scope ambiguity (e.g. <em>two horses didn't jump</em>) by deriving questions under discussion
+    from grammatical structure and adding a silent exhaustification operator, reproducing
+    experimental endorsement asymmetries without stipulating ad hoc priors, implemented in
+    WebPPL, a purely functional probabilistic subset of JavaScript.
+  date: 2018
+  desc: 'Agrawal, Akshat and Teodora Mihoc. 2018. Numeral-negation scope endorsement asymmetry:
+    An alternative RSA model. Unpublished manuscript.'
+  bibtex: "@unpublished{agrawal-mihoc2018rsa,\n  author = {Agrawal, Akshat and Mihoc, Teodora},\n\
+    \  title  = {Numeral-negation scope endorsement asymmetry: {A}n alternative {RSA} model},\n\
+    \  year   = {2018},\n  note   = {Unpublished manuscript}\n}\n"
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - scalar-phenomena
+  - research
+  - writing
+  - computational
+  - theoretical
+  - javascript
+  - paper
+- id: tutorial-numerals
+  sentence: I taught <em>The Semantics and Pragmatics of Numerals</em> at Harvard.
+  date: 2017-01/2017-05
+  links:
+    syllabus: /linguistics/teaching/2017_the_semantics_and.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - research
+  - teaching
+  - tutorial
+- id: review-mit-inspire
+  sentence: I refereed linguistics submissions for MIT INSPIRE (US national high-school research
+    competition).
+  date: 2017-01
+  tags:
+  - linguistics
+  - peer-review
+- id: talk-2016-language-cognition-harvard
+  sentence: I gave an invited talk on heterogeneity in comparative and superlative numeral
+    modifiers at the Harvard Language & Cognition seminar.
+  date: 2016-11-29
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - research
+  - speaking
+  - experimental
+  - theoretical
+  - r
+  - talk
+  desc: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
+    superlative numeral modifiers. Talk, Language and Cognition, Harvard University, Nov 29.
+- id: talk-2016-mit
+  sentence: I gave an invited talk on heterogeneity in comparative and superlative numeral
+    modifiers at the MIT Experimental Syntax & Semantics Lab.
+  date: 2016-10-18
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - research
+  - speaking
+  - experimental
+  - theoretical
+  - r
+  - talk
+  desc: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
+    superlative numeral modifiers. Talk, Experimental Syntax & Semantics Lab / Language Acquisition
+    Lab, MIT, Oct 18.
+- id: talk-2016-lingedin-heterogeneity
+  sentence: I gave a talk on heterogeneity in comparative and superlative numeral modifiers
+    at LingEdIn.
+  date: 2016-09-30
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - research
+  - speaking
+  - experimental
+  - theoretical
+  - r
+  - talk
+  desc: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
+    superlative numeral modifiers. Talk, LingEdIn, Harvard University, Sep 30.
+- id: workshop-latex-intro
+  sentence: I co-ran (with Laurence B. Violette) an Introduction to LaTeX workshop at Harvard.
+  date: 2016-09-28
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - workshop
+- id: course-language-structure-cognition-ta-2016f
+  sentence: As a teaching assistant for <em>Language, Structure, and Cognition</em> at Harvard,
+    I led problem-solving sections, graded homework, and helped design, proctor, and grade
+    exams.
+  date: 2016-09/2016-12
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - course
+- id: talk-2016-guest-lecture
+  sentence: I gave a guest lecture on entailment and monotonicity at Harvard.
+  date: 2016-07-20
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - talk
+- id: ongoing-lab-management-harvard
+  sentence: 'I managed the Meaning and Modality Lab (PI: Kathryn Davidson), Dept of Linguistics,
+    Harvard.'
+  date: 2016-06/2018-05
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - lab-management
+- id: talk-2016-lingedin-confessing-ignorance
+  sentence: I gave a talk on confessing ignorance at LingEdIn.
+  date: 2016-04-20
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - scalar-phenomena
+  - research
+  - speaking
+  - theoretical
+  - talk
+- id: course-language-structure-cognition-ta-2016s
+  sentence: As a teaching assistant for <em>Language, Structure, and Cognition</em> at Harvard,
+    I led problem-solving sections, graded homework, and helped design, proctor, and grade
+    exams.
+  date: 2016-01/2016-05
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - course
+- id: tutorial-logic-linguistics
+  sentence: I taught <em>Logic in Linguistics</em> at Harvard.
+  date: 2016-01/2016-05
+  links:
+    syllabus: /linguistics/teaching/2016_logic_in.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - tutorial
+- id: talk-2015-snews
+  sentence: I gave a talk on Romanian bare nominals and derived kind predication at SNEWS.
+  date: 2015-11-21
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - bare-nominals
+  - syntax
+  - research
+  - speaking
+  - theoretical
+  - talk
+- id: coorg-snews
+  sentence: I co-organized Southern New England Workshop on Semantics (SNEWS), Harvard U,
+    Nov 21.
+  date: 2015-11-21
+  links:
+    web: https://snewsling.wordpress.com/home-harvard/
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - event-organization
+- id: pos-ta-tutorial-instructor-harvard
+  sentence: I was a PhD student in Linguistics at Harvard.
+  date: 2013-09/2019-05
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - learning
+  - research
+  - teaching
+- id: course-syntactic-theory-i-ta
+  sentence: As a teaching assistant for <em>Syntactic Theory I</em> at Harvard, I led problem-solving
+    sections and graded homework.
+  date: 2015-09/2015-12
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - syntax
+  - teaching
+  - course
+- id: tutorial-inquisitive-semantics-semantics-pragmatics
+  sentence: I taught <em>Inquisitive Semantics</em> at Harvard.
+  date: 2015-09/2015-12
+  links:
+    syllabus: /linguistics/teaching/2015_inquisitive.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - teaching
+  - tutorial
+- id: rec-sosland-2015
+  sentence: I received a Sosland Family Graduate Fellowship from Harvard.
+  date: 2015-09
+  desc: Awarded by the Harvard Department of Linguistics.
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - funding
+- id: talk-2015-eco
+  sentence: I gave a talk (with Alexander Klapheke) on two sets of alternatives for numerals
+    at ECO 5.
+  date: 2015-04-11
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - modified-numerals
+  - scalar-phenomena
+  - research
+  - speaking
+  - theoretical
+  - talk
+- id: paper-2015-georgian-tu
+  sentence: I wrote a paper arguing that the Georgian particle <em>tu</em> — which surfaces
+    as both 'if' and 'or' — is a single unary KA-particle in the sense of Szabolcsi (2015),
+    licensed by an exhaustive question operator and equivalent to Russian <em>li</em>, <em>ili</em>,
+    and <em>esli</em>.
+  date: 2015-01
+  desc: 'Mihoc, Teodora. 2015. Georgian tu: A ka particle. Unpublished manuscript.'
+  bibtex: "@unpublished{mihoc2015georgian,\n  author = {Mihoc, Teodora},\n  title  = {{Georgian}\
+    \ tu: {A} ka particle},\n  year   = {2015},\n  note   = {Unpublished manuscript}\n}\n"
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - syntax
+  - research
+  - writing
+  - fieldwork-elicitation
+  - theoretical
+  - paper
+- id: talk-2014-neuchatel
+  sentence: I gave an invited talk at the Neuchâtel Symposium proposing a unified semantic
+    account of the Romanian future-and-presumptive auxiliary as an epistemic modal with temporal
+    and evidential properties.
+  date: 2014-09-05
+  links:
+    slides: /linguistics/talks/mihoc_2014_neuchatel.pdf
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - epistemic-modals
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2014. The broader epistemic future. Invited talk at Commitment Phenomena
+    through the Study of Evidential Markers in Romance Languages, U of Neuchâtel, Sep 5.
+  bibtex: "@misc{mihoc2014neuchatel,\n  author       = {Mihoc, Teodora},\n  title        =\
+    \ {The broader epistemic future},\n  year         = {2014},\n  howpublished = {Invited\
+    \ talk at Commitment Phenomena through the Study of Evidential Markers in Romance Languages,\
+    \ U of Neuch\\^{a}tel, Sep 5}\n}\n"
+- id: rec-sosland-2014
+  sentence: I received a Sosland Family Graduate Fellowship from Harvard.
+  date: 2014-09
+  desc: Awarded by the Harvard Department of Linguistics.
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - funding
+- id: paper-2014-romanian-presumptive-key
+  sentence: I wrote a paper arguing that the Romanian presumptive mood is the key to analyzing
+    the Romanian <em>will</em>-future as an epistemic modal, proposing a unified semantic
+    analysis of its presumptive and temporal uses.
+  date: 2014-06
+  desc: 'Mihoc, Teodora. 2014. The Romanian presumptive mood: The key to the Romanian will-future.
+    <em>Ottawa Papers in Linguistics</em> 38.'
+  links:
+    pdf: /linguistics/papers/mihoc_2013_the_romanian_presumptive_mood_the_key.pdf
+  bibtex: "@article{mihoc2014presumptive,\n  author  = {Mihoc, Teodora},\n  title   = {The\
+    \ {Romanian} presumptive mood: {T}he key to the {Romanian} will-future},\n  journal =\
+    \ {Ottawa Papers in Linguistics},\n  volume  = {38},\n  year    = {2014}\n}\n"
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - epistemic-modals
+  - syntax
+  - research
+  - writing
+  - theoretical
+  - paper
+- id: paper-2014-romanian-future-auxiliary
+  sentence: I wrote a paper proposing a unified semantic account of the Romanian future-and-presumptive
+    auxiliary from the point of view of its temporal, epistemic, and evidential properties.
+  date: 2014-01
+  desc: Mihoc, Teodora. 2014. The Romanian future-and-presumptive auxiliary. <em>McGill Working
+    Papers in Linguistics</em> 24(1), pp. 64–80.
+  links:
+    pdf: /linguistics/papers/mihoc_2014_the_romanian_future_and.pdf
+  bibtex: "@article{mihoc2014future,\n  author  = {Mihoc, Teodora},\n  title   = {The {Romanian}\
+    \ future-and-presumptive auxiliary},\n  journal = {McGill Working Papers in Linguistics},\n\
+    \  volume  = {24},\n  number  = {1},\n  pages   = {64--80},\n  year    = {2014}\n}\n"
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - epistemic-modals
+  - syntax
+  - research
+  - writing
+  - theoretical
+  - paper
+- id: workshop-lbus-bootcamp
+  sentence: I ran a two-weekend syntax–semantics-semantics-pragmatics–LaTeX bootcamp for undergraduates
+    at LBUS.
+  date: 2014-01
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - syntax
+  - teaching
+  - workshop
+- id: review-borealis
+  sentence: I reviewed 1 paper for Borealis – An International Journal of Hispanic linguistics.
+  date: 2014-01
+  links:
+    web: https://septentrio.uit.no/index.php/borealis
+  tags:
+  - linguistics
+  - peer-review
+- id: talk-2013-snews
+  sentence: I gave a talk on the Romanian presumptive mood.
+  date: 2013-11-16
+  desc: 'Mihoc, Teodora. 2013. Romanian presumptivity: The future case in point. Talk, Southern
+    New England Workshop on Semantics (SNEWS), MIT, Nov 16.'
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - epistemic-modals
+  - syntax
+  - research
+  - speaking
+  - theoretical
+  - talk
+- id: rec-douglas-dillon
+  sentence: I received a Douglas Dillon Fellowship from Harvard.
+  date: 2013-09
+  desc: Named a Dillon Fellow for 2013–14 on the recommendation of the Department; fund supports
+    international students at Harvard.
+  tags:
+  - harvard
+  - harvard-phd-student
+  - linguistics
+  - funding
+- id: talk-2013-tom
+  sentence: I gave a talk at TOM 6 arguing that the Romanian presumptive mood reveals the
+    key to analyzing the Romanian <em>will</em>-future as an epistemic modal, connecting presumptive
+    morphology, modality, and temporality.
+  date: 2013-03-23
+  links:
+    slides: /linguistics/talks/mihoc_2013_tom6.pdf
+  tags:
+  - uottawa
+  - uottawa-research-assistant
+  - linguistics
+  - epistemic-modals
+  - syntax
+  - research
+  - speaking
+  - theoretical
+  - talk
+  desc: Mihoc, Teodora. 2013. The Romanian presumptive mood and the key to the Romanian <em>will</em>-future.
+    Refereed talk at Toronto-Ottawa-Montreal Workshop on Semantics (TOM) 6, McGill U, Mar
+    23.
+  bibtex: "@misc{mihoc2013tom,\n  author       = {Mihoc, Teodora},\n  title        = {The\
+    \ {R}omanian presumptive mood and the key to the {R}omanian \\textit{will}-future},\n\
+    \  year         = {2013},\n  howpublished = {Talk at Toronto-Ottawa-Montreal Workshop\
+    \ on Semantics ({TOM}) 6, McGill U, Mar 23}\n}\n"
+- id: pos-research-assistant-ottawa
+  sentence: 'I was a Research Assistant in the Dept of Linguistics at the University of Ottawa
+    (PI: María Luisa Rivero).'
+  date: 2012-09/2013-08
+  tags:
+  - uottawa
+  - uottawa-research-assistant
+  - linguistics
+  - research
+- id: degree-ma
+  sentence: I obtained my MA in Linguistics from the University of Ottawa.
+  date: 2012-08
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+  - degree
+- id: thesis-ma
+  sentence: I wrote a MA thesis on the Romanian presumptive mood.
+  date: 2012-08
+  desc: 'Mihoc, Teodora. 2012. The Romanian Presumptive Mood: Inferential evidentiality and
+    upper-end degree epistemic modality. MA thesis, University of Ottawa.'
+  links:
+    pdf: /linguistics/papers/mihoc_2012_ma_the_romanian_presumptive_mood.pdf
+  bibtex: "@mastersthesis{mihoc2012romanian,\n  author = {Mihoc, Teodora},\n  title  = {The\
+    \ {Romanian} Presumptive Mood: {I}nferential evidentiality and upper-end degree epistemic\
+    \ modality},\n  school = {University of Ottawa},\n  year   = {2012}\n}\n"
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+  - epistemic-modals
+  - syntax
+  - research
+  - writing
+  - theoretical
+  - thesis
+- id: summer-school-nasslli-2012
+  sentence: I attended NASSLLI 2012 (North American Summer School in Logic, Language, and
+    Information) at UT Austin.
+  date: 2012-06-10/2012-06-24
+  links:
+    web: https://nasslli2012.com/
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+  - learning
+  - computational
+- id: coorg-modality-workshop
+  sentence: I helped organize the Workshop on Modality at the University of Ottawa (Apr 20-21),
+    as a paid student helper.
+  date: 2012-04
+  links:
+    web: http://modalityatottawau.blogspot.com/2011/10/call-for-papers.html
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+  - event-organization
+- id: course-writing-systems-ta
+  sentence: As a teaching assistant for <em>Writing Systems</em> at the University of Ottawa,
+    I graded assignments and helped proctor exams.
+  date: 2012-01/2012-04
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+  - teaching
+  - course
+- id: course-langues-dans-le-monde-ta
+  sentence: As a teaching assistant for <em>Les langues dans le monde</em> at the University
+    of Ottawa, I graded assignments and helped proctor exams.
+  date: 2012-01/2012-04
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+  - teaching
+  - course
+- id: course-intro-linguistics-ottawa-ta
+  sentence: As a teaching assistant for <em>Introduction to Linguistics</em> at the University
+    of Ottawa, I graded assignments and helped proctor exams.
+  date: 2011-09/2011-12
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+  - teaching
+  - course
+- id: rec-ottawa-scholarship
+  sentence: I received an International Differential Admission Scholarship from the University
+    of Ottawa.
+  date: 2011-09
+  desc: Awarded on the recommendation of the Department of Linguistics (research paper option).
+    Covered tuition differential for international students plus a $9,000/year departmental
+    assistantship.
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+  - funding
+- id: pos-language-student-blcu
+  sentence: I was a Mandarin Chinese language student at Beijing Language and Culture University.
+  date: 2010-09/2011-07
+  tags:
+  - blcu
+  - blcu-language-student
+  - learning
+- id: rec-confucius-scholarship
+  sentence: I received a Study Abroad Scholarship from the Confucius Institute.
+  date: 2010-09
+  tags:
+  - lbus
+  - lbus-ba-student
+  - funding
+- id: degree-ba
+  sentence: I obtained my BA in Applied English and French from Lucian Blaga University of
+    Sibiu.
+  date: 2010-07
+  tags:
+  - lbus
+  - lbus-ba-student
+  - linguistics
+  - translation-interpreting
+  - degree
+- id: thesis-ba
+  sentence: 'I wrote my BA thesis on from Plato to Derrida: the dissolution of the author.'
+  date: 2010-06
+  desc: 'Mihoc, Teodora. 2010. From Plato to Derrida: The dissolution of the author. BA thesis,
+    Lucian Blaga University of Sibiu.'
+  bibtex: "@mastersthesis{mihoc2010plato,\n  author = {Mihoc, Teodora},\n  title  = {From\
+    \ {Plato} to {Derrida}: {T}he dissolution of the author},\n  type   = {{BA} thesis},\n\
+    \  school = {Lucian Blaga University of Sibiu},\n  year   = {2010}\n}\n"
+  tags:
+  - lbus
+  - lbus-ba-student
+  - linguistics
+  - translation-interpreting
+  - research
+  - writing
+  - thesis
+- id: rec-lbus-merit-2009
+  sentence: I received a Merit Scholarship from Lucian Blaga University of Sibiu.
+  date: 2009-09
+  tags:
+  - lbus
+  - lbus-ba-student
+  - translation-interpreting
+  - funding
+- id: rec-erasmus-mundus
+  sentence: I received an Erasmus Mundus Study Abroad Scholarship.
+  date: 2009-01
+  tags:
+  - lbus
+  - lbus-ba-student
+  - funding
+- id: rec-lbus-merit-2008
+  sentence: I received a Merit Scholarship from Lucian Blaga University of Sibiu.
+  date: 2008-09
+  tags:
+  - lbus
+  - lbus-ba-student
+  - translation-interpreting
+  - funding
+- id: rec-lbus-merit-2007
+  sentence: I received a Merit Scholarship from Lucian Blaga University of Sibiu.
+  date: 2007-09
+  tags:
+  - lbus
+  - lbus-ba-student
+  - translation-interpreting
+  - funding
+- id: pos-ba-student-lbus
+  sentence: I was a BA student in Applied English and French at Lucian Blaga University of
+    Sibiu.
+  date: 2007-10/2010-07
+  tags:
+  - lbus
+  - lbus-ba-student
+  - linguistics
+  - translation-interpreting
+- id: ongoing-charmhub-ux-session-2023
+  sentence: I organized and led a cross-team session on where charm users' experience on Charmhub
+    was failing and what to do about it.
+  date: 2023-11
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - ux
+  - user-research
+- id: pos-ma-student-ottawa
+  sentence: I was an MA student in Linguistics at the University of Ottawa.
+  date: 2011-09/2012-08
+  tags:
+  - uottawa
+  - uottawa-ma-student
+  - linguistics
+- id: ongoing-secondment-coordinator-canonical
+  sentence: As secondment coordinator, I updated and refined how Canonical's technical-author secondment program works.
+  date: 2025-11/2026-05
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - people-management
+  - writing
+- id: service-promotion-committee-2023
+  sentence: I served on the promotion committee for 1 person, reviewing their application
+    and taking part in the deliberation.
+  date: '2023-03-23'
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - peer-review
+- id: service-promotion-committee-2024
+  sentence: I served on the promotion committee for 2 people.
+  date: 2024-10
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - peer-review
+- id: service-promotion-committee-2025
+  sentence: I served on the promotion committee for 3 people.
+  date: 2025-10
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - peer-review
+- id: project-docs-graph-architecture
+  sentence: I designed an information representation and retrieval plan where solution and
+    persona docs are "views" into the database that is the component docs.
+  date: 2025-12/2026-04
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - knowledge-engineering
+  - research
+  - writing
+  - miro
+- id: ongoing-ux-onboarding-sessions-canonical
+  sentence: I conduct user research sessions with new Canonical joiners during onboarding,
+    as one of the UX research office-hours volunteers they can book — watching them attempt
+    a task and observing where it breaks down.
+  date: 2025-07/present
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - ux
+  - research
+  - user-research
+  - dovetail
+  - maze
+- id: insight-false-basic-advanced
+  sentence: I asked engineers to independently sort our how-to guides into "basic" and "advanced";
+    when they could not converge, I concluded it was a false category and abolished it.
+  date: 2021-08/2022-02
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - knowledge-engineering
+  - writing
+- id: insight-see-link-taxonomy
+  sentence: 'I designed a small taxonomy of typed "See" links to reconnect content inside
+    a documentation monolith without duplicating it: See also, linking an entity-lifecycle
+    how-to laterally to its reference; See more, linking a procedure to the tool reference
+    it depends on. After federation, I extended it with See first and See next, linking a
+    use-an-artifact story to the story of building that artifact.'
+  date: 2021-08/2022-02
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - knowledge-engineering
+  - writing
+- id: pos-freelance-translation
+  sentence: I translated 2 books and dozens of articles (English-Romanian).
+  date: 2007-01/2011-08
+  tags:
+  - translation-interpreting
+- id: pos-freelance-interpreting
+  sentence: I interpreted at 2 international conferences (English-Romanian).
+  date: 2007-01/2011-08
+  tags:
+  - translation-interpreting
+  - interpreting
+- id: pos-freelance-editing
+  sentence: I proofread and copyedited dozens of technical and academic papers, routinely
+    taking them from low-level writing issues all the way to their fundamental logical and
+    rhetorical flow.
+  date: 2007-01/2021-08
+  tags:
+  - knowledge-engineering
+  - editing
+- id: exchange-student-aristotle
+  sentence: I did a semester abroad at Aristotle University of Thessaloniki, where I got my
+    first taste of theoretical linguistics.
+  date: 2009-01/2009-06
+  tags:
+  - lbus
+  - lbus-ba-student
+  - linguistics
+  - theoretical
+- id: project-juju-agents-doc-dot-go
+  sentence: I created an AI prompt for writing Go package documentation (doc.go files) across
+    Juju, codifying a "document at the smallest accurate scope" principle and a requirement
+    to verify every claim against the actual code.
+  date: 2026-03-26
+  links:
+    web: https://github.com/juju/juju/pull/22055
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - documentation
+  - knowledge-engineering
+  - writing
+  - docs-as-code
+  - git
+  - markdown
+- id: project-juju-agents-documentation-rules
+  sentence: 'I created an AI prompt codifying Juju''s documentation conventions — one-location
+    content, entity-lifecycle how-to guides, no hand-edits to autogenerated docs — and used
+    it to document a brand-new feature from scratch: the database entity reference, the
+    Dqlite REPL command reference, and the database how-to guides.'
+  date: 2026-03-31
+  links:
+    web: https://github.com/juju/juju/pull/22087
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - documentation
+  - knowledge-engineering
+  - writing
+  - docs-as-code
+  - git
+  - markdown
+- id: project-juju-agents-cloud-reference
+  sentence: I created an AI prompt codifying conventions for Juju's cloud reference docs,
+    restructuring all 15 cloud-provider pages around a consistent entity-based skeleton.
+  date: 2026-06-26
+  links:
+    web: https://github.com/juju/juju/pull/22577
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - documentation
+  - knowledge-engineering
+  - writing
+  - docs-as-code
+  - git
+  - markdown

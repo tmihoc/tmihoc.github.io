@@ -1,0 +1,258 @@
+# Tag group definitions. File order == filter order == entry-chip order.
+#
+# Order: roles -> domains -> activities -> methodology -> deliverables -> recognition. Roles
+# opens (the traditional "where has she worked" entry point); domains comes right after, while
+# that context is still fresh, answering "in what field" before narrowing into the finer-grained
+# "what did she do" (activities) and "how" (methodology). Pure reading-order, not a data privilege
+# — every group remains equally clickable-or-not, equally AND-composable; nothing about *behavior*
+# depends on position (see ADR-16 — no group is a partition, and reordering doesn't reintroduce one).
+#
+# WITHIN each group: `roles` is reverse-chronological (most recent first, institutions and the
+# positions within each ordered by start date descending) — a traditional resume's order. Every
+# other group is alphabetical — there's no inherent sequence to activities, domains, methodologies,
+# deliverable types, or recognition types, so alphabetical is the neutral, scan-friendly default.
+#
+# NO PARTITION. No `kind`/`anchor`/`cross` flags anywhere — every group is symmetric:
+# {id, label, tags: [...]}. A tag entry may itself carry a nested `tags:` list, making it a PARENT
+# node (clickable, and its click means "this tag OR any of its descendants" — a real, multi-level
+# subsumption tree, not just a one-level facet-group rollup). A tag with no `tags:` is an ordinary
+# leaf (exact match, as always). Entries only ever reference LEAF or PARENT tag ids directly; the
+# tree lives entirely in this file (tags enriching tags — bipartite graph preserved, per ADR-2:
+# enrich set B with hierarchy, never add edges to A).
+#
+# ALL SIX group labels are pure organizing headers (ADR-16) — never clickable, never counted.
+# Their only job is to keep the pill cloud from reading as one unsorted wall of tags. Even
+# `recognition`/`deliverables` (former "kinds", briefly clickable rollups — ADR-13/15) lost that:
+# "what has she produced" isn't a stable proxy for value either (a senior/leadership contribution
+# is real but not always a countable deliverable), so there was no principled place left to draw
+# the "this one root gets a click" line — cleanest to make none of them clickable.
+#
+# The FILTER PANEL renders exactly ONE tier of pills under each header, never more — deeper
+# structure (e.g. `linguistics`'s specific sub-topics) still exists in the data and is fully
+# functional, just discoverable only via chips on the entries that carry it, not pre-populated
+# into the top panel. `hidden: true` implements this uniformly: a hidden node renders no pill of
+# its own, and rendering continues one level into its children instead (used for roles'
+# institutions — Harvard/Canonical/etc. — since a position's label already names its institution,
+# "PhD Student @ Harvard", so a separate "Harvard" pill would only duplicate that). Whichever tier
+# is the first non-hidden one is what renders; nothing past it does.
+#
+# NO COUNTS (ADR-16): a filtered/total count was tried and dropped — entry-count is an artifact of
+# how granularly something got written up, not a measure of real-world magnitude (200 interviews
+# summarized in one habitual sentence show as "hiring: 1", which actively misleads). Dim/lit stays
+# (a binary "any match at all", making no magnitude claim), the number does not.
+#
+# The clean 14-entry "professional timeline" competency question is still open — deliberately NOT
+# solved by giving `roles` special click semantics (tried and reverted, ADR-12/13). Separate
+# feature (see HANDOFF pending list), not a property of this tag.
+
+- id: roles
+  label: roles
+  tags:
+    - id: canonical
+      label: Canonical
+      hidden: true
+      tags:
+        - id: canonical-senior-technical-author
+          label: Sr Technical Author @ Canonical
+        - id: canonical-technical-author
+          label: Technical Author @ Canonical
+    - id: uab
+      label: UAB
+      hidden: true
+      tags:
+        - id: uab-visiting-scholar
+          label: Visiting Scholar @ UAB
+    - id: harvard
+      label: Harvard
+      hidden: true
+      tags:
+        - id: hes-instructor
+          label: Instructor @ Harvard Extension School
+        - id: harvard-assistant-head-tutor
+          label: Asst Head Tutor @ Harvard
+        - id: harvard-associate-of-department
+          label: Associate @ Harvard
+        - id: harvard-phd-student
+          label: PhD Student @ Harvard
+    - id: uottawa
+      label: University of Ottawa
+      hidden: true
+      tags:
+        - id: uottawa-research-assistant
+          label: Research Assistant @ uOttawa
+        - id: uottawa-ma-student
+          label: MA Student @ uOttawa
+    - id: blcu
+      label: BLCU
+      hidden: true
+      tags:
+        - id: blcu-language-student
+          label: Language Student @ BLCU
+    - id: lbus
+      label: Lucian Blaga University of Sibiu
+      hidden: true
+      tags:
+        - id: lbus-ba-student
+          label: BA Student @ LBUS
+
+- id: domains
+  label: domains
+  tags:
+    - id: ai-ml
+      label: AI & ML
+    - id: cloud-operations
+      label: cloud operations
+    - id: documentation
+      label: documentation
+    - id: knowledge-engineering
+      label: knowledge engineering
+    - id: linguistics
+      label: linguistics
+      tags:
+        - id: aspectual-operators
+          label: aspectual operators
+        - id: bare-nominals
+          label: bare nominals
+        - id: disjunction
+          label: disjunction
+        - id: epistemic-modals
+          label: epistemic modals
+        - id: exhaustification
+          label: exhaustification
+        - id: indefinites
+          label: indefinites
+        - id: modified-numerals
+          label: modified numerals
+        - id: polarity-sensitivity
+          label: polarity sensitivity
+        - id: scalar-phenomena
+          label: scalar phenomena
+        - id: syntax
+          label: syntax
+    - id: translation-interpreting
+      label: translation & interpreting
+    - id: ux
+      label: UX & design
+    - id: virtualization
+      label: virtualization
+
+- id: activities
+  label: activities
+  tags:
+    - id: community
+      label: community engagement
+    - id: editing
+      label: editing
+    - id: event-organization
+      label: event organization
+    - id: hiring
+      label: hiring
+    - id: interpreting
+      label: interpreting
+    - id: lab-management
+      label: lab management
+    - id: learning
+      label: learning
+    - id: mentoring
+      label: mentoring
+    - id: peer-review
+      label: peer review
+    - id: people-management
+      label: people management
+    - id: research
+      label: research
+    - id: speaking
+      label: speaking
+    - id: teaching
+      label: teaching
+    - id: writing
+      label: writing
+
+- id: methodologies
+  label: methodologies
+  tags:
+    - id: computational
+      label: computational
+    - id: cross-linguistic
+      label: cross-linguistic
+    - id: experimental
+      label: experimental
+    - id: fieldwork-elicitation
+      label: fieldwork
+    - id: theoretical
+      label: theoretical
+    - id: user-research
+      label: user research
+
+- id: tools
+  label: tools
+  tags:
+    - id: docs-as-code
+      label: docs-as-code
+      tags:
+        - id: git
+          label: Git
+        - id: markdown
+          label: Markdown
+        - id: read-the-docs
+          label: Read the Docs
+        - id: sphinx
+          label: Sphinx
+    - id: dovetail
+      label: Dovetail
+    - id: figma
+      label: Figma
+    - id: hugo
+      label: Hugo
+    - id: javascript
+      label: JavaScript
+    - id: jira
+      label: JIRA
+    - id: linux
+      label: Linux
+    - id: maze
+      label: Maze
+    - id: miro
+      label: Miro
+    - id: python
+      label: Python
+    - id: r
+      label: R
+    - id: yaml
+      label: YAML
+
+- id: deliverables
+  label: deliverables
+  tags:
+    - id: blog-post
+      label: blog post
+    - id: course
+      label: course
+    - id: docset
+      label: doc set
+    - id: interview
+      label: interview
+    - id: paper
+      label: paper
+    - id: poster
+      label: poster
+    - id: talk
+      label: talk
+    - id: thesis
+      label: thesis
+    - id: tutorial
+      label: tutorial
+    - id: workshop
+      label: workshop
+
+- id: recognition
+  label: recognition
+  tags:
+    - id: community-recognition
+      label: community recognition
+    - id: degree
+      label: degree
+    - id: employer-award
+      label: employer award
+    - id: funding
+      label: grants, fellowships, scholarships
