@@ -1,8 +1,8 @@
 # Tag group definitions. File order == filter order == entry-chip order.
 #
-# Order: roles -> areas-of-expertise -> activities -> methodology -> deliverables -> recognition.
-# Roles opens (the traditional "where has she worked" entry point); areas of expertise comes right
-# after, while that context is still fresh, answering "in what field" before narrowing into the
+# Order: roles -> domains -> activities -> methodology -> deliverables -> recognition.
+# Roles opens (the traditional "where has she worked" entry point); domains comes right after,
+# while that context is still fresh, answering "in what field" before narrowing into the
 # finer-grained "what did she do" (activities) and "how" (methodology). Pure reading-order, not a
 # data privilege — every group remains equally clickable-or-not, equally AND-composable; nothing
 # about *behavior* depends on position (see ADR-16 — no group is a partition, and reordering
@@ -10,14 +10,19 @@
 #
 # WITHIN each group: `roles` is reverse-chronological (most recent first, institutions and the
 # positions within each ordered by start date descending) — a traditional resume's order. Every
-# other group is alphabetical — there's no inherent sequence to activities, areas of expertise,
+# other group is alphabetical — there's no inherent sequence to activities, domains,
 # methodologies, deliverable types, or recognition types, so alphabetical is the neutral,
 # scan-friendly default.
 #
-# `areas-of-expertise`'s id predates its current label -- it was originally `domains`, renamed
-# 2026-08-05 (id and label both, this time) once the resume side started depending on the group
-# id matching its display label for a legible #areas-of-expertise link (the label alone had
-# already been renamed from "domains" earlier the same day; the id lagged until this pass).
+# Label/id history: `domains` -> `areas-of-expertise` (both id and label, 2026-08-05) -> back to
+# `domains` (same day, later): the resume side briefly needed the id to match a displayed
+# "Areas of Expertise" label for a legible link, then dropped that framing entirely (the resume's
+# own section became "Domains," then stopped being a section at all, folded into Skills) —
+# leaving the site as the one place still asserting "expertise," permanently, for every visitor,
+# with none of the resume's per-application flexibility to soften it. Reverted to `domains` for
+# consistency and because that "expertise" concern (UX & Design and Knowledge Engineering are
+# real domain work without ever being the job title) applies here at least as much as it did to
+# the resume.
 #
 # NO PARTITION. No `kind`/`anchor`/`cross` flags anywhere — every group is symmetric:
 # {id, label, tags: [...]}. A tag entry may itself carry a nested `tags:` list, making it a PARENT
@@ -102,8 +107,8 @@
         - id: lbus-ba-student
           label: BA Student @ LBUS
 
-- id: areas-of-expertise
-  label: areas of expertise
+- id: domains
+  label: domains
   tags:
     - id: documentation
       label: documentation
