@@ -1,16 +1,23 @@
 # Tag group definitions. File order == filter order == entry-chip order.
 #
-# Order: roles -> domains -> activities -> methodology -> deliverables -> recognition. Roles
-# opens (the traditional "where has she worked" entry point); domains comes right after, while
-# that context is still fresh, answering "in what field" before narrowing into the finer-grained
-# "what did she do" (activities) and "how" (methodology). Pure reading-order, not a data privilege
-# — every group remains equally clickable-or-not, equally AND-composable; nothing about *behavior*
-# depends on position (see ADR-16 — no group is a partition, and reordering doesn't reintroduce one).
+# Order: roles -> areas-of-expertise -> activities -> methodology -> deliverables -> recognition.
+# Roles opens (the traditional "where has she worked" entry point); areas of expertise comes right
+# after, while that context is still fresh, answering "in what field" before narrowing into the
+# finer-grained "what did she do" (activities) and "how" (methodology). Pure reading-order, not a
+# data privilege — every group remains equally clickable-or-not, equally AND-composable; nothing
+# about *behavior* depends on position (see ADR-16 — no group is a partition, and reordering
+# doesn't reintroduce one).
 #
 # WITHIN each group: `roles` is reverse-chronological (most recent first, institutions and the
 # positions within each ordered by start date descending) — a traditional resume's order. Every
-# other group is alphabetical — there's no inherent sequence to activities, domains, methodologies,
-# deliverable types, or recognition types, so alphabetical is the neutral, scan-friendly default.
+# other group is alphabetical — there's no inherent sequence to activities, areas of expertise,
+# methodologies, deliverable types, or recognition types, so alphabetical is the neutral,
+# scan-friendly default.
+#
+# `areas-of-expertise`'s id predates its current label -- it was originally `domains`, renamed
+# 2026-08-05 (id and label both, this time) once the resume side started depending on the group
+# id matching its display label for a legible #areas-of-expertise link (the label alone had
+# already been renamed from "domains" earlier the same day; the id lagged until this pass).
 #
 # NO PARTITION. No `kind`/`anchor`/`cross` flags anywhere — every group is symmetric:
 # {id, label, tags: [...]}. A tag entry may itself carry a nested `tags:` list, making it a PARENT
@@ -95,60 +102,68 @@
         - id: lbus-ba-student
           label: BA Student @ LBUS
 
-- id: domains
-  label: domains
+- id: areas-of-expertise
+  label: areas of expertise
   tags:
-    - id: ai-ml
-      label: AI & ML
-    - id: cloud-operations
-      label: cloud operations
     - id: documentation
       label: documentation
+      tags:
+        - id: ai-ml
+          label: AI & ML
+        - id: cloud-operations
+          label: cloud operations
+        - id: virtualization
+          label: virtualization
+    - id: editing
+      label: editing
     - id: knowledge-engineering
       label: knowledge engineering
     - id: linguistics
       label: linguistics
       tags:
-        - id: aspectual-operators
-          label: aspectual operators
-        - id: bare-nominals
-          label: bare nominals
-        - id: disjunction
-          label: disjunction
-        - id: epistemic-modals
-          label: epistemic modals
-        - id: exhaustification
-          label: exhaustification
-        - id: indefinites
-          label: indefinites
-        - id: modified-numerals
-          label: modified numerals
-        - id: polarity-sensitivity
-          label: polarity sensitivity
-        - id: scalar-phenomena
-          label: scalar phenomena
-        - id: syntax
-          label: syntax
+        - id: fields
+          label: fields
+          tags:
+            - id: syntax
+              label: syntax
+        - id: phenomena
+          label: phenomena
+          tags:
+            - id: exhaustification
+              label: exhaustification
+            - id: polarity-sensitivity
+              label: polarity sensitivity
+            - id: scalar-phenomena
+              label: scalar phenomena
+        - id: categories-of-language
+          label: categories of language
+          tags:
+            - id: aspectual-operators
+              label: aspectual operators
+            - id: bare-nominals
+              label: bare nominals
+            - id: disjunction
+              label: disjunction
+            - id: epistemic-modals
+              label: epistemic modals
+            - id: indefinites
+              label: indefinites
+            - id: modified-numerals
+              label: modified numerals
     - id: translation-interpreting
       label: translation & interpreting
     - id: ux
       label: UX & design
-    - id: virtualization
-      label: virtualization
 
 - id: activities
   label: activities
   tags:
     - id: community
       label: community engagement
-    - id: editing
-      label: editing
     - id: event-organization
       label: event organization
     - id: hiring
       label: hiring
-    - id: interpreting
-      label: interpreting
     - id: lab-management
       label: lab management
     - id: learning
@@ -175,6 +190,8 @@
       label: computational
     - id: cross-linguistic
       label: cross-linguistic
+    - id: docs-as-code
+      label: docs-as-code
     - id: experimental
       label: experimental
     - id: fieldwork-elicitation
@@ -187,37 +204,50 @@
 - id: tools
   label: tools
   tags:
-    - id: docs-as-code
-      label: docs-as-code
-      tags:
-        - id: git
-          label: Git
-        - id: markdown
-          label: Markdown
-        - id: read-the-docs
-          label: Read the Docs
-        - id: sphinx
-          label: Sphinx
+    - id: bash
+      label: Bash
     - id: dovetail
       label: Dovetail
     - id: figma
       label: Figma
+    - id: git
+      label: Git
+    - id: go
+      label: Go
+    - id: google-sheets
+      label: Google Sheets
     - id: hugo
       label: Hugo
     - id: javascript
       label: JavaScript
     - id: jira
       label: JIRA
+    - id: latex
+      label: LaTeX
+    - id: libreoffice
+      label: LibreOffice
     - id: linux
       label: Linux
+    - id: markdown
+      label: Markdown
     - id: maze
       label: Maze
+    - id: mechanical-turk
+      label: Amazon Mechanical Turk
     - id: miro
       label: Miro
     - id: python
       label: Python
+    - id: qualtrics
+      label: Qualtrics
     - id: r
       label: R
+    - id: read-the-docs
+      label: Read the Docs
+    - id: rst
+      label: RST
+    - id: sphinx
+      label: Sphinx
     - id: yaml
       label: YAML
 

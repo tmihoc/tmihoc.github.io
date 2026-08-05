@@ -17,8 +17,9 @@
   font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.07em;
   color: var(--secondary); background: transparent;
   border: none; border-left: 1px solid var(--border);
-  padding: 0 0 0 0.5rem; margin-left: 0.5rem; cursor: default;
+  padding: 0 0 0 0.5rem; margin-left: 0.5rem; cursor: pointer;
 }
+.cv-group-lbl:hover { color: var(--primary); }
 .cv-group-lbl:first-child { margin-left: 0; padding-left: 0; border-left: none; }
 .cv-tag-btn {
   padding: 0.15rem 0.6rem; border-radius: 2rem; border: 1px solid var(--border);
@@ -28,6 +29,16 @@
 .cv-tag-btn:hover { background: var(--entry); }
 .cv-tag-btn.active { background: var(--primary); color: var(--theme); }
 .cv-tag-btn.dim { opacity: 0.25; pointer-events: auto; }
+/* Group navigation (e.g. #tools, or clicking the TOOLS label itself): a "here's what's in this
+   cluster" pointer, never a filter -- a group label is deliberately never filterable (ADR-16,
+   groups.yaml, still true), so this only ever highlights, never selects/hides entries. Mutually
+   exclusive with tag filtering (selectGroup/selectTag in the script below each clear the other),
+   so at most one of "N tags filtering" / "one group highlighted" is ever true. Applied via JS,
+   since a pure CSS :target approach would need each group wrapped in its own element and
+   display:contents on that wrapper breaks anchor-scrolling in some browsers -- plain ids + a few
+   lines of JS avoided that tradeoff entirely. */
+.cv-group-lbl.cv-group-highlight { color: var(--primary); }
+.cv-tag-btn.cv-group-highlight { box-shadow: 0 0 0 1px var(--primary); }
 
 #cv-list { border-top: 1px solid var(--border); }
 .cv-item {
@@ -160,14 +171,19 @@
      children instead (used for roles' institutions, since a position's label already names its
      institution — "PhD Student @ Harvard" — making a separate "Harvard" pill redundant).
      Whichever tier is the first non-hidden one is what renders; nothing past it does. ── */}}
-<div class="cv-filter-section">
+<!-- id="filter" is a published, externally-linked anchor (the resume PDF points at
+     tmihoc.github.io/#filter) -- deliberately NOT cv-prefixed like every other id/class on this
+     page, so it doesn't read as an ordinary internal styling hook. Treat it as a stable contract:
+     don't rename or remove it without checking outbound links first (grep resume/*.tex for
+     "#filter" before touching this). -->
+<div class="cv-filter-section" id="filter">
   <div class="cv-filter-header">
     <p class="cv-filter-label" title="Selecting multiple tags shows only entries that carry all of them (intersection, not union) — unless that combination is empty, in which case the oldest conflicting selection is dropped automatically.">Filter</p>
     <button id="cv-clear">clear</button>
   </div>
   <div class="cv-filter-cloud">
     {{ range $groups }}
-    <span class="cv-group-lbl cv-facet-hdr">{{ .label }}</span>
+    <span class="cv-group-lbl cv-facet-hdr" id="{{ .id }}">{{ .label }}</span>
     {{ range .tags }}
       {{ if .hidden }}
         {{ range .tags }}<button class="cv-tag-btn" data-tag="{{ .id }}">{{ .label }}</button>{{ end }}
@@ -287,12 +303,41 @@ function clearActive() {
     .forEach(function(b){ b.classList.remove('active'); });
 }
 
+// The group-nav ring (#tools, #areas-of-expertise, ...) is a one-time landing cue, not persistent
+// state -- it has no representation in `active` and isn't meant to survive the reader taking any
+// real filtering action. Cleared on every selectTag/clear rather than timed out, so it never lies
+// about what's currently relevant.
+function clearGroupHighlight() {
+  document.querySelectorAll('.cv-group-highlight').forEach(function(el) {
+    el.classList.remove('cv-group-highlight');
+  });
+}
+
+// A group's highlight-set is itself plus every sibling up to (not including) the next group
+// label -- the same flat-DOM walk used by the load-time hash handler and the in-page click below.
+function applyGroupHighlight(label) {
+  label.classList.add('cv-group-highlight');
+  for (var el = label.nextElementSibling; el && !el.classList.contains('cv-group-lbl'); el = el.nextElementSibling) {
+    el.classList.add('cv-group-highlight');
+  }
+}
+
+// Keep the URL a live, shareable/bookmarkable snapshot of the current filter -- history.replaceState,
+// not pushState, so every pill click doesn't spam browser history with one entry apiece; the address
+// bar always reflects "where you are now," not "everywhere you've been." Sorted for a stable URL
+// regardless of click order.
+function syncHash() {
+  var h = Array.from(active).sort().join('+');
+  history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+}
+
 // Every tag is selected the same way — no partition, no radio, no kind/facet split. Clicking a
 // tag that would make the ACTUAL JOINT intersection empty drops the oldest conflicting selection
 // and rechecks, rather than silently rendering a dead end (a naive pairwise check is NOT sound
 // here with 3+ active tags — verified against a real counterexample before shipping this).
 function selectTag(t) {
-  if (active.has(t)) { active.delete(t); syncTagVisual(t, false); filter(); return; }
+  clearGroupHighlight();
+  if (active.has(t)) { active.delete(t); syncTagVisual(t, false); filter(); syncHash(); return; }
   var candidate = new Set(active);
   candidate.add(t);
   while (candidate.size > 1 && jointCount(candidate) === 0) {
@@ -303,10 +348,34 @@ function selectTag(t) {
   active = candidate;
   syncTagVisual(t, true);
   filter();
+  syncHash();
 }
 
 document.querySelectorAll('.cv-tag-btn').forEach(function(btn) {
   btn.addEventListener('click', function() { selectTag(btn.dataset.tag); });
+});
+
+// Group labels are clickable too, but deliberately do a different thing than a tag: a highlight
+// (border), never a filter (fill) -- they answer "what's in this cluster," not "show me only
+// this." Mutually exclusive with tag filtering, same reasoning as clearGroupHighlight() above:
+// each always clears the other rather than layering, so the URL stays a single, unambiguous
+// snapshot. Click an already-highlighted group again to toggle it off.
+function selectGroup(id) {
+  var label = document.getElementById(id);
+  if (label.classList.contains('cv-group-highlight')) {
+    clearGroupHighlight();
+    syncHash();
+    return;
+  }
+  clearGroupHighlight();
+  clearActive();
+  filter();
+  applyGroupHighlight(label);
+  history.replaceState(null, '', '#' + id);
+}
+
+document.querySelectorAll('.cv-group-lbl').forEach(function(lbl) {
+  lbl.addEventListener('click', function() { selectGroup(lbl.id); });
 });
 
 // Entry chips — same selection logic as panel buttons
@@ -341,13 +410,20 @@ document.querySelectorAll('.cv-fl[data-tag]').forEach(function(el) {
 });
 
 clearBtn.addEventListener('click', function() {
+  clearGroupHighlight();
   active.clear();
   document.querySelectorAll('.cv-tag-btn.active, .cv-group-lbl.active, .cv-chip.active, .cv-fl.active').forEach(function(b){ b.classList.remove('active'); });
   filter();
+  syncHash();
 });
 
 // Activate tag filter(s) from the URL hash. Single tag: tmihoc.github.io/#paper
 // Intersection: tmihoc.github.io/#documentation+writing (AND of all tags).
+// A tag hash lands mid-page by default (no element has an id matching a tag id, so the browser's
+// native anchor-scroll has nothing to jump to) -- scroll to the filter panel explicitly once a
+// tag match activates a filter, so the reader doesn't land back at the very top of the page with
+// no visual cue anything happened. #cv-filter itself (no tag, just the panel's own id) needs no
+// JS help here -- that's a real element id, so the browser scrolls to it natively.
 (function() {
   var h = decodeURIComponent(window.location.hash.slice(1));
   if (!h) return;
@@ -359,7 +435,25 @@ clearBtn.addEventListener('click', function() {
     syncTagVisual(t, true);
     matched = true;
   });
-  if (matched) filter();
+  if (matched) {
+    filter();
+    document.getElementById('filter').scrollIntoView();
+  }
+})();
+
+// Group-hash navigation: tmihoc.github.io/#tools scrolls to and highlights the Tools cluster of
+// pills -- distinct from a tag hash above, this never filters the entry list (a group label click
+// highlights, a tag click filters -- see selectGroup below). A no-op if the hash was already
+// consumed as a tag above (expand[h] check) or doesn't match any group id. Reuses
+// applyGroupHighlight rather than clearing active/calling filter() -- at page load `active` is
+// always already empty, so there's nothing to reconcile the way selectGroup has to for a live click.
+(function() {
+  var h = decodeURIComponent(window.location.hash.slice(1));
+  if (!h || expand[h]) return;
+  var label = document.getElementById(h);
+  if (!label || !label.classList.contains('cv-group-lbl')) return;
+  applyGroupHighlight(label);
+  label.scrollIntoView();
 })();
 </script>
 {{- end }}

@@ -1,9 +1,74 @@
+- id: workshop-observability-docs
+  sentence: I ran a documentation workshop for the Observability Stack team at a Canonical
+    sprint.
+  date: 2025-05-15
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - teaching
+  - workshop
+- id: advise-certificate-management-docs
+  sentence: I advised on documentation for Canonical Certificate Management -- a small time
+    investment, but strategic, with contributions and suggestions that proved critical.
+  date: 2026-01/2026-03
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - peer-review
+- id: review-robotics-docs-2024
+  sentence: I gave Canonical's Robotics team a comprehensive documentation review, with both
+    general and detailed improvement suggestions.
+  date: 2024-09
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - knowledge-engineering
+  - peer-review
+  - writing
+- id: project-rocks-entrypoint-and-template
+  sentence: I led the design of the Canonical containers entrypoint page (introducing Rockcraft,
+    Chisel, and Pebble) and the documentation template used for individual rock documentation
+    on Docker Hub, working closely with engineers to find the clearest way to communicate
+    what's familiar and what's new about rocks.
+  date: 2025-05/2025-08
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - documentation
+  - knowledge-engineering
+  - ux
+  - writing
+- id: review-netplan-docs
+  sentence: I reviewed Netplan's documentation, then reviewed the improvements the team made
+    in response to my feedback.
+  date: 2022-09/2023-03
+  desc: Initial review Sep-Oct 2022; follow-up review of resulting improvements Mar 2023.
+  tags:
+  - canonical
+  - canonical-technical-author
+  - documentation
+  - peer-review
+- id: project-personal-ontology
+  sentence: I designed and built a tag-based personal knowledge ontology and CV site (tmihoc.github.io),
+    iterating through 17+ documented architecture decisions to reach a fully symmetric, recursively-nested
+    tag model with no privileged category.
+  date: 2026-07/present
+  tags:
+  - hugo
+  - knowledge-engineering
+  - research
+  - writing
+  - yaml
 - id: docset-jaas
   sentence: I help write and maintain the JAAS documentation at Canonical.
   date: 2024-11/present
   links:
     docs: https://canonical.com/juju/docs/jaas/
   tags:
+  - bash
   - canonical
   - canonical-senior-technical-author
   - cloud-operations
@@ -13,6 +78,7 @@
   - git
   - linux
   - markdown
+  - python
   - read-the-docs
   - sphinx
   - writing
@@ -22,6 +88,7 @@
   links:
     docs: https://canonical.com/juju/docs/terraform-provider-juju/
   tags:
+  - bash
   - canonical
   - canonical-senior-technical-author
   - cloud-operations
@@ -31,6 +98,7 @@
   - git
   - linux
   - markdown
+  - python
   - read-the-docs
   - sphinx
   - writing
@@ -69,6 +137,7 @@
   links:
     docs: https://canonical.com/juju/docs/juju-cli/
   tags:
+  - bash
   - canonical
   - canonical-senior-technical-author
   - canonical-technical-author
@@ -77,8 +146,10 @@
   - docset
   - documentation
   - git
+  - go
   - linux
   - markdown
+  - python
   - read-the-docs
   - sphinx
   - writing
@@ -91,7 +162,7 @@
   - uab
   - uab-visiting-scholar
 - id: pos-research-affiliate-harvard
-  sentence: I was a research affiliate (associate of the department) in Linguistics at Harvard.
+  sentence: I was an Associate of the Department in Linguistics at Harvard.
   date: 2019-07/2021-07
   tags:
   - harvard
@@ -222,8 +293,10 @@
   - ux
 - id: project-juju-docs-redesign
   sentence: I designed and implemented a new architecture for the core tools in the Juju ecosystem
-    docs, moving from 2 hybrid persona-component monoliths to 6 modular, interoperable, component-based
-    docsets that are easy to govern, maintain, and version.
+    docs, moving from 2 hybrid persona-component monoliths (mixing personas and software components,
+    with overlaps and gaps) to 6 modular, component-based docsets -- one per independently-released
+    piece of software, for easy governance, maintenance, and versioning -- kept interoperable
+    through a convergent architecture and a cross-referencing system.
   date: 2024-07/2025-01
   links:
     docs: https://canonical.com/juju/docs
@@ -483,6 +556,7 @@
     \         = {2022},\n  howpublished = {\\url{https://ling.auf.net/lingbuzz/006213}}\n\
     }\n"
   tags:
+  - latex
   - linguistics
   - paper
   - polarity-sensitivity
@@ -547,6 +621,7 @@
     \ = {University of Pennsylvania Working Papers in Linguistics},\n  volume  = {28},\n \
     \ number  = {1},\n  year    = {2022}\n}\n"
   tags:
+  - latex
   - linguistics
   - paper
   - polarity-sensitivity
@@ -575,6 +650,7 @@
     slides: /linguistics/talks/mihoc_2021_glif.pdf
   tags:
   - aspectual-operators
+  - latex
   - linguistics
   - polarity-sensitivity
   - research
@@ -669,8 +745,8 @@
   - documentation
   - git
   - linux
-  - markdown
   - read-the-docs
+  - rst
   - sphinx
   - writing
 - id: rec-juan-de-la-cierva
@@ -689,6 +765,7 @@
   links:
     slides: /linguistics/talks/mihoc_2021_uabworkshop_s.pdf
   tags:
+  - latex
   - linguistics
   - polarity-sensitivity
   - research
@@ -720,12 +797,17 @@
     \ Meaning},\n  volume    = {1},\n  pages     = {212--223},\n  year      = {2021}\n}\n"
   tags:
   - experimental
+  - google-sheets
   - harvard
   - harvard-associate-of-department
+  - latex
+  - libreoffice
   - linguistics
+  - mechanical-turk
   - modified-numerals
   - paper
   - polarity-sensitivity
+  - qualtrics
   - r
   - research
   - theoretical
@@ -752,6 +834,7 @@
   tags:
   - disjunction
   - indefinites
+  - latex
   - linguistics
   - modified-numerals
   - polarity-sensitivity
@@ -772,6 +855,7 @@
   sentence: I gave an invited talk on my research trajectory at LBUS.
   date: 2021-05-18
   tags:
+  - latex
   - linguistics
   - speaking
   - talk
@@ -790,6 +874,7 @@
   - aspectual-operators
   - harvard
   - harvard-associate-of-department
+  - latex
   - linguistics
   - polarity-sensitivity
   - poster
@@ -816,6 +901,7 @@
   - aspectual-operators
   - harvard
   - harvard-associate-of-department
+  - latex
   - linguistics
   - polarity-sensitivity
   - research
@@ -838,6 +924,7 @@
   tags:
   - harvard
   - harvard-associate-of-department
+  - latex
   - linguistics
   - polarity-sensitivity
   - research
@@ -871,6 +958,7 @@
   tags:
   - harvard
   - harvard-associate-of-department
+  - latex
   - linguistics
   - modified-numerals
   - paper
@@ -921,6 +1009,7 @@
   - harvard
   - harvard-associate-of-department
   - indefinites
+  - latex
   - linguistics
   - polarity-sensitivity
   - research
@@ -943,11 +1032,16 @@
     video: https://elm-conference.net/wp-content/uploads/2020_talks/ELM1-3-4-11-Mihoc-etal.mp4
   tags:
   - experimental
+  - google-sheets
   - harvard
   - harvard-associate-of-department
+  - latex
+  - libreoffice
   - linguistics
+  - mechanical-turk
   - modified-numerals
   - polarity-sensitivity
+  - qualtrics
   - r
   - research
   - scalar-phenomena
@@ -973,6 +1067,7 @@
   tags:
   - harvard
   - harvard-associate-of-department
+  - latex
   - linguistics
   - modified-numerals
   - polarity-sensitivity
@@ -1032,6 +1127,7 @@
   tags:
   - harvard
   - harvard-associate-of-department
+  - latex
   - linguistics
   - modified-numerals
   - paper
@@ -1078,6 +1174,7 @@
   - harvard
   - harvard-associate-of-department
   - indefinites
+  - latex
   - linguistics
   - modified-numerals
   - polarity-sensitivity
@@ -1117,6 +1214,7 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - modified-numerals
   - paper
@@ -1137,6 +1235,7 @@
   - epistemic-modals
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - research
   - speaking
@@ -1176,6 +1275,7 @@
   - epistemic-modals
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - paper
   - research
@@ -1197,6 +1297,7 @@
   - exhaustification
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - modified-numerals
   - polarity-sensitivity
@@ -1216,6 +1317,7 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - modified-numerals
   - polarity-sensitivity
@@ -1232,7 +1334,7 @@
     \  howpublished = {Poster at Workshop: The meaning of numerals: cognitive, experimental,\
     \ and semantic perspectives, {ZAS}, Berlin, Mar 27--28}\n}\n"
 - id: rec-harvard-travel-grant
-  sentence: I received a Conference Travel Grant from Harvard.
+  sentence: I received a Conference Travel Grant ($750) from Harvard.
   date: 2019-03
   tags:
   - funding
@@ -1251,6 +1353,7 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - modified-numerals
   - research
@@ -1275,6 +1378,7 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - modified-numerals
   - polarity-sensitivity
@@ -1289,8 +1393,8 @@
     \ {Invited talk at Laboratoire de Linguistique de Nantes, {CNRS}/U of Nantes, Dec 3}\n\
     }\n"
 - id: rec-dissertation-fellowship
-  sentence: I received a GSAS Dissertation Completion Fellowship from Harvard for the 2018–19
-    academic year.
+  sentence: I received a GSAS Dissertation Completion Fellowship ($36,472) from Harvard for
+    the 2018–19 academic year.
   date: 2018-09
   desc: Awarded to enable full-time dissertation completion, free from teaching obligations.
   tags:
@@ -1308,6 +1412,7 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - modified-numerals
   - research
@@ -1332,6 +1437,7 @@
   - exhaustification
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - research
   - scalar-phenomena
@@ -1374,6 +1480,7 @@
   - cross-linguistic
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - paper
   - research
@@ -1386,6 +1493,7 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - modified-numerals
   - research
@@ -1424,11 +1532,16 @@
     slides: /linguistics/talks/mihoc_davidson_2017_xprag_s.pdf
   tags:
   - experimental
+  - google-sheets
   - harvard
   - harvard-phd-student
+  - latex
+  - libreoffice
   - linguistics
+  - mechanical-turk
   - modified-numerals
   - polarity-sensitivity
+  - qualtrics
   - r
   - research
   - speaking
@@ -1464,6 +1577,7 @@
   - cross-linguistic
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - research
   - speaking
@@ -1493,6 +1607,7 @@
   - harvard
   - harvard-phd-student
   - javascript
+  - latex
   - linguistics
   - modified-numerals
   - paper
@@ -1526,10 +1641,15 @@
   date: 2016-11-29
   tags:
   - experimental
+  - google-sheets
   - harvard
   - harvard-phd-student
+  - latex
+  - libreoffice
   - linguistics
+  - mechanical-turk
   - modified-numerals
+  - qualtrics
   - r
   - research
   - speaking
@@ -1543,10 +1663,15 @@
   date: 2016-10-18
   tags:
   - experimental
+  - google-sheets
   - harvard
   - harvard-phd-student
+  - latex
+  - libreoffice
   - linguistics
+  - mechanical-turk
   - modified-numerals
+  - qualtrics
   - r
   - research
   - speaking
@@ -1561,10 +1686,15 @@
   date: 2016-09-30
   tags:
   - experimental
+  - google-sheets
   - harvard
   - harvard-phd-student
+  - latex
+  - libreoffice
   - linguistics
+  - mechanical-turk
   - modified-numerals
+  - qualtrics
   - r
   - research
   - speaking
@@ -1573,12 +1703,15 @@
   desc: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
     superlative numeral modifiers. Talk, LingEdIn, Harvard University, Sep 30.
 - id: workshop-latex-intro
-  sentence: I co-ran (with Laurence B. Violette) an Introduction to LaTeX workshop at Harvard.
+  sentence: I co-ran (with Laurence B. Violette) an Introduction to LaTeX workshop at Harvard
+    (also helped peers at Ottawa and Harvard with LaTeX informally, more broadly).
   date: 2016-09-28
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
+  - mentoring
   - teaching
   - workshop
 - id: course-language-structure-cognition-ta-2016f
@@ -1598,24 +1731,37 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - talk
   - teaching
 - id: ongoing-lab-management-harvard
-  sentence: 'I managed the Meaning and Modality Lab (PI: Kathryn Davidson), Dept of Linguistics,
-    Harvard.'
+  sentence: 'I managed the Meaning and Modality Lab (PI: Kathryn Davidson, Dept. of Linguistics,
+    Harvard), a lab researching spoken and signed languages — overseeing the lab''s premises
+    (liaising with building management), its computers (including reimaging macOS machines),
+    and its meetings (coordinating speakers, food, cleanup); created technical manuals and
+    documentation; guided lab members, including in small-group settings, through secure VPN
+    access to the lab''s research computing server, online participant recruitment (Amazon
+    Mechanical Turk and similar services), and statistical analysis in R; troubleshot lab
+    members'' technical issues; and updated the lab website.'
   date: 2016-06/2018-05
   tags:
+  - documentation
+  - event-organization
   - harvard
   - harvard-phd-student
   - lab-management
   - linguistics
+  - mentoring
+  - r
+  - writing
 - id: talk-2016-lingedin-confessing-ignorance
   sentence: I gave a talk on confessing ignorance at LingEdIn.
   date: 2016-04-20
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - research
   - scalar-phenomena
@@ -1651,6 +1797,7 @@
   - bare-nominals
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - research
   - speaking
@@ -1701,7 +1848,7 @@
   - teaching
   - tutorial
 - id: rec-sosland-2015
-  sentence: I received a Sosland Family Graduate Fellowship from Harvard.
+  sentence: I received a Sosland Family Graduate Fellowship ($9,435) from Harvard.
   date: 2015-09
   desc: Awarded by the Harvard Department of Linguistics.
   tags:
@@ -1716,6 +1863,7 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - modified-numerals
   - research
@@ -1736,6 +1884,7 @@
   - fieldwork-elicitation
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - paper
   - research
@@ -1753,6 +1902,7 @@
   - epistemic-modals
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - research
   - speaking
@@ -1765,7 +1915,7 @@
     \ talk at Commitment Phenomena through the Study of Evidential Markers in Romance Languages,\
     \ U of Neuch\\^{a}tel, Sep 5}\n}\n"
 - id: rec-sosland-2014
-  sentence: I received a Sosland Family Graduate Fellowship from Harvard.
+  sentence: I received a Sosland Family Graduate Fellowship ($7,924) from Harvard.
   date: 2014-09
   desc: Awarded by the Harvard Department of Linguistics.
   tags:
@@ -1789,6 +1939,7 @@
   - epistemic-modals
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - paper
   - research
@@ -1810,6 +1961,7 @@
   - epistemic-modals
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - paper
   - research
@@ -1823,6 +1975,7 @@
   tags:
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - syntax
   - teaching
@@ -1844,6 +1997,7 @@
   - epistemic-modals
   - harvard
   - harvard-phd-student
+  - latex
   - linguistics
   - research
   - speaking
@@ -1851,7 +2005,7 @@
   - talk
   - theoretical
 - id: rec-douglas-dillon
-  sentence: I received a Douglas Dillon Fellowship from Harvard.
+  sentence: I received a Douglas Dillon Fellowship ($25,300) from Harvard.
   date: 2013-09
   desc: Named a Dillon Fellow for 2013–14 on the recommendation of the Department; fund supports
     international students at Harvard.
@@ -1869,6 +2023,7 @@
     slides: /linguistics/talks/mihoc_2013_tom6.pdf
   tags:
   - epistemic-modals
+  - latex
   - linguistics
   - research
   - speaking
@@ -1913,6 +2068,7 @@
     \ modality},\n  school = {University of Ottawa},\n  year   = {2012}\n}\n"
   tags:
   - epistemic-modals
+  - latex
   - linguistics
   - research
   - syntax
@@ -1994,12 +2150,13 @@
   - blcu-language-student
   - learning
 - id: rec-confucius-scholarship
-  sentence: I received a Study Abroad Scholarship from the Confucius Institute.
+  sentence: I received a Study Abroad Scholarship from the Confucius Institute, funding my
+    year at Beijing Language and Culture University.
   date: 2010-09
   tags:
+  - blcu
+  - blcu-language-student
   - funding
-  - lbus
-  - lbus-ba-student
 - id: degree-ba
   sentence: I obtained my BA in Applied English and French from Lucian Blaga University of
     Sibiu.
@@ -2019,6 +2176,7 @@
     \ {Plato} to {Derrida}: {T}he dissolution of the author},\n  type   = {{BA} thesis},\n\
     \  school = {Lucian Blaga University of Sibiu},\n  year   = {2010}\n}\n"
   tags:
+  - latex
   - lbus
   - lbus-ba-student
   - linguistics
@@ -2175,7 +2333,6 @@
   sentence: I interpreted at 2 international conferences (English-Romanian).
   date: 2007-01/2011-08
   tags:
-  - interpreting
   - translation-interpreting
 - id: pos-freelance-editing
   sentence: I proofread and copyedited dozens of technical and academic papers, routinely
