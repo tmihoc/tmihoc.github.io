@@ -103,6 +103,32 @@ with open('data/entries.yaml', 'w') as f:
    surveys) does not — talks/papers are presenting-events built on a doing-event, not
    repetitions of the doing. Never derive a magnitude claim ("used in N projects") from a
    raw tagged-entry count without checking which kind of tag it is.
+5. **Activity-vs-tool test (established 2026-08-06, adding `programming`/`markup`).** A
+   *tool* tag (`python`, `bash`, `latex`, ...) means exposure to that instrument/ecosystem —
+   it doesn't require personal authorship (same logic as a GitHub repo's language bar: 5%
+   Python still means Python, even from a docs-only contributor). An *activity* tag
+   (`programming`, `writing`, `teaching`, ...) means she personally *did* that doing — a
+   stricter bar. Never derive an activity tag mechanically from a tool tag's presence: e.g.
+   `latex` sits on 47 entries, nearly all of them "typeset a paper/talk in LaTeX," which is
+   `markup` (safe to add wherever `latex`/`markdown`/`rst` appear — typesetting is what those
+   tools are *for*, so the implication reliably holds), not `programming` (adding it
+   mechanically would have false-positived on all 47). `programming` was hand-applied only
+   to entries with confirmed personal script-authorship (the WebPPL model, 8 R analysis
+   scripts, one Python-tooling docset) — three python/bash-tagged docset entries were
+   deliberately left untagged despite carrying the tool tag, because their personal-authorship
+   claim wasn't confirmed to the same bar ("I'm not claiming to be a Python programmer... all
+   I'm saying is I've used it, which is not false even if I don't currently have an entry to
+   support it" — a true claim the `python` tool tag already carries, that doesn't need
+   `programming` to also carry it). **Why the asymmetry isn't arbitrary:** it's a corollary of
+   the neo-Davidsonian adjunct/core-predicate split this whole ontology already runs on
+   (methodology = manner, tool = instrument, domain = theme — all adjuncts on one event
+   variable; see "Data model" above). An activity tag asserts the event's core predicate with
+   her as agent — full commitment, she *did* it. A tool tag is an adjunct describing what
+   equipped some event, without asserting who wielded it (she can give a talk with LaTeX
+   slides without having written the macros). Concretely: activity ⟹ the matching tool tag
+   would also be true (if she really programmed in Python, Python is trivially also a tool
+   she used) — but tool ⇏ activity, never the reverse. Not just "two different bars," a real
+   asymmetric implication.
 
 ## Rendering rules
 

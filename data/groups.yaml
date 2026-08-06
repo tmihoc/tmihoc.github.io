@@ -155,6 +155,10 @@
               label: indefinites
             - id: modified-numerals
               label: modified numerals
+            - id: negation
+              label: negation
+            - id: numerals
+              label: numerals
     - id: translation-interpreting
       label: translation & interpreting
     - id: ux
@@ -179,6 +183,10 @@
       label: peer review
     - id: people-management
       label: people management
+    - id: performance-evaluation
+      label: performance evaluation
+    - id: programming
+      label: programming
     - id: research
       label: research
     - id: speaking
@@ -201,6 +209,10 @@
       label: experimental
     - id: fieldwork-elicitation
       label: fieldwork
+    - id: markup
+      label: markup
+    - id: prompt-engineering
+      label: prompt engineering
     - id: theoretical
       label: theoretical
     - id: user-research

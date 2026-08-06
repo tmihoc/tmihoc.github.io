@@ -15,24 +15,22 @@
   tags:
   - canonical
   - canonical-senior-technical-author
+  - docset
   - documentation
-  - peer-review
 - id: review-robotics-docs-2024
-  sentence: I gave Canonical's Robotics team a comprehensive documentation review, with both
-    general and detailed improvement suggestions.
+  sentence: I gave Canonical's Robotics team a comprehensive documentation review, with detailed
+    improvement suggestions.
   date: 2024-09
   tags:
   - canonical
   - canonical-senior-technical-author
+  - docset
   - documentation
-  - knowledge-engineering
-  - peer-review
   - writing
 - id: project-rocks-entrypoint-and-template
-  sentence: I led the design of the Canonical containers entrypoint page (introducing Rockcraft,
-    Chisel, and Pebble) and the documentation template used for individual rock documentation
-    on Docker Hub, working closely with engineers to find the clearest way to communicate
-    what's familiar and what's new about rocks.
+  sentence: I played a key role in the design of the Canonical containers entrypoint page
+    (introducing Rockcraft, Chisel, and Pebble) and in the documentation template used for
+    individual rock documentation on Docker Hub.
   date: 2025-05/2025-08
   tags:
   - canonical
@@ -49,12 +47,12 @@
   tags:
   - canonical
   - canonical-technical-author
+  - docset
   - documentation
-  - peer-review
 - id: project-personal-ontology
-  sentence: I designed and built a tag-based personal knowledge ontology and CV site (tmihoc.github.io),
-    iterating through 17+ documented architecture decisions to reach a fully symmetric, recursively-nested
-    tag model with no privileged category.
+  sentence: I designed and built a new system for recording, modeling, and querying one's
+    professional activity (I think of it as `lifeDB`!). The data is recorded as time-anchored
+    events tagged in various ways, and it can be queried intelligently based on those tags.
   date: 2026-07/present
   tags:
   - hugo
@@ -78,6 +76,7 @@
   - git
   - linux
   - markdown
+  - markup
   - python
   - read-the-docs
   - sphinx
@@ -98,6 +97,7 @@
   - git
   - linux
   - markdown
+  - markup
   - python
   - read-the-docs
   - sphinx
@@ -149,6 +149,7 @@
   - go
   - linux
   - markdown
+  - markup
   - python
   - read-the-docs
   - sphinx
@@ -170,9 +171,9 @@
   - linguistics
   - research
 - id: talk-2026-technically-true
-  sentence: I argued that documentation should follow the actual shape of the software and
-    the story it already tells from within, rather than reinvent that story from the outside
-    — for example, don't restructure a modular system's docs as if it were a monolith.
+  sentence: I gave an internal talk at a Canonical Engineering Sprint where I argued that
+    documentation structure should play with the shape of the software rather than against
+    it.
   date: '2026-05-13'
   tags:
   - canonical
@@ -310,6 +311,7 @@
   - git
   - knowledge-engineering
   - markdown
+  - markup
   - read-the-docs
   - sphinx
   - user-research
@@ -458,7 +460,7 @@
   desc: Mihoc, Teodora. 2023. Let's add docs to our charms on Charmhub! Workshop / campaign,
     Canonical Engineering Sprint, May 2.
 - id: rec-juju-callout-2023
-  sentence: I received a Juju Documentation Community Call-Out.
+  sentence: I received a Juju Documentation Community Call-Out for my work on Juju docs.
   date: 2023-02-14
   desc: 'James Beedy: "The Juju docs now set the standard for good documentation."'
   links:
@@ -469,7 +471,6 @@
   - cloud-operations
   - community-recognition
   - documentation
-  - knowledge-engineering
 - id: rec-vca-2023
   sentence: I received a Valuable Contribution Award from Canonical for revitalizing hundreds
     of Juju and Operator Framework documents into a more cohesive whole.
@@ -539,7 +540,6 @@
   - canonical-technical-author
   - documentation
   - employer-award
-  - knowledge-engineering
 - id: paper-2022-aspectual-operators
   sentence: I wrote a paper arguing that <em>still</em>, <em>already</em>, <em>yet</em>, and
     <em>anymore</em> share temporal, evaluative, and polarity properties that prior accounts
@@ -558,15 +558,16 @@
   tags:
   - latex
   - linguistics
+  - markup
   - paper
   - polarity-sensitivity
   - research
   - theoretical
   - writing
 - id: blog-ubuntu-grice
-  sentence: I wrote a blog post arguing that odd-seeming documentation feedback is usually
-    rational once read through Grice's Cooperative Principle, and used that to lay out how
-    to collect better feedback.
+  sentence: I wrote a blog post where I used Grice's Cooperative Principle (Pragmatics 101)
+    to argue for a documentation feedback framework that's not only highly informative but
+    also universally accessible.
   date: 2022-06
   links:
     web: https://ubuntu.com/blog/humans-may-be-rational-or-how-to-collect-better-documentation-feedback-with-linguistic-theory
@@ -623,6 +624,7 @@
   tags:
   - latex
   - linguistics
+  - markup
   - paper
   - polarity-sensitivity
   - research
@@ -652,6 +654,7 @@
   - aspectual-operators
   - latex
   - linguistics
+  - markup
   - polarity-sensitivity
   - research
   - speaking
@@ -727,6 +730,8 @@
   - git
   - linux
   - markdown
+  - markup
+  - programming
   - python
   - read-the-docs
   - sphinx
@@ -745,6 +750,7 @@
   - documentation
   - git
   - linux
+  - markup
   - read-the-docs
   - rst
   - sphinx
@@ -767,6 +773,7 @@
   tags:
   - latex
   - linguistics
+  - markup
   - polarity-sensitivity
   - research
   - speaking
@@ -803,10 +810,12 @@
   - latex
   - libreoffice
   - linguistics
+  - markup
   - mechanical-turk
   - modified-numerals
   - paper
   - polarity-sensitivity
+  - programming
   - qualtrics
   - r
   - research
@@ -836,6 +845,7 @@
   - indefinites
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - polarity-sensitivity
   - research
@@ -857,6 +867,7 @@
   tags:
   - latex
   - linguistics
+  - markup
   - speaking
   - talk
   desc: Mihoc, Teodora. 2021. From Chomsky through Confucius to Montague and Grice (Or what
@@ -876,6 +887,7 @@
   - harvard-associate-of-department
   - latex
   - linguistics
+  - markup
   - polarity-sensitivity
   - poster
   - research
@@ -903,6 +915,7 @@
   - harvard-associate-of-department
   - latex
   - linguistics
+  - markup
   - polarity-sensitivity
   - research
   - speaking
@@ -926,6 +939,7 @@
   - harvard-associate-of-department
   - latex
   - linguistics
+  - markup
   - polarity-sensitivity
   - research
   - scalar-phenomena
@@ -960,6 +974,7 @@
   - harvard-associate-of-department
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - paper
   - polarity-sensitivity
@@ -1011,6 +1026,7 @@
   - indefinites
   - latex
   - linguistics
+  - markup
   - polarity-sensitivity
   - research
   - speaking
@@ -1038,9 +1054,11 @@
   - latex
   - libreoffice
   - linguistics
+  - markup
   - mechanical-turk
   - modified-numerals
   - polarity-sensitivity
+  - programming
   - qualtrics
   - r
   - research
@@ -1069,6 +1087,7 @@
   - harvard-associate-of-department
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - polarity-sensitivity
   - research
@@ -1129,6 +1148,7 @@
   - harvard-associate-of-department
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - paper
   - polarity-sensitivity
@@ -1176,6 +1196,7 @@
   - indefinites
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - polarity-sensitivity
   - research
@@ -1216,6 +1237,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - paper
   - polarity-sensitivity
@@ -1237,6 +1259,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - research
   - speaking
   - talk
@@ -1277,13 +1300,17 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - paper
   - research
   - theoretical
   - writing
 - id: thesis-phd
-  sentence: 'I wrote my PhD thesis on decomposing logic: modified numerals, polarity, and
-    exhaustification.'
+  sentence: I wrote my PhD thesis on scalarity, ignorance, and polarity sensitivity in comparative-
+    and superlative-modified numerals. The solution proposes new truth conditions and then
+    uses domain-general alternative generation and exhaustification mechanisms to derive both
+    similarities and differences in ways completely consistent with how these phenomena are
+    handled in other categories of language, e.g., disjunction and indefinites.
   date: 2019-05
   desc: 'Mihoc, Teodora. 2019. Decomposing logic: Modified numerals, polarity, and exhaustification.
     PhD thesis, Harvard University.'
@@ -1299,6 +1326,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - polarity-sensitivity
   - research
@@ -1319,6 +1347,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - polarity-sensitivity
   - poster
@@ -1355,6 +1384,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - research
   - scalar-phenomena
@@ -1380,6 +1410,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - polarity-sensitivity
   - research
@@ -1414,6 +1445,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - research
   - scalar-phenomena
@@ -1428,7 +1460,7 @@
     \  year         = {2018},\n  howpublished = {Invited talk at Institute for Logic, Language,\
     \ and Computation ({ILLC}), U of Amsterdam, June 12}\n}\n"
 - id: talk-2018-lingedin-scope
-  sentence: I gave a talk at LingEdIn on how questions under discussion and exhaustification
+  sentence: I gave a talk at LingedIn on how questions under discussion and exhaustification
     account for scope asymmetries in quantified sentences.
   date: 2018-05-04
   links:
@@ -1439,6 +1471,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - research
   - scalar-phenomena
   - speaking
@@ -1482,19 +1515,21 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - paper
   - research
   - syntax
   - theoretical
   - writing
 - id: talk-2017-lingedin-decomposing
-  sentence: I gave a talk on decomposing bare and modified numerals at LingEdIn.
+  sentence: I gave a talk on decomposing bare and modified numerals at LingedIn.
   date: 2017-12-07
   tags:
   - harvard
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - research
   - speaking
@@ -1538,9 +1573,11 @@
   - latex
   - libreoffice
   - linguistics
+  - markup
   - mechanical-turk
   - modified-numerals
   - polarity-sensitivity
+  - programming
   - qualtrics
   - r
   - research
@@ -1561,6 +1598,7 @@
   - harvard
   - harvard-phd-student
   - linguistics
+  - programming
   - r
   - teaching
   - workshop
@@ -1579,6 +1617,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - research
   - speaking
   - syntax
@@ -1609,8 +1648,11 @@
   - javascript
   - latex
   - linguistics
-  - modified-numerals
+  - markup
+  - negation
+  - numerals
   - paper
+  - programming
   - research
   - scalar-phenomena
   - theoretical
@@ -1647,8 +1689,10 @@
   - latex
   - libreoffice
   - linguistics
+  - markup
   - mechanical-turk
   - modified-numerals
+  - programming
   - qualtrics
   - r
   - research
@@ -1669,8 +1713,10 @@
   - latex
   - libreoffice
   - linguistics
+  - markup
   - mechanical-turk
   - modified-numerals
+  - programming
   - qualtrics
   - r
   - research
@@ -1682,7 +1728,7 @@
     Lab, MIT, Oct 18.
 - id: talk-2016-lingedin-heterogeneity
   sentence: I gave a talk on heterogeneity in comparative and superlative numeral modifiers
-    at LingEdIn.
+    at LingedIn.
   date: 2016-09-30
   tags:
   - experimental
@@ -1692,8 +1738,10 @@
   - latex
   - libreoffice
   - linguistics
+  - markup
   - mechanical-turk
   - modified-numerals
+  - programming
   - qualtrics
   - r
   - research
@@ -1701,7 +1749,7 @@
   - talk
   - theoretical
   desc: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
-    superlative numeral modifiers. Talk, LingEdIn, Harvard University, Sep 30.
+    superlative numeral modifiers. Talk, LingedIn, Harvard University, Sep 30.
 - id: workshop-latex-intro
   sentence: I co-ran (with Laurence B. Violette) an Introduction to LaTeX workshop at Harvard
     (also helped peers at Ottawa and Harvard with LaTeX informally, more broadly).
@@ -1711,6 +1759,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - mentoring
   - teaching
   - workshop
@@ -1733,6 +1782,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - talk
   - teaching
 - id: ongoing-lab-management-harvard
@@ -1753,16 +1803,18 @@
   - lab-management
   - linguistics
   - mentoring
+  - programming
   - r
   - writing
 - id: talk-2016-lingedin-confessing-ignorance
-  sentence: I gave a talk on confessing ignorance at LingEdIn.
+  sentence: I gave a talk on confessing ignorance at LingedIn.
   date: 2016-04-20
   tags:
   - harvard
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - research
   - scalar-phenomena
   - speaking
@@ -1799,6 +1851,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - research
   - speaking
   - syntax
@@ -1865,6 +1918,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - modified-numerals
   - research
   - scalar-phenomena
@@ -1886,6 +1940,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - paper
   - research
   - syntax
@@ -1904,6 +1959,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - research
   - speaking
   - talk
@@ -1924,9 +1980,8 @@
   - harvard-phd-student
   - linguistics
 - id: paper-2014-romanian-presumptive-key
-  sentence: I wrote a paper arguing that the Romanian presumptive mood is the key to analyzing
-    the Romanian <em>will</em>-future as an epistemic modal, proposing a unified semantic
-    analysis of its presumptive and temporal uses.
+  sentence: I wrote a paper on the Romanian epistemic <em>will</em> and the Romanian <em>will</em>-based
+    future tense, proposing a unified semantic analysis of the epistemic and temporal uses.
   date: 2014-06
   desc: 'Mihoc, Teodora. 2014. The Romanian presumptive mood: The key to the Romanian will-future.
     <em>Ottawa Papers in Linguistics</em> 38.'
@@ -1941,6 +1996,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - paper
   - research
   - syntax
@@ -1963,6 +2019,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - paper
   - research
   - syntax
@@ -1977,6 +2034,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - syntax
   - teaching
   - workshop
@@ -1999,6 +2057,7 @@
   - harvard-phd-student
   - latex
   - linguistics
+  - markup
   - research
   - speaking
   - syntax
@@ -2025,6 +2084,7 @@
   - epistemic-modals
   - latex
   - linguistics
+  - markup
   - research
   - speaking
   - syntax
@@ -2070,6 +2130,7 @@
   - epistemic-modals
   - latex
   - linguistics
+  - markup
   - research
   - syntax
   - theoretical
@@ -2180,6 +2241,7 @@
   - lbus
   - lbus-ba-student
   - linguistics
+  - markup
   - research
   - thesis
   - translation-interpreting
@@ -2191,7 +2253,6 @@
   - funding
   - lbus
   - lbus-ba-student
-  - translation-interpreting
 - id: rec-erasmus-mundus
   sentence: I received an Erasmus Mundus Study Abroad Scholarship.
   date: 2009-01
@@ -2206,7 +2267,6 @@
   - funding
   - lbus
   - lbus-ba-student
-  - translation-interpreting
 - id: rec-lbus-merit-2007
   sentence: I received a Merit Scholarship from Lucian Blaga University of Sibiu.
   date: 2007-09
@@ -2214,7 +2274,6 @@
   - funding
   - lbus
   - lbus-ba-student
-  - translation-interpreting
 - id: pos-ba-student-lbus
   sentence: I was a BA student in Applied English and French at Lucian Blaga University of
     Sibiu.
@@ -2259,7 +2318,7 @@
   - canonical
   - canonical-technical-author
   - documentation
-  - peer-review
+  - performance-evaluation
 - id: service-promotion-committee-2024
   sentence: I served on the promotion committee for 2 people.
   date: 2024-10
@@ -2267,7 +2326,7 @@
   - canonical
   - canonical-senior-technical-author
   - documentation
-  - peer-review
+  - performance-evaluation
 - id: service-promotion-committee-2025
   sentence: I served on the promotion committee for 3 people.
   date: 2025-10
@@ -2275,7 +2334,7 @@
   - canonical
   - canonical-senior-technical-author
   - documentation
-  - peer-review
+  - performance-evaluation
 - id: project-docs-graph-architecture
   sentence: I designed an information representation and retrieval plan where solution and
     persona docs are "views" into the database that is the component docs.
@@ -2312,11 +2371,8 @@
   - knowledge-engineering
   - writing
 - id: insight-see-link-taxonomy
-  sentence: 'I designed a small taxonomy of typed "See" links to reconnect content inside
-    a documentation monolith without duplicating it: See also, linking an entity-lifecycle
-    how-to laterally to its reference; See more, linking a procedure to the tool reference
-    it depends on. After federation, I extended it with See first and See next, linking a
-    use-an-artifact story to the story of building that artifact.'
+  sentence: I designed a small taxonomy of typed "See" links to type relationships between
+    content (lateral perspective, zoom-in, etc.).
   date: 2021-08/2022-02
   tags:
   - canonical
@@ -2341,7 +2397,6 @@
   date: 2007-01/2021-08
   tags:
   - editing
-  - knowledge-engineering
 - id: exchange-student-aristotle
   sentence: I did a semester abroad at Aristotle University of Thessaloniki, where I got my
     first taste of theoretical linguistics.
@@ -2361,30 +2416,25 @@
   tags:
   - canonical
   - canonical-senior-technical-author
-  - cloud-operations
-  - docs-as-code
   - documentation
-  - git
+  - go
   - knowledge-engineering
-  - markdown
+  - prompt-engineering
   - writing
 - id: project-juju-agents-documentation-rules
-  sentence: 'I created an AI prompt codifying Juju''s documentation conventions — one-location
-    content, entity-lifecycle how-to guides, no hand-edits to autogenerated docs — and used
-    it to document a brand-new feature from scratch: the database entity reference, the Dqlite
-    REPL command reference, and the database how-to guides.'
+  sentence: I created an AI prompt codifying Juju's documentation philosophy, conventions,
+    and schemas, and used it to document a brand-new feature (complete with tool and entity
+    reference and entity how-to guides) from scratch. The prompt is now in use across two
+    other projects.
   date: 2026-03-31
   links:
     web: https://github.com/juju/juju/pull/22087
   tags:
   - canonical
   - canonical-senior-technical-author
-  - cloud-operations
-  - docs-as-code
   - documentation
-  - git
   - knowledge-engineering
-  - markdown
+  - prompt-engineering
   - writing
 - id: project-juju-agents-cloud-reference
   sentence: I created an AI prompt codifying conventions for Juju's cloud reference docs,
@@ -2395,10 +2445,7 @@
   tags:
   - canonical
   - canonical-senior-technical-author
-  - cloud-operations
-  - docs-as-code
   - documentation
-  - git
   - knowledge-engineering
-  - markdown
+  - prompt-engineering
   - writing
