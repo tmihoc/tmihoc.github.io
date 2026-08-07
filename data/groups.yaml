@@ -129,6 +129,8 @@
         - id: fields
           label: fields
           tags:
+            - id: semantics-pragmatics
+              label: semantics & pragmatics
             - id: syntax
               label: syntax
         - id: phenomena
@@ -209,6 +211,8 @@
       label: experimental
     - id: fieldwork-elicitation
       label: fieldwork
+    - id: lifedb
+      label: lifeDB
     - id: markup
       label: markup
     - id: prompt-engineering
@@ -231,8 +235,6 @@
       label: Git
     - id: go
       label: Go
-    - id: google-sheets
-      label: Google Sheets
     - id: hugo
       label: Hugo
     - id: javascript
@@ -241,8 +243,6 @@
       label: JIRA
     - id: latex
       label: LaTeX
-    - id: libreoffice
-      label: LibreOffice
     - id: linux
       label: Linux
     - id: markdown

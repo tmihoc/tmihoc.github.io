@@ -9,8 +9,7 @@
   - teaching
   - workshop
 - id: advise-certificate-management-docs
-  sentence: I advised on documentation for Canonical Certificate Management -- a small time
-    investment, but strategic, with contributions and suggestions that proved critical.
+  sentence: I advised on documentation for Canonical Certificate Management.
   date: 2026-01/2026-03
   tags:
   - canonical
@@ -50,13 +49,22 @@
   - docset
   - documentation
 - id: project-personal-ontology
-  sentence: I designed and built a new system for recording, modeling, and querying one's
-    professional activity (I think of it as `lifeDB`!). The data is recorded as time-anchored
-    events tagged in various ways, and it can be queried intelligently based on those tags.
+  sentence: 'I designed and built lifeDB, a system for recording, modeling, and querying one''s
+    professional activity, in four layers: a bipartite graph of dated entries and tags (one
+    edge type, has-tag, no entry-to-entry edges), so any entry surfaces under any combination
+    of independent facets; a tag ontology grouped by intrinsic type (institution, domain,
+    activity, tool, output, recognition), with parent/child subsumption reserved for tags
+    with a genuine is-a relation; a query layer, checked against anticipated competency questions,
+    that deliberately surfaces match/no-match only, never a numeric count, since raw tag frequency
+    can misrepresent real-world magnitude; and a live filter UI, hand-built in vanilla JavaScript,
+    implementing all three.'
   date: 2026-07/present
   tags:
   - hugo
+  - javascript
   - knowledge-engineering
+  - lifedb
+  - programming
   - research
   - writing
   - yaml
@@ -215,13 +223,15 @@
   - canonical-senior-technical-author
   - documentation
   - learning
+  - maze
   - miro
   - user-research
   - ux
 - id: talk-2025-wtd-foss-contribution
-  sentence: As an attendee at Write the Docs Berlin, I ran an unconference session introducing
-    the <a href="https://documentation.academy/" target="_blank">Canonical Open Documentation
-    Academy</a>, a program helping people make their first contribution to FOSS docs.
+  sentence: As an attendee at Write the Docs Berlin, I ran an unconference session about how
+    to contribute to FOSS through docs. I introduced the <a href="https://documentation.academy/"
+    target="_blank">Canonical Open Documentation Academy</a>, a program helping people make
+    their first contribution to FOSS docs.
   date: 2025-10-28
   links:
     web: https://docs.google.com/spreadsheets/d/11O2NRC3mQRIdH44OGgjSil3Y6YqpBIfvKqvVTYAsacQ/edit?gid=23980799#gid=23980799
@@ -233,10 +243,11 @@
   - speaking
   - talk
 - id: talk-2025-wtd-illustrated-docs
-  sentence: 'As an attendee at Write the Docs Berlin, I ran an unconference session arguing
-    that software diagrams raise three main concerns — branding, expressive power, and maintainability
-    (e.g., diagrams-as-code) — and that expressive power matters most: no matter how polished
-    a tool is, if it can''t tell the story you need to tell, it''s no good.'
+  sentence: 'As an attendee at Write the Docs Berlin, I ran an unconference session about
+    software diagrams. I held the position that three things matter -- branding, expressive
+    power, and maintainability (e.g., diagrams-as-code) -- with expressive power paramount:
+    no matter how polished a tool is, if it can''t tell the story you need to tell, it''s
+    no good.'
   date: 2025-10-27
   links:
     web: https://docs.google.com/spreadsheets/d/11O2NRC3mQRIdH44OGgjSil3Y6YqpBIfvKqvVTYAsacQ/edit?gid=1637667081#gid=1637667081
@@ -562,6 +573,7 @@
   - paper
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - theoretical
   - writing
 - id: blog-ubuntu-grice
@@ -629,6 +641,7 @@
   - polarity-sensitivity
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - theoretical
   - writing
 - id: lsp-syntactic-architecture-iii
@@ -657,6 +670,7 @@
   - markup
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -776,6 +790,7 @@
   - markup
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -804,11 +819,9 @@
     \ Meaning},\n  volume    = {1},\n  pages     = {212--223},\n  year      = {2021}\n}\n"
   tags:
   - experimental
-  - google-sheets
   - harvard
   - harvard-associate-of-department
   - latex
-  - libreoffice
   - linguistics
   - markup
   - mechanical-turk
@@ -819,6 +832,7 @@
   - qualtrics
   - r
   - research
+  - semantics-pragmatics
   - theoretical
   - writing
 - id: lsp-russian-verbal
@@ -849,6 +863,7 @@
   - modified-numerals
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -868,6 +883,7 @@
   - latex
   - linguistics
   - markup
+  - semantics-pragmatics
   - speaking
   - talk
   desc: Mihoc, Teodora. 2021. From Chomsky through Confucius to Montague and Grice (Or what
@@ -918,6 +934,7 @@
   - markup
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -943,6 +960,7 @@
   - polarity-sensitivity
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -979,6 +997,7 @@
   - paper
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - theoretical
   - writing
 - id: review-nsf
@@ -1029,6 +1048,7 @@
   - markup
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1048,11 +1068,9 @@
     video: https://elm-conference.net/wp-content/uploads/2020_talks/ELM1-3-4-11-Mihoc-etal.mp4
   tags:
   - experimental
-  - google-sheets
   - harvard
   - harvard-associate-of-department
   - latex
-  - libreoffice
   - linguistics
   - markup
   - mechanical-turk
@@ -1063,6 +1081,7 @@
   - r
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1091,6 +1110,7 @@
   - modified-numerals
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1154,6 +1174,7 @@
   - polarity-sensitivity
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - theoretical
   - writing
 - id: course-intro-linguistics-hes
@@ -1201,6 +1222,7 @@
   - polarity-sensitivity
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1243,6 +1265,7 @@
   - polarity-sensitivity
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - theoretical
   - writing
 - id: talk-2019-salt
@@ -1261,6 +1284,7 @@
   - linguistics
   - markup
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1303,6 +1327,7 @@
   - markup
   - paper
   - research
+  - semantics-pragmatics
   - theoretical
   - writing
 - id: thesis-phd
@@ -1330,6 +1355,7 @@
   - modified-numerals
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - theoretical
   - thesis
   - writing
@@ -1388,6 +1414,7 @@
   - modified-numerals
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1414,6 +1441,7 @@
   - modified-numerals
   - polarity-sensitivity
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1449,6 +1477,7 @@
   - modified-numerals
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1474,6 +1503,7 @@
   - markup
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1518,6 +1548,7 @@
   - markup
   - paper
   - research
+  - semantics-pragmatics
   - syntax
   - theoretical
   - writing
@@ -1532,6 +1563,7 @@
   - markup
   - modified-numerals
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1544,6 +1576,7 @@
   - harvard
   - harvard-phd-student
   - linguistics
+  - semantics-pragmatics
   - teaching
 - id: course-language-structure-cognition-ta-2017
   sentence: As a teaching assistant for <em>Language, Structure, and Cognition</em> at Harvard,
@@ -1567,11 +1600,9 @@
     slides: /linguistics/talks/mihoc_davidson_2017_xprag_s.pdf
   tags:
   - experimental
-  - google-sheets
   - harvard
   - harvard-phd-student
   - latex
-  - libreoffice
   - linguistics
   - markup
   - mechanical-turk
@@ -1581,6 +1612,7 @@
   - qualtrics
   - r
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1619,6 +1651,7 @@
   - linguistics
   - markup
   - research
+  - semantics-pragmatics
   - speaking
   - syntax
   - talk
@@ -1655,6 +1688,7 @@
   - programming
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - theoretical
   - writing
 - id: tutorial-numerals
@@ -1683,11 +1717,9 @@
   date: 2016-11-29
   tags:
   - experimental
-  - google-sheets
   - harvard
   - harvard-phd-student
   - latex
-  - libreoffice
   - linguistics
   - markup
   - mechanical-turk
@@ -1696,6 +1728,7 @@
   - qualtrics
   - r
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1707,11 +1740,9 @@
   date: 2016-10-18
   tags:
   - experimental
-  - google-sheets
   - harvard
   - harvard-phd-student
   - latex
-  - libreoffice
   - linguistics
   - markup
   - mechanical-turk
@@ -1720,6 +1751,7 @@
   - qualtrics
   - r
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1732,11 +1764,9 @@
   date: 2016-09-30
   tags:
   - experimental
-  - google-sheets
   - harvard
   - harvard-phd-student
   - latex
-  - libreoffice
   - linguistics
   - markup
   - mechanical-turk
@@ -1745,6 +1775,7 @@
   - qualtrics
   - r
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1783,6 +1814,7 @@
   - latex
   - linguistics
   - markup
+  - semantics-pragmatics
   - talk
   - teaching
 - id: ongoing-lab-management-harvard
@@ -1817,6 +1849,7 @@
   - markup
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1853,6 +1886,7 @@
   - linguistics
   - markup
   - research
+  - semantics-pragmatics
   - speaking
   - syntax
   - talk
@@ -1898,6 +1932,7 @@
   - harvard
   - harvard-phd-student
   - linguistics
+  - semantics-pragmatics
   - teaching
   - tutorial
 - id: rec-sosland-2015
@@ -1922,6 +1957,7 @@
   - modified-numerals
   - research
   - scalar-phenomena
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1943,6 +1979,7 @@
   - markup
   - paper
   - research
+  - semantics-pragmatics
   - syntax
   - theoretical
   - writing
@@ -1961,6 +1998,7 @@
   - linguistics
   - markup
   - research
+  - semantics-pragmatics
   - speaking
   - talk
   - theoretical
@@ -1999,6 +2037,7 @@
   - markup
   - paper
   - research
+  - semantics-pragmatics
   - syntax
   - theoretical
   - writing
@@ -2022,6 +2061,7 @@
   - markup
   - paper
   - research
+  - semantics-pragmatics
   - syntax
   - theoretical
   - writing
@@ -2059,6 +2099,7 @@
   - linguistics
   - markup
   - research
+  - semantics-pragmatics
   - speaking
   - syntax
   - talk
@@ -2086,6 +2127,7 @@
   - linguistics
   - markup
   - research
+  - semantics-pragmatics
   - speaking
   - syntax
   - talk
@@ -2336,16 +2378,26 @@
   - documentation
   - performance-evaluation
 - id: project-docs-graph-architecture
-  sentence: I designed an information representation and retrieval plan where solution and
-    persona docs are "views" into the database that is the component docs.
+  sentence: 'As my capstone project for Canonical''s Design Academy UX program, I designed
+    a new information architecture for the Juju ecosystem entrypoint: I replaced its tree
+    topology (one parent per component doc set) with a directed acyclic graph -- specifically
+    a polyhierarchy, since a component doc can have more than one parent (e.g. the PostgreSQL
+    charm under both a Data and an Identity solution page) -- built from two node kinds: content
+    nodes (the component docsets, which remain the actual source of truth) and relational
+    nodes (persona/solution hubs, e.g. Charm Manager, Charm Developer, Data, Identity) that
+    index rather than duplicate them, so solution and persona pages become "views" generated
+    over the same underlying component docs.'
   date: 2025-12/2026-04
   tags:
   - canonical
   - canonical-senior-technical-author
   - documentation
   - knowledge-engineering
+  - maze
   - miro
   - research
+  - user-research
+  - ux
   - writing
 - id: ongoing-ux-onboarding-sessions-canonical
   sentence: I conduct user research sessions with new Canonical joiners during onboarding,
@@ -2449,3 +2501,18 @@
   - knowledge-engineering
   - prompt-engineering
   - writing
+- id: project-llms-txt
+  sentence: As part of three "Make docs AI friendly" JIRA epics, one per project, I implemented
+    llms.txt/llms-full.txt generation for Juju, the Terraform Provider for Juju, and JIMM
+    via the sphinx-llm extension, and cleaned up each project's doc source of HTML comments
+    that were adding noise to the AI-facing output.
+  date: 2026-03/2026-04
+  tags:
+  - ai-ml
+  - canonical
+  - canonical-senior-technical-author
+  - docs-as-code
+  - documentation
+  - jira
+  - knowledge-engineering
+  - sphinx

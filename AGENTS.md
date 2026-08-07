@@ -55,6 +55,18 @@ separate "Canonical" pill that would just repeat what those two already say.
     @article{...}    # talks/lightning talks
 ```
 
+**Sentence order: context clause first, then the actual claim (2026-08-07).** When an entry
+needs to name the circumstance it happened under (a program, a secondment, a role), lead with
+it as a subordinate "As X, ..." clause, then the main clause states what was actually done —
+never bury the context as a trailing parenthetical after the claim. Reader hits the frame once,
+up front, then reads the substance uninterrupted. E.g. "As my capstone project for Canonical's
+Design Academy UX program, I designed a new information architecture..." not "I designed a new
+information architecture... (as my capstone project for the Design Academy)." **Don't use the
+context clause to smuggle in detail that a tag already carries** — e.g. don't add "(interviews
+with the PM, conducted via Maze)" when `maze` and `user-research` are already tags on that same
+entry; the sentence's job is the argument/finding, the tags' job is the faceted metadata, and
+collapsing one into the other duplicates information in two places that can drift out of sync.
+
 **Editing `entries.yaml`: always via Python (`yaml.safe_load`/`yaml.dump`), never a direct
 text-editing tool.** This file's string-wrapping makes exact-text matches unreliable.
 Pattern:
