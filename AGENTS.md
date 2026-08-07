@@ -4,6 +4,15 @@ Quick reference for anyone — human or AI agent — touching `data/entries.yaml
 `data/groups.yaml`, or `layouts/index.html`. Describes current behavior only. Keep it that
 way: if something here goes stale, fix it or delete it, don't leave it as a decoy.
 
+**What this site is for (settled 2026-08-07, after building and then reverting a preview
+feature and considering a homepage "highlights" section):** a store for lifeDB — the entries,
+the tag filter, and links out to the artifacts. Not a marketing surface, not a design
+showcase. "Highlighting" specific work for a specific audience (recruiters, a LinkedIn post,
+whoever) is a job for wherever that audience already is, done by hand, per occasion — not a
+standing feature of this site. Before proposing a new section, widget, or visual flourish here,
+check that it serves *browsing/querying the record*, not *presenting a curated subset of it* —
+the latter belongs elsewhere, by design.
+
 ## Files
 
 - `data/entries.yaml` — the corpus. One entry per real eventuality (state/activity/
@@ -36,6 +45,23 @@ true` on a tag renders no pill for that tag specifically, and continues renderin
 into its children instead — e.g. `canonical` (under `roles`) is hidden, so the panel shows
 "Sr Technical Author @ Canonical" and "Technical Author @ Canonical" directly, with no
 separate "Canonical" pill that would just repeat what those two already say.
+
+## No presumption of exhaustivity (added 2026-08-07)
+
+Ordinary conversation carries a strong exhaustivity expectation for free: if A asks "which
+professor did the student talk to?" and B answers "P1 and P2," any listener infers that's the
+complete list — nobody else, or B would have said so (this is a Gricean Quantity-maxim effect,
+not a logical entailment of the words themselves). **The record, and any resume built as a
+filter over it, deliberately do not carry that same expectation.** An entry existing is
+evidence something happened; an entry *not* existing is not evidence it didn't — it may just
+not be written down yet, or ever. This isn't a flaw to eventually fix by achieving completeness
+— completeness was never the goal. Both the raw lifeDB record and any compressed resume view
+of it are low-resolution windows onto an actual life, which is the kind of thing you can know
+someone for fifty years and still keep finding new layers of. Recording something is allowed
+to be sloppy, partial, and opportunistic — there's no obligation to log everything, and no
+license for a reader to assume silence means absence. Don't write documentation, UI copy, or
+entries themselves in a way that implies (even accidentally) "this is the complete record of
+X" — that's a claim the system was never designed to make.
 
 ## Entry format
 
@@ -100,11 +126,48 @@ with open('data/entries.yaml', 'w') as f:
    an existing entry. Distinct event variable → its own entry. ("While a PhD student, I
    wrote a paper" is two entries — a state + an accomplishment — not one; a tool/methodology
    never gets its own entry, it's an adjunct on an existing one.)
+   **Corollary — doing vs. reporting-on-the-doing (clarified 2026-08-07):** the same split
+   applies between *doing the work* and *producing an artifact about it*, not just between
+   state and accomplishment. `project-personal-ontology` ("I designed and built lifeDB...")
+   and `blog-lifedb-framework` ("I wrote a blog post...") are two entries, not one, sharing
+   tags rather than one folding into the other. This is deliberate, and it's a real advantage
+   over the resume paradigm, not just a stylistic split: a resume only has room for things
+   with a deliverable to point to, so unshipped or never-written-up work has nowhere to live.
+   Here the doing is a complete, valid entry on its own, whether or not an artifact about it
+   ever exists, comes later, or never comes at all — recording the effort was never
+   conditional on there being something to link to.
+   **Corollary — repetition is not synthesis (clarified 2026-08-07):** a proceedings paper,
+   the journal version of the same result, and every talk given on it along the way are each
+   their own entry — never collapsed into one synthetic "I worked on X" line the way a
+   traditional academic CV might list "Intro to Semantics × 10" with no per-instance detail.
+   This isn't a tolerated side-effect of "no counts in the UI" (Test 4) — it's the actually
+   correct unit of recording, for a concrete reason: each instance is a genuinely distinct
+   real-world event, and any of them might carry something the others don't (a new angle in
+   the talk, a syllabus that changed substantially between one year's iteration and the next,
+   teaching evaluations worth noting for one offering and not another). Collapsing them loses
+   real, honest information that a specific instance might be the only place recording. **The
+   compression a traditional resume performs is real and sometimes wanted — it just doesn't
+   belong at the recording layer.** It belongs entirely in a separate, later, and deliberately
+   manual step: building an actual resume/CV as a curated filter over the full lifeDB record,
+   for a specific audience or application, where synthesizing five iterations of the same
+   course into one line (or not) is a presentation choice made on purpose, not a default baked
+   into how the underlying facts get recorded.
 2. **Affiliation-tagging test.** Tag an institution on an entry only when the affiliation
    was genuinely *attached to that specific work* — presented under it, employed/enrolled by
    it, or it sponsored/enabled the work. Being merely-current at the time isn't enough
    (volunteer proofreading and peer review, for instance, carry no institution tag even
    though they happened during a given employment window).
+   **Corollary — the same test, applied to domain on a recognition entry (clarified
+   2026-08-07):** an award/fellowship entry carries the domain of the work it recognizes, even
+   though the recognition event itself (a ceremony, a shout-out, a funding decision) didn't
+   involve *doing* that domain's work — the tag is attached because the entry is fundamentally
+   *about* that work being recognized, the same "genuinely attached" logic as an institution
+   tag, just pointed at domain instead. Every `rec-*` entry in the corpus already does this:
+   `rec-vca-2026` carries `documentation` though the award ceremony wasn't a documentation
+   event; the PhD-era funding entries (`rec-sosland-2015`, `rec-douglas-dillon`, ...) all
+   carry `linguistics` for the same reason, though receiving a fellowship isn't itself
+   research. (A Turing Award recipient's award entry would carry their field's domain tag on
+   this same logic, even if the ceremony obviously involved no actual research.)
 3. **Domain test.** "Does this support a job title?" is what makes something a `domain`
    rather than a finer-grained `topic`/subtag (e.g. "polarity sensitivity" isn't a domain —
    nobody has that job title — it's a topic nested under `linguistics`).
@@ -115,6 +178,19 @@ with open('data/entries.yaml', 'w') as f:
    surveys) does not — talks/papers are presenting-events built on a doing-event, not
    repetitions of the doing. Never derive a magnitude claim ("used in N projects") from a
    raw tagged-entry count without checking which kind of tag it is.
+   **Corollary, clarified 2026-08-07 (don't over-apply this test the way it was misapplied to
+   the `r`/`programming` question that day):** this test constrains *reading* a count, not
+   *applying* a true tag to several entries. Giving substantially the same talk at multiple
+   venues is normal academic practice — `talk-2016-lingedin-heterogeneity`, `talk-2016-mit`,
+   and `talk-2016-language-cognition-harvard` are three presentations of one body of
+   R-analyzed research within two months of each other, and `programming` correctly sits on
+   all three, same as `r`. It was briefly proposed to strip `programming` from the
+   re-presentations and keep it only on the one that felt most "original" (the eventual
+   published paper) — wrong move, caught and reverted the same day: since this site never
+   shows counts anywhere (see "no counts" in Rendering rules), there was never a magnitude
+   claim at risk to begin with, and each entry's own sentence already supplies whatever
+   context distinguishes it from its siblings. Don't re-litigate a tag's presence across
+   repeated presenting-events on magnitude grounds when nothing here ever displays a count.
 5. **Activity-vs-tool test (established 2026-08-06, adding `programming`/`markup`).** A
    *tool* tag (`python`, `bash`, `latex`, ...) means exposure to that instrument/ecosystem —
    it doesn't require personal authorship (same logic as a GitHub repo's language bar: 5%
@@ -128,10 +204,10 @@ with open('data/entries.yaml', 'w') as f:
    to entries with confirmed personal script-authorship (the WebPPL model, 8 R analysis
    scripts, one Python-tooling docset) — three python/bash-tagged docset entries were
    deliberately left untagged despite carrying the tool tag, because their personal-authorship
-   claim wasn't confirmed to the same bar ("I'm not claiming to be a Python programmer... all
-   I'm saying is I've used it, which is not false even if I don't currently have an entry to
-   support it" — a true claim the `python` tool tag already carries, that doesn't need
-   `programming` to also carry it). **Why the asymmetry isn't arbitrary:** it's a corollary of
+   claim wasn't confirmed to the same bar: she's used Python, which the `python` tool tag
+   already truthfully carries on its own, without that amounting to a claim of being a
+   programmer, which is the stronger thing `programming` would assert. **Why the asymmetry
+   isn't arbitrary:** it's a corollary of
    the neo-Davidsonian adjunct/core-predicate split this whole ontology already runs on
    (methodology = manner, tool = instrument, domain = theme — all adjuncts on one event
    variable; see "Data model" above). An activity tag asserts the event's core predicate with
@@ -141,6 +217,32 @@ with open('data/entries.yaml', 'w') as f:
    would also be true (if she really programmed in Python, Python is trivially also a tool
    she used) — but tool ⇏ activity, never the reverse. Not just "two different bars," a real
    asymmetric implication.
+
+## Hosted blog posts
+
+An entry can host its own full text on this site instead of (or as well as) linking out to
+where it was originally published. This is the `blog-post` tag's native path — but it's not
+blog-post-specific machinery: any entry whose artifact is text and lives here as a real page
+can use it, on the same terms as `links.pdf` is used for typeset artifacts.
+
+- **The page itself** is an ordinary Hugo content page under `content/blog/<slug>/index.md`,
+  with normal front matter (`title`, `date`). It renders with PaperMod's default
+  `single.html` — reading time, ToC, etc. — no custom layout needed. No nav tab links to it
+  and none is needed: discovery is entirely through the `blog-post` tag in the filter panel;
+  the page is still fully reachable at its own URL and gets a section archive at `/blog/` for
+  free.
+- **The entry** (`data/entries.yaml`) points at that page the same way it would point at any
+  other artifact — `links: {web: /blog/<slug>/}` — no dedicated field, nothing beyond the
+  standard `links` block.
+
+**No inline preview in the main list (decided against, 2026-08-07).** An earlier version of
+this tried several approaches to show a preview of each entry's artifact directly in the entry
+list — an auto-generated text summary, a hand-copied abstract, then a live embed (`<iframe>`
+for hosted posts, `<embed>` for PDFs, a real player for video, an Open-Graph link-card for
+external posts). All of it was reverted the same day: it added real visual clutter and
+duplicated what the `links` row underneath each entry already provides plainly. **The `links`
+row is the intended way to reach an artifact** — don't reintroduce an inline preview without a
+concrete reason the plain link isn't enough.
 
 ## Rendering rules
 

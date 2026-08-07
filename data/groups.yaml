@@ -273,8 +273,8 @@
   tags:
     - id: blog-post
       label: blog post
-    - id: course
-      label: course
+    - id: course-syllabus
+      label: course syllabus
     - id: docset
       label: doc set
     - id: interview

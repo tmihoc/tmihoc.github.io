@@ -58,7 +58,7 @@
     that deliberately surfaces match/no-match only, never a numeric count, since raw tag frequency
     can misrepresent real-world magnitude; and a live filter UI, hand-built in vanilla JavaScript,
     implementing all three.'
-  date: 2026-07/present
+  date: 2026-07/2026-08
   tags:
   - hugo
   - javascript
@@ -121,6 +121,7 @@
   - jira
   - mentoring
   - people-management
+  - performance-evaluation
 - id: pos-senior-ta-canonical
   sentence: I am a Senior Technical Author at Canonical.
   date: 2024-01/present
@@ -193,8 +194,8 @@
   desc: Mihoc, Teodora. 2026. Technically true is the only kind of true, and it shall set
     you free. Lightning talk, Canonical Engineering Sprint, May 13.
 - id: talk-2026-tree-to-graph
-  sentence: I argued that our ecosystem is graph-shaped and proposed a way for the docs to
-    catch up to that.
+  sentence: I argued that our ecosystem is graph-shaped (directed acyclic graph) and proposed
+    a way for the docs to catch up to that.
   date: '2026-02-12'
   tags:
   - canonical
@@ -214,7 +215,6 @@
   - canonical-senior-technical-author
   - documentation
   - employer-award
-  - people-management
 - id: course-design-academy
   sentence: I completed the Canonical Design Academy UX training program.
   date: 2025-12/2026-04
@@ -1183,7 +1183,7 @@
   links:
     syllabus: /linguistics/teaching/2020_intro.pdf
   tags:
-  - course
+  - course-syllabus
   - harvard
   - hes-instructor
   - linguistics
@@ -1572,7 +1572,6 @@
     sections, graded homework, and helped design, proctor, and grade exams.
   date: 2017-09/2017-12
   tags:
-  - course
   - harvard
   - harvard-phd-student
   - linguistics
@@ -1584,7 +1583,6 @@
     exams.
   date: 2017-09/2017-12
   tags:
-  - course
   - harvard
   - harvard-phd-student
   - linguistics
@@ -1800,7 +1798,6 @@
     exams.
   date: 2016-09/2016-12
   tags:
-  - course
   - harvard
   - harvard-phd-student
   - linguistics
@@ -1859,7 +1856,6 @@
     exams.
   date: 2016-01/2016-05
   tags:
-  - course
   - harvard
   - harvard-phd-student
   - linguistics
@@ -1917,7 +1913,6 @@
     sections and graded homework.
   date: 2015-09/2015-12
   tags:
-  - course
   - harvard
   - harvard-phd-student
   - linguistics
@@ -2208,7 +2203,6 @@
     I graded assignments and helped proctor exams.
   date: 2012-01/2012-04
   tags:
-  - course
   - linguistics
   - teaching
   - uottawa
@@ -2218,7 +2212,6 @@
     of Ottawa, I graded assignments and helped proctor exams.
   date: 2012-01/2012-04
   tags:
-  - course
   - linguistics
   - teaching
   - uottawa
@@ -2228,7 +2221,6 @@
     of Ottawa, I graded assignments and helped proctor exams.
   date: 2011-09/2011-12
   tags:
-  - course
   - linguistics
   - teaching
   - uottawa
