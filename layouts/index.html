@@ -48,7 +48,6 @@
 }
 .cv-year  { font-size: 0.78rem; color: var(--secondary); padding-top: 0.15rem; white-space: nowrap; }
 .cv-body  { font-size: 0.92rem; line-height: 1.5; }
-.cv-desc  { display: block; color: var(--secondary); font-size: 0.82rem; margin-top: 0.15rem; }
 .cv-tags  { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.3rem; }
 .cv-chip  { font-size: 0.68rem; padding: 0.08rem 0.4rem; border-radius: 0.2rem; background: var(--entry); color: var(--secondary); border: none; cursor: pointer; }
 .cv-chip:hover { background: var(--border); color: var(--primary); }
@@ -80,8 +79,12 @@
 }
 .social-icons a:hover { background: var(--primary); border-color: var(--primary); color: var(--theme); }
 .social-icons a svg { height: 16px; width: 16px; }
-.cv-cite-box { display: none; position: relative; margin-top: 0.4rem; padding: 0.5rem 0.7rem; background: var(--entry); border-radius: 0.25rem; font-size: 0.72rem; font-family: monospace; white-space: pre; overflow-x: auto; line-height: 1.5; }
+.cv-cite-box { display: none; position: relative; margin-top: 0.4rem; padding: 0.5rem 0.7rem; background: var(--entry); border-radius: 0.25rem; font-size: 0.72rem; overflow-x: auto; line-height: 1.5; }
 .cv-cite-box.open { display: block; }
+/* .cite is prose, shown plain. .bibtex is source, shown monospace/pre like the raw text it is.
+   Split the styling here instead of on the shared box, so both can appear together cleanly. */
+.cv-cite-text { white-space: normal; margin-bottom: 0.4rem; }
+.cv-bibtex-block { display: block; font-family: monospace; white-space: pre; }
 .cv-copy-btn { position: absolute; top: 0.35rem; right: 0.5rem; font-size: 0.65rem; background: none; border: 1px solid var(--border); border-radius: 0.2rem; cursor: pointer; padding: 0.1rem 0.35rem; color: var(--secondary); }
 #cv-noresults { display: none; color: var(--secondary); padding: 1.5rem 0; font-size: 0.9rem; }
 .cv-intro { margin-bottom: 2rem; }
@@ -203,8 +206,7 @@
     <div class="cv-year">{{ partial "fmt-period.html" .date }}</div>
     <div class="cv-body">
       {{ .sentence | safeHTML }}
-      {{ if .desc }}<span class="cv-desc">{{ .desc | safeHTML }}</span>{{ end }}
-      {{ if or .links .bibtex }}
+      {{ if or .links .bibtex .cite }}
       <div class="cv-links">
         {{ with .links }}
           {{ with .pdf      }}<a href="{{ . }}" class="cv-link" target="_blank">pdf</a>{{ end }}
@@ -220,10 +222,22 @@
           {{ with .hof      }}<a href="{{ . }}" class="cv-link" target="_blank">hall of fame</a>{{ end }}
           {{ with .syllabus }}<a href="{{ . }}" class="cv-link" target="_blank">syllabus</a>{{ end }}
         {{ end }}
-        {{ if .bibtex }}<button class="cv-cite-btn" data-id="{{ .id }}">cite</button>{{ end }}
+        {{ if .cite   }}<button class="cv-cite-btn" data-id="cite-{{ .id }}" data-label="cite">cite</button>{{ end }}
+        {{ if .bibtex }}<button class="cv-cite-btn" data-id="bibtex-{{ .id }}" data-label="bibtex">bibtex</button>{{ end }}
       </div>
       {{ end }}
-      {{ if .bibtex }}<div class="cv-cite-box" id="cite-{{ .id }}"><button class="cv-copy-btn" data-id="{{ .id }}">copy</button>{{ .bibtex }}</div>{{ end }}
+      {{ if .cite }}
+      <div class="cv-cite-box" id="cite-{{ .id }}">
+        <button class="cv-copy-btn" data-id="cite-{{ .id }}">copy</button>
+        <div class="cv-cite-text">{{ .cite | safeHTML }}</div>
+      </div>
+      {{ end }}
+      {{ if .bibtex }}
+      <div class="cv-cite-box" id="bibtex-{{ .id }}">
+        <button class="cv-copy-btn" data-id="bibtex-{{ .id }}">copy</button>
+        <div class="cv-bibtex-block">{{ .bibtex }}</div>
+      </div>
+      {{ end }}
       <div class="cv-tags">
         {{ $seen := dict }}{{ $chips := slice }}
         {{ range .tags }}{{ if not (index $seen .) }}
@@ -383,19 +397,21 @@ document.querySelectorAll('.cv-chip').forEach(function(chip) {
   chip.addEventListener('click', function() { selectTag(chip.dataset.tag); });
 });
 
-// Cite toggle
+// Cite/bibtex toggle -- two independent buttons and boxes per entry, one for the plain-text
+// citation, one for the raw bibtex. data-id on each button is the target box's own id, not an
+// entry id, so a cite click never opens or copies the sibling bibtex box, and vice versa.
 document.querySelectorAll('.cv-cite-btn').forEach(function(btn) {
   btn.addEventListener('click', function() {
-    var box = document.getElementById('cite-' + btn.dataset.id);
+    var box = document.getElementById(btn.dataset.id);
     var open = box.classList.toggle('open');
-    btn.textContent = open ? 'hide' : 'cite';
+    btn.textContent = open ? 'hide' : btn.dataset.label;
   });
 });
 
-// Copy bibtex
+// Copy cite or bibtex -- copies only the one box's own content, never both.
 document.querySelectorAll('.cv-copy-btn').forEach(function(btn) {
   btn.addEventListener('click', function() {
-    var box = document.getElementById('cite-' + btn.dataset.id);
+    var box = document.getElementById(btn.dataset.id);
     var text = box.innerText.replace(/^copy\n?/, '').trim();
     navigator.clipboard.writeText(text).then(function() {
       btn.textContent = 'copied!';

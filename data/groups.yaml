@@ -1,62 +1,3 @@
-# Tag group definitions. File order == filter order == entry-chip order.
-#
-# Order: roles -> domains -> activities -> methodology -> deliverables -> recognition.
-# Roles opens (the traditional "where has she worked" entry point); domains comes right after,
-# while that context is still fresh, answering "in what field" before narrowing into the
-# finer-grained "what did she do" (activities) and "how" (methodology). Pure reading-order, not a
-# data privilege — every group remains equally clickable-or-not, equally AND-composable; nothing
-# about *behavior* depends on position (see ADR-16 — no group is a partition, and reordering
-# doesn't reintroduce one).
-#
-# WITHIN each group: `roles` is reverse-chronological (most recent first, institutions and the
-# positions within each ordered by start date descending) — a traditional resume's order. Every
-# other group is alphabetical — there's no inherent sequence to activities, domains,
-# methodologies, deliverable types, or recognition types, so alphabetical is the neutral,
-# scan-friendly default.
-#
-# Label/id history: `domains` -> `areas-of-expertise` (both id and label, 2026-08-05) -> back to
-# `domains` (same day, later): the resume side briefly needed the id to match a displayed
-# "Areas of Expertise" label for a legible link, then dropped that framing entirely (the resume's
-# own section became "Domains," then stopped being a section at all, folded into Skills) —
-# leaving the site as the one place still asserting "expertise," permanently, for every visitor,
-# with none of the resume's per-application flexibility to soften it. Reverted to `domains` for
-# consistency and because that "expertise" concern (UX & Design and Knowledge Engineering are
-# real domain work without ever being the job title) applies here at least as much as it did to
-# the resume.
-#
-# NO PARTITION. No `kind`/`anchor`/`cross` flags anywhere — every group is symmetric:
-# {id, label, tags: [...]}. A tag entry may itself carry a nested `tags:` list, making it a PARENT
-# node (clickable, and its click means "this tag OR any of its descendants" — a real, multi-level
-# subsumption tree, not just a one-level facet-group rollup). A tag with no `tags:` is an ordinary
-# leaf (exact match, as always). Entries only ever reference LEAF or PARENT tag ids directly; the
-# tree lives entirely in this file (tags enriching tags — bipartite graph preserved, per ADR-2:
-# enrich set B with hierarchy, never add edges to A).
-#
-# ALL SIX group labels are pure organizing headers (ADR-16) — never clickable, never counted.
-# Their only job is to keep the pill cloud from reading as one unsorted wall of tags. Even
-# `recognition`/`deliverables` (former "kinds", briefly clickable rollups — ADR-13/15) lost that:
-# "what has she produced" isn't a stable proxy for value either (a senior/leadership contribution
-# is real but not always a countable deliverable), so there was no principled place left to draw
-# the "this one root gets a click" line — cleanest to make none of them clickable.
-#
-# The FILTER PANEL renders exactly ONE tier of pills under each header, never more — deeper
-# structure (e.g. `linguistics`'s specific sub-topics) still exists in the data and is fully
-# functional, just discoverable only via chips on the entries that carry it, not pre-populated
-# into the top panel. `hidden: true` implements this uniformly: a hidden node renders no pill of
-# its own, and rendering continues one level into its children instead (used for roles'
-# institutions — Harvard/Canonical/etc. — since a position's label already names its institution,
-# "PhD Student @ Harvard", so a separate "Harvard" pill would only duplicate that). Whichever tier
-# is the first non-hidden one is what renders; nothing past it does.
-#
-# NO COUNTS (ADR-16): a filtered/total count was tried and dropped — entry-count is an artifact of
-# how granularly something got written up, not a measure of real-world magnitude (200 interviews
-# summarized in one habitual sentence show as "hiring: 1", which actively misleads). Dim/lit stays
-# (a binary "any match at all", making no magnitude claim), the number does not.
-#
-# The clean 14-entry "professional timeline" competency question is still open — deliberately NOT
-# solved by giving `roles` special click semantics (tried and reverted, ADR-12/13). Separate
-# feature (see HANDOFF pending list), not a property of this tag.
-
 - id: roles
   label: roles
   tags:
@@ -187,6 +128,8 @@
       label: people management
     - id: performance-evaluation
       label: performance evaluation
+    - id: process-improvement
+      label: process improvement
     - id: programming
       label: programming
     - id: research
@@ -205,6 +148,10 @@
       label: computational
     - id: cross-linguistic
       label: cross-linguistic
+    - id: diagrams-as-code
+      label: diagrams-as-code
+    - id: diataxis
+      label: Diataxis
     - id: docs-as-code
       label: docs-as-code
     - id: experimental
@@ -262,9 +209,11 @@
     - id: read-the-docs
       label: Read the Docs
     - id: rst
-      label: RST
+      label: rST
     - id: sphinx
       label: Sphinx
+    - id: structurizr
+      label: Structurizr
     - id: yaml
       label: YAML
 

@@ -6,6 +6,7 @@
   - canonical
   - canonical-senior-technical-author
   - documentation
+  - mentoring
   - teaching
   - workshop
 - id: advise-certificate-management-docs
@@ -14,6 +15,7 @@
   tags:
   - canonical
   - canonical-senior-technical-author
+  - diataxis
   - docset
   - documentation
 - id: review-robotics-docs-2024
@@ -23,6 +25,7 @@
   tags:
   - canonical
   - canonical-senior-technical-author
+  - diataxis
   - docset
   - documentation
   - writing
@@ -34,6 +37,7 @@
   tags:
   - canonical
   - canonical-senior-technical-author
+  - cloud-operations
   - documentation
   - knowledge-engineering
   - ux
@@ -42,10 +46,11 @@
   sentence: I reviewed Netplan's documentation, then reviewed the improvements the team made
     in response to my feedback.
   date: 2022-09/2023-03
-  desc: Initial review Sep-Oct 2022; follow-up review of resulting improvements Mar 2023.
+  cite: Initial review Sep-Oct 2022; follow-up review of resulting improvements Mar 2023.
   tags:
   - canonical
   - canonical-technical-author
+  - diataxis
   - docset
   - documentation
 - id: project-personal-ontology
@@ -78,6 +83,7 @@
   - canonical
   - canonical-senior-technical-author
   - cloud-operations
+  - diataxis
   - docs-as-code
   - docset
   - documentation
@@ -99,6 +105,7 @@
   - canonical
   - canonical-senior-technical-author
   - cloud-operations
+  - diataxis
   - docs-as-code
   - docset
   - documentation
@@ -151,6 +158,7 @@
   - canonical-senior-technical-author
   - canonical-technical-author
   - cloud-operations
+  - diataxis
   - docs-as-code
   - docset
   - documentation
@@ -191,7 +199,7 @@
   - knowledge-engineering
   - speaking
   - talk
-  desc: Mihoc, Teodora. 2026. Technically true is the only kind of true, and it shall set
+  cite: Mihoc, Teodora. 2026. Technically true is the only kind of true, and it shall set
     you free. Lightning talk, Canonical Engineering Sprint, May 13.
 - id: talk-2026-tree-to-graph
   sentence: I argued that our ecosystem is graph-shaped (directed acyclic graph) and proposed
@@ -204,7 +212,7 @@
   - knowledge-engineering
   - speaking
   - talk
-  desc: 'Mihoc, Teodora. 2026. From tree to graph: An answer to the solution docs vs. product
+  cite: 'Mihoc, Teodora. 2026. From tree to graph: An answer to the solution docs vs. product
     docs challenge. Internal talk, Canonical, Feb 12.'
 - id: rec-vca-2026
   sentence: I received a Valuable Contribution Award from Canonical for my work refining the
@@ -215,6 +223,7 @@
   - canonical-senior-technical-author
   - documentation
   - employer-award
+  - mentoring
 - id: course-design-academy
   sentence: I completed the Canonical Design Academy UX training program.
   date: 2025-12/2026-04
@@ -244,19 +253,39 @@
   - talk
 - id: talk-2025-wtd-illustrated-docs
   sentence: 'As an attendee at Write the Docs Berlin, I ran an unconference session about
-    software diagrams. I held the position that three things matter -- branding, expressive
-    power, and maintainability (e.g., diagrams-as-code) -- with expressive power paramount:
-    no matter how polished a tool is, if it can''t tell the story you need to tell, it''s
-    no good.'
+    software diagrams. I emphasized three factors: branding, expressive power, and maintainability. I argued that diagrams-as-code shine in maintainability but often struggle with expressive power (and branding).'
   date: 2025-10-27
   links:
     web: https://docs.google.com/spreadsheets/d/11O2NRC3mQRIdH44OGgjSil3Y6YqpBIfvKqvVTYAsacQ/edit?gid=1637667081#gid=1637667081
   tags:
   - canonical
   - canonical-senior-technical-author
+  - diagrams-as-code
   - documentation
   - speaking
   - talk
+- id: diagrams-c4-structurizr-2024
+  sentence: I used the C4 model and structurizr, its champion tool, to diagram software
+    architecture in my documentation.
+  date: 2024-01/2024-04
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - diagrams-as-code
+  - documentation
+  - structurizr
+  - writing
+- id: review-c4-structurizr-2024
+  sentence: I wrote an internal report on the C4 model and its champion tool, Structurizr, pointing out shortcomings for distributed systems.
+  date: 2024-06-27
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - diagrams-as-code
+  - documentation
+  - process-improvement
+  - structurizr
+  - writing
 - id: rec-thank-you-2025
   sentence: I received a Canonical Thank You Award for helping shorten the Juju issues backlog
     and resolve high-profile bugs.
@@ -290,7 +319,7 @@
   - talk
   - user-research
   - ux
-  desc: 'Puerta, Lidia Luna, and Teodora Mihoc. 2024. When in doubt: User research and docs.
+  cite: 'Puerta, Lidia Luna, and Teodora Mihoc. 2024. When in doubt: User research and docs.
     Lightning talk, Canonical Sprint, Oct 22.'
 - id: training-canonical-user-research
   sentence: I attended an internal Canonical user research bootcamp.
@@ -305,10 +334,12 @@
   - ux
 - id: project-juju-docs-redesign
   sentence: I designed and implemented a new architecture for the core tools in the Juju ecosystem
-    docs, moving from 2 hybrid persona-component monoliths (mixing personas and software components,
-    with overlaps and gaps) to 6 modular, component-based docsets -- one per independently-released
-    piece of software, for easy governance, maintenance, and versioning -- kept interoperable
-    through a convergent architecture and a cross-referencing system.
+    docs, migrating Juju, the Terraform Provider for Juju, JAAS, Charmcraft, and Ops off Discourse
+    and onto docs-as-code. I moved from 2 hybrid persona-component monoliths (mixing personas
+    and software components, with overlaps and gaps) to 6 modular, component-based docsets --
+    one per independently-released piece of software, for easy governance, maintenance, and
+    versioning -- kept interoperable through a convergent architecture and a cross-referencing
+    system.
   date: 2024-07/2025-01
   links:
     docs: https://canonical.com/juju/docs
@@ -316,6 +347,7 @@
   - canonical
   - canonical-senior-technical-author
   - cloud-operations
+  - diataxis
   - docs-as-code
   - documentation
   - figma
@@ -337,7 +369,7 @@
   - documentation
   - speaking
   - talk
-  desc: Mihoc, Teodora. 2024. My documentation creed, currently. Lightning talk, Canonical
+  cite: Mihoc, Teodora. 2024. My documentation creed, currently. Lightning talk, Canonical
     Sprint, May 14.
 - id: project-charmhub-user-ui
   sentence: I helped write the copy for the Charmhub charm user UI.
@@ -368,6 +400,7 @@
   - canonical
   - canonical-senior-technical-author
   - canonical-technical-author
+  - diataxis
   - docset
   - documentation
   - linux
@@ -390,9 +423,10 @@
   - canonical
   - canonical-technical-author
   - documentation
+  - mentoring
   - teaching
   - workshop
-  desc: Mihoc, Teodora. 2023. How to win over hearts and minds with NOMAD docs. Workshop,
+  cite: Mihoc, Teodora. 2023. How to win over hearts and minds with NOMAD docs. Workshop,
     FAIRmat Meets Domain Experts retreat, Arnsberg, Oct 9-12.
 - id: talk-2023-juju-community-docs
   sentence: I gave a talk on Juju community and docs at a Juju Community Workshop.
@@ -428,6 +462,7 @@
   - canonical-technical-author
   - community
   - documentation
+  - mentoring
   - teaching
   - workshop
 - id: workshop-reference-docs
@@ -440,9 +475,10 @@
   - canonical-technical-author
   - documentation
   - knowledge-engineering
+  - mentoring
   - teaching
   - workshop
-  desc: Mihoc, Teodora. 2023. How to generate decent Reference docs quickly. Workshop, Canonical
+  cite: Mihoc, Teodora. 2023. How to generate decent Reference docs quickly. Workshop, Canonical
     Engineering Sprint, May 4.
 - id: talk-2023-juju-command-docs
   sentence: I gave a lightning talk (with Jordan Barrett and Juan Tirado) on how we improved
@@ -453,9 +489,10 @@
   - canonical-technical-author
   - cloud-operations
   - documentation
+  - process-improvement
   - speaking
   - talk
-  desc: Barrett, Jordan, Teodora Mihoc, and Juan M. Tirado. 2023. How we got Juju command
+  cite: Barrett, Jordan, Teodora Mihoc, and Juan M. Tirado. 2023. How we got Juju command
     docs to relax and stop lying. Lightning talk, Canonical Engineering Sprint, May 3.
 - id: workshop-charmhub-docs
   sentence: At a Canonical Engineering Sprint, I ran a workshop on how to add docs to charms
@@ -466,14 +503,15 @@
   - canonical-technical-author
   - community
   - documentation
+  - mentoring
   - teaching
   - workshop
-  desc: Mihoc, Teodora. 2023. Let's add docs to our charms on Charmhub! Workshop / campaign,
+  cite: Mihoc, Teodora. 2023. Let's add docs to our charms on Charmhub! Workshop / campaign,
     Canonical Engineering Sprint, May 2.
 - id: rec-juju-callout-2023
   sentence: I received a Juju Documentation Community Call-Out for my work on Juju docs.
   date: 2023-02-14
-  desc: 'James Beedy: "The Juju docs now set the standard for good documentation."'
+  cite: 'James Beedy: "The Juju docs now set the standard for good documentation."'
   links:
     web: https://discourse.charmhub.io/t/juju-documentation-call-out/8746
   tags:
@@ -516,6 +554,7 @@
   - ai-ml
   - canonical
   - canonical-technical-author
+  - diataxis
   - docset
   - documentation
   - linux
@@ -557,7 +596,7 @@
     of aspectual operators had left unaddressed, and explained them by drawing on existing
     analyses of disjunction, indefinites, minimizers, and numerals, which show the same patterns.
   date: 2022-06
-  desc: 'Mihoc, Teodora. 2022. Aspectual operators: Temporality, evaluativity, and polarity
+  cite: 'Mihoc, Teodora. 2022. Aspectual operators: Temporality, evaluativity, and polarity
     sensitivity. Preprint, LingBuzz.'
   links:
     pdf: /linguistics/papers/mihoc_2022_aspectual_operators.pdf
@@ -583,7 +622,7 @@
   date: 2022-06
   links:
     web: https://ubuntu.com/blog/humans-may-be-rational-or-how-to-collect-better-documentation-feedback-with-linguistic-theory
-  desc: Mihoc, Teodora. 2022. Humans may be rational, or how to collect better documentation
+  cite: Mihoc, Teodora. 2022. Humans may be rational, or how to collect better documentation
     feedback with linguistic theory. Ubuntu Blog, Canonical.
   tags:
   - blog-post
@@ -612,6 +651,7 @@
   tags:
   - canonical
   - canonical-technical-author
+  - diataxis
   - docset
   - documentation
   - knowledge-engineering
@@ -623,7 +663,7 @@
     differ in exactness, evaluativity, and ignorance because <em>not</em>, unlike <em>no</em>,
     generates an extra layer of negation alternatives.
   date: 2022-01
-  desc: Mihoc, Teodora. 2022. Negative comparison, or how to be judgmental and ignorant with
+  cite: Mihoc, Teodora. 2022. Negative comparison, or how to be judgmental and ignorant with
     scalar alternatives. University of Pennsylvania <em>University of Pennsylvania Working
     Papers in Linguistics</em> 28(1).
   links:
@@ -676,7 +716,7 @@
   - theoretical
   - uab
   - uab-visiting-scholar
-  desc: 'Mihoc, Teodora. 2021. Aspectual operators: Temporality, evaluativity, and polarity
+  cite: 'Mihoc, Teodora. 2021. Aspectual operators: Temporality, evaluativity, and polarity
     sensitivity. Invited talk at Grup de Lingüística Formal (GLiF), Universitat Pompeu Fabra,
     Nov 25.'
   bibtex: "@misc{mihoc2021glif,\n  author       = {Mihoc, Teodora},\n  title        = {Aspectual\
@@ -738,6 +778,7 @@
   - canonical
   - canonical-senior-technical-author
   - canonical-technical-author
+  - diataxis
   - docs-as-code
   - docset
   - documentation
@@ -759,6 +800,7 @@
   - canonical
   - canonical-senior-technical-author
   - canonical-technical-author
+  - diataxis
   - docs-as-code
   - docset
   - documentation
@@ -796,7 +838,7 @@
   - theoretical
   - uab
   - uab-visiting-scholar
-  desc: Mihoc, Teodora. 2021. Polarity sensitivity across domains. Invited talk at The Meaning
+  cite: Mihoc, Teodora. 2021. Polarity sensitivity across domains. Invited talk at The Meaning
     of Functional Categories, Universitat Autònoma de Barcelona, June 17–18.
   bibtex: "@misc{mihoc2021uabfunctional,\n  author       = {Mihoc, Teodora},\n  title    \
     \    = {Polarity sensitivity across domains},\n  year         = {2021},\n  howpublished\
@@ -807,7 +849,7 @@
     numerals are degraded under negation in ways that go beyond any one of four competing
     theoretical accounts, requiring insight from each.
   date: 2021-06
-  desc: 'Mihoc, Teodora and Kathryn Davidson. 2021. Superlative-modified numerals and negation:
+  cite: 'Mihoc, Teodora and Kathryn Davidson. 2021. Superlative-modified numerals and negation:
     A multiply negotiable cost. <em>Proceedings of Experiments in Linguistic Meaning</em>
     1, pp. 212–223.'
   links:
@@ -869,7 +911,7 @@
   - theoretical
   - uab
   - uab-visiting-scholar
-  desc: Mihoc, Teodora. 2021. Ignorance and positive polarity in indefinites, disjunction,
+  cite: Mihoc, Teodora. 2021. Ignorance and positive polarity in indefinites, disjunction,
     and numerals. Invited talk at Centre de Lingüística Teòrica (CLT), Universitat Autònoma
     de Barcelona, May 21.
   bibtex: "@misc{mihoc2021uabclt,\n  author       = {Mihoc, Teodora},\n  title        = {Ignorance\
@@ -886,7 +928,7 @@
   - semantics-pragmatics
   - speaking
   - talk
-  desc: Mihoc, Teodora. 2021. From Chomsky through Confucius to Montague and Grice (Or what
+  cite: Mihoc, Teodora. 2021. From Chomsky through Confucius to Montague and Grice (Or what
     I've been up to since I left LBUS). Invited talk at Lucian Blaga U of Sibiu, May 18.
 - id: poster-2021-lsrl
   sentence: I presented a poster at LSRL 51 arguing that Spanish <em>algún</em>, German <em>irgendein</em>,
@@ -909,7 +951,7 @@
   - research
   - speaking
   - theoretical
-  desc: Mihoc, Teodora. 2021. Singular, plural, modal. Refereed poster at Linguistic Symposium
+  cite: Mihoc, Teodora. 2021. Singular, plural, modal. Refereed poster at Linguistic Symposium
     on Romance Languages (LSRL) 51, U of Illinois at Urbana-Champaign (online), Apr 29–May
     1.
   bibtex: "@misc{mihoc2021lsrl51,\n  author       = {Mihoc, Teodora},\n  title        = {Singular,\
@@ -938,7 +980,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2021. Aspectual operators and polarity sensitivity. Refereed talk
+  cite: Mihoc, Teodora. 2021. Aspectual operators and polarity sensitivity. Refereed talk
     at Generative Linguistics in the Old World (GLOW) 44, online, Apr 5–7.
   bibtex: "@misc{mihoc2021glow44,\n  author       = {Mihoc, Teodora},\n  title        = {Aspectual\
     \ operators and polarity sensitivity},\n  year         = {2021},\n  howpublished = {Talk\
@@ -964,7 +1006,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2021. Negative comparison between exactness, ignorance, and evaluativity.
+  cite: Mihoc, Teodora. 2021. Negative comparison between exactness, ignorance, and evaluativity.
     Refereed talk at Penn Linguistics Conference (PLC) 45, U of Pennsylvania (online), Mar
     19–21.
   bibtex: "@misc{mihoc2021plc45,\n  author       = {Mihoc, Teodora},\n  title        = {Negative\
@@ -978,7 +1020,7 @@
     out in a principled way once their truth conditions, alternatives, and exhaustification
     mechanism are properly worked out.
   date: 2021-01
-  desc: 'Mihoc, Teodora. 2021. Modified numerals and polarity sensitivity: Between O(nly)DA
+  cite: 'Mihoc, Teodora. 2021. Modified numerals and polarity sensitivity: Between O(nly)DA
     and E(ven)SA. <em>Proceedings of Sinn und Bedeutung</em> 25, pp. 648–665.'
   links:
     pdf: /linguistics/papers/mihoc_2021_modified_numerals_and_polarity_sensitivity.pdf
@@ -1052,7 +1094,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2020. Epistemic indefinites, number marking, and certainty. Refereed
+  cite: Mihoc, Teodora. 2020. Epistemic indefinites, number marking, and certainty. Refereed
     talk at Sensus 1, U of Massachusetts at Amherst (online), Sep 26–27.
   bibtex: "@misc{mihoc2020sensus,\n  author       = {Mihoc, Teodora},\n  title        = {Epistemic\
     \ indefinites, number marking, and certainty},\n  year         = {2020},\n  howpublished\
@@ -1085,7 +1127,7 @@
   - speaking
   - talk
   - theoretical
-  desc: 'Mihoc, Teodora and Kathryn Davidson. 2020. Superlative-modified numerals and negation:
+  cite: 'Mihoc, Teodora and Kathryn Davidson. 2020. Superlative-modified numerals and negation:
     A negotiable cost. Refereed talk at Experiments in Linguistic Meaning (ELM) 1, U of Pennsylvania
     (online), Sep 16–18.'
   bibtex: "@misc{mihoc-davidson2020elm,\n  author       = {Mihoc, Teodora and Davidson, Kathryn},\n\
@@ -1114,7 +1156,7 @@
   - speaking
   - talk
   - theoretical
-  desc: 'Mihoc, Teodora. 2020. Modified numerals and polarity sensitivity: Between O(nly)DA
+  cite: 'Mihoc, Teodora. 2020. Modified numerals and polarity sensitivity: Between O(nly)DA
     and E(ven)SA. Refereed talk at Sinn und Bedeutung (SuB) 25, University College London
     / Queen Mary U of London (online), Sep 3–5.'
   bibtex: "@misc{mihoc2020sub25,\n  author       = {Mihoc, Teodora},\n  title        = {Modified\
@@ -1155,7 +1197,7 @@
     numerals show the same pattern of ignorance and anti-negativity, unified within a single
     alternatives-and-exhaustification account.
   date: 2020-01
-  desc: 'Mihoc, Teodora. 2020. Ignorance and anti-negativity in the grammar: or/some and modified
+  cite: 'Mihoc, Teodora. 2020. Ignorance and anti-negativity in the grammar: or/some and modified
     numerals. <em>Proceedings of NELS</em> 50, pp. 197–210.'
   links:
     pdf: /linguistics/papers/mihoc_2020_ignorance_and_antinegativity.pdf
@@ -1226,7 +1268,7 @@
   - speaking
   - talk
   - theoretical
-  desc: 'Mihoc, Teodora. 2019. Ignorance and anti-negativity in the grammar: <em>or</em>/<em>some</em>
+  cite: 'Mihoc, Teodora. 2019. Ignorance and anti-negativity in the grammar: <em>or</em>/<em>some</em>
     and modified numerals. Refereed talk at North East Linguistic Society (NELS) 50, MIT,
     Oct 24–27.'
   bibtex: "@misc{mihoc2019nels50,\n  author       = {Mihoc, Teodora},\n  title        = {Ignorance\
@@ -1247,7 +1289,7 @@
     comparative-modified, and superlative-modified numerals from a single alternatives-and-exhaustification
     account, with their differences traced to a novel morphological decomposition.
   date: 2019-06
-  desc: 'Mihoc, Teodora. 2019. Ignorance and polarity sensitivity in the grammar: From disjunction
+  cite: 'Mihoc, Teodora. 2019. Ignorance and polarity sensitivity in the grammar: From disjunction
     and indefinites to numerals. Unpublished manuscript.'
   links:
     pdf: /linguistics/papers/mihoc_2019_ignorance_and_polarity_sensitivity.pdf
@@ -1288,7 +1330,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora, Diti Bhadra, and Anamaria Fălăuș. 2019. Epistemic modals, deduction,
+  cite: Mihoc, Teodora, Diti Bhadra, and Anamaria Fălăuș. 2019. Epistemic modals, deduction,
     and factivity. Refereed talk at Semantics and Linguistic Theory (SALT) 29, UCLA, May 17–19.
   bibtex: "@misc{mihoc-etal2019salt,\n  author       = {Mihoc, Teodora and Bhadra, Diti and\
     \ F\\u{a}l\\u{a}u\\c{s}, Anamaria},\n  title        = {Epistemic modals, deduction, and\
@@ -1308,7 +1350,7 @@
     factive contexts, and proposing a unified analysis based on modal weakness and factive
     presupposition.
   date: 2019-05
-  desc: 'Mihoc, Teodora, Diti Bhadra, and Anamaria Fălăuș. 2019. Epistemic modals, deduction,
+  cite: 'Mihoc, Teodora, Diti Bhadra, and Anamaria Fălăuș. 2019. Epistemic modals, deduction,
     and factivity: New insights from the epistemic future. <em>Proceedings of SALT</em> 29,
     pp. 351–370.'
   links:
@@ -1337,7 +1379,7 @@
     similarities and differences in ways completely consistent with how these phenomena are
     handled in other categories of language, e.g., disjunction and indefinites.
   date: 2019-05
-  desc: 'Mihoc, Teodora. 2019. Decomposing logic: Modified numerals, polarity, and exhaustification.
+  cite: 'Mihoc, Teodora. 2019. Decomposing logic: Modified numerals, polarity, and exhaustification.
     PhD thesis, Harvard University.'
   links:
     pdf: /linguistics/papers/mihoc_2019_phd_decomposing_logic.pdf
@@ -1381,7 +1423,7 @@
   - scalar-phenomena
   - speaking
   - theoretical
-  desc: 'Mihoc, Teodora. 2019. Ignorance and polarity sensitivity in modified numerals and
+  cite: 'Mihoc, Teodora. 2019. Ignorance and polarity sensitivity in modified numerals and
     beyond. Refereed poster at Workshop: The meaning of numerals: cognitive, experimental,
     and semantic perspectives, ZAS, Berlin, Mar 27–28.'
   bibtex: "@misc{mihoc2019berlin,\n  author       = {Mihoc, Teodora},\n  title        = {Ignorance\
@@ -1418,7 +1460,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2018. The alternatives of bare and modified numerals. Refereed talk
+  cite: Mihoc, Teodora. 2018. The alternatives of bare and modified numerals. Refereed talk
     at Rencontres d'Automne de Linguistique Formelle (RALFe), U of Paris 8 / CNRS, Paris,
     Dec 6–7.
   bibtex: "@misc{mihoc2018ralfe,\n  author       = {Mihoc, Teodora},\n  title        = {The\
@@ -1445,7 +1487,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2018. Modified numerals between polarity and valence. Invited talk
+  cite: Mihoc, Teodora. 2018. Modified numerals between polarity and valence. Invited talk
     at Laboratoire de Linguistique de Nantes, CNRS/U of Nantes, Dec 3.
   bibtex: "@misc{mihoc2018nantes,\n  author       = {Mihoc, Teodora},\n  title        = {Modified\
     \ numerals between polarity and valence},\n  year         = {2018},\n  howpublished =\
@@ -1455,7 +1497,7 @@
   sentence: I received a GSAS Dissertation Completion Fellowship ($36,472) from Harvard for
     the 2018–19 academic year.
   date: 2018-09
-  desc: Awarded to enable full-time dissertation completion, free from teaching obligations.
+  cite: Awarded to enable full-time dissertation completion, free from teaching obligations.
   tags:
   - funding
   - harvard
@@ -1481,7 +1523,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2018. An extent-based GQT-style unified implicature account of bare
+  cite: Mihoc, Teodora. 2018. An extent-based GQT-style unified implicature account of bare
     and modified numerals. Invited talk at Institute for Logic, Language, and Computation
     (ILLC), U of Amsterdam, June 12.
   bibtex: "@misc{mihoc2018illc,\n  author       = {Mihoc, Teodora},\n  title        = {An\
@@ -1507,7 +1549,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2018. Scope asymmetry, QUDs, and exhaustification. Talk at LingedIn,
+  cite: Mihoc, Teodora. 2018. Scope asymmetry, QUDs, and exhaustification. Talk at LingedIn,
     Harvard U, May 4.
   bibtex: "@misc{mihoc2018scope,\n  author       = {Mihoc, Teodora},\n  title        = {Scope\
     \ asymmetry, {QUDs}, and exhaustification},\n  year         = {2018},\n  howpublished\
@@ -1531,7 +1573,7 @@
     deriving cross-linguistic differences from the presence or absence of a Derived Kind Predication
     operation spelled out by French partitive <em>de</em>.
   date: 2018-01
-  desc: Gonzalez, Aurore and Teodora Mihoc. 2018. A neo-Carlsonian approach to bare plural
+  cite: Gonzalez, Aurore and Teodora Mihoc. 2018. A neo-Carlsonian approach to bare plural
     nominals in Romanian and French. Unpublished manuscript.
   links:
     pdf: /linguistics/papers/gonzalez_mihoc_2018_a_neo-carlsonian.pdf
@@ -1614,7 +1656,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora and Kathryn Davidson. 2017. Testing a PPI analysis of superlative-modified
+  cite: Mihoc, Teodora and Kathryn Davidson. 2017. Testing a PPI analysis of superlative-modified
     numerals. Refereed talk at Experimental Pragmatics (XPrag) 7, U of Cologne, June 21–23.
   bibtex: "@misc{mihoc-davidson2017xprag,\n  author       = {Mihoc, Teodora and Davidson,\
     \ Kathryn},\n  title        = {Testing a {PPI} analysis of superlative-modified numerals},\n\
@@ -1628,6 +1670,7 @@
   - harvard
   - harvard-phd-student
   - linguistics
+  - mentoring
   - programming
   - r
   - teaching
@@ -1654,7 +1697,7 @@
   - syntax
   - talk
   - theoretical
-  desc: González, Aurore and Teodora Mihoc. 2017. Bare nominals in French and Romanian. Refereed
+  cite: González, Aurore and Teodora Mihoc. 2017. Bare nominals in French and Romanian. Refereed
     talk at Linguistic Symposium on Romance Languages (LSRL) 47, U of Delaware, Apr 20–23.
   bibtex: "@misc{gonzalez-mihoc2017lsrl,\n  author       = {Gonz\\'{a}lez, Aurore and Mihoc,\
     \ Teodora},\n  title        = {Bare nominals in {F}rench and {R}omanian},\n  year    \
@@ -1667,7 +1710,7 @@
     experimental endorsement asymmetries without stipulating ad hoc priors, implemented in
     WebPPL, a purely functional probabilistic subset of JavaScript.
   date: 2018
-  desc: 'Agrawal, Akshat and Teodora Mihoc. 2018. Numeral-negation scope endorsement asymmetry:
+  cite: 'Agrawal, Akshat and Teodora Mihoc. 2018. Numeral-negation scope endorsement asymmetry:
     An alternative RSA model. Unpublished manuscript.'
   bibtex: "@unpublished{agrawal-mihoc2018rsa,\n  author = {Agrawal, Akshat and Mihoc, Teodora},\n\
     \  title  = {Numeral-negation scope endorsement asymmetry: {A}n alternative {RSA} model},\n\
@@ -1731,7 +1774,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
+  cite: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
     superlative numeral modifiers. Talk, Language and Cognition, Harvard University, Nov 29.
 - id: talk-2016-mit
   sentence: I gave an invited talk on heterogeneity in comparative and superlative numeral
@@ -1754,7 +1797,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
+  cite: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
     superlative numeral modifiers. Talk, Experimental Syntax & Semantics Lab / Language Acquisition
     Lab, MIT, Oct 18.
 - id: talk-2016-lingedin-heterogeneity
@@ -1778,7 +1821,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
+  cite: Mihoc, Teodora. 2016. More evidence of heterogeneity in the class of comparative and
     superlative numeral modifiers. Talk, LingedIn, Harvard University, Sep 30.
 - id: workshop-latex-intro
   sentence: I co-ran (with Laurence B. Violette) an Introduction to LaTeX workshop at Harvard
@@ -1936,7 +1979,7 @@
 - id: rec-sosland-2015
   sentence: I received a Sosland Family Graduate Fellowship ($9,435) from Harvard.
   date: 2015-09
-  desc: Awarded by the Harvard Department of Linguistics.
+  cite: Awarded by the Harvard Department of Linguistics.
   tags:
   - funding
   - harvard
@@ -1965,7 +2008,7 @@
     licensed by an exhaustive question operator and equivalent to Russian <em>li</em>, <em>ili</em>,
     and <em>esli</em>.
   date: 2015-01
-  desc: 'Mihoc, Teodora. 2015. Georgian tu: A ka particle. Unpublished manuscript.'
+  cite: 'Mihoc, Teodora. 2015. Georgian tu: A ka particle. Unpublished manuscript.'
   bibtex: "@unpublished{mihoc2015georgian,\n  author = {Mihoc, Teodora},\n  title  = {{Georgian}\
     \ tu: {A} ka particle},\n  year   = {2015},\n  note   = {Unpublished manuscript}\n}\n"
   tags:
@@ -2000,7 +2043,7 @@
   - speaking
   - talk
   - theoretical
-  desc: Mihoc, Teodora. 2014. The broader epistemic future. Invited talk at Commitment Phenomena
+  cite: Mihoc, Teodora. 2014. The broader epistemic future. Invited talk at Commitment Phenomena
     through the Study of Evidential Markers in Romance Languages, U of Neuchâtel, Sep 5.
   bibtex: "@misc{mihoc2014neuchatel,\n  author       = {Mihoc, Teodora},\n  title        =\
     \ {The broader epistemic future},\n  year         = {2014},\n  howpublished = {Invited\
@@ -2009,7 +2052,7 @@
 - id: rec-sosland-2014
   sentence: I received a Sosland Family Graduate Fellowship ($7,924) from Harvard.
   date: 2014-09
-  desc: Awarded by the Harvard Department of Linguistics.
+  cite: Awarded by the Harvard Department of Linguistics.
   tags:
   - funding
   - harvard
@@ -2019,7 +2062,7 @@
   sentence: I wrote a paper on the Romanian epistemic <em>will</em> and the Romanian <em>will</em>-based
     future tense, proposing a unified semantic analysis of the epistemic and temporal uses.
   date: 2014-06
-  desc: 'Mihoc, Teodora. 2014. The Romanian presumptive mood: The key to the Romanian will-future.
+  cite: 'Mihoc, Teodora. 2014. The Romanian presumptive mood: The key to the Romanian will-future.
     <em>Ottawa Papers in Linguistics</em> 38.'
   links:
     pdf: /linguistics/papers/mihoc_2013_the_romanian_presumptive_mood_the_key.pdf
@@ -2043,7 +2086,7 @@
   sentence: I wrote a paper proposing a unified semantic account of the Romanian future-and-presumptive
     auxiliary from the point of view of its temporal, epistemic, and evidential properties.
   date: 2014-01
-  desc: Mihoc, Teodora. 2014. The Romanian future-and-presumptive auxiliary. <em>McGill Working
+  cite: Mihoc, Teodora. 2014. The Romanian future-and-presumptive auxiliary. <em>McGill Working
     Papers in Linguistics</em> 24(1), pp. 64–80.
   links:
     pdf: /linguistics/papers/mihoc_2014_the_romanian_future_and.pdf
@@ -2073,6 +2116,7 @@
   - latex
   - linguistics
   - markup
+  - mentoring
   - syntax
   - teaching
   - workshop
@@ -2087,7 +2131,7 @@
 - id: talk-2013-snews
   sentence: I gave a talk on the Romanian presumptive mood.
   date: 2013-11-16
-  desc: 'Mihoc, Teodora. 2013. Romanian presumptivity: The future case in point. Talk, Southern
+  cite: 'Mihoc, Teodora. 2013. Romanian presumptivity: The future case in point. Talk, Southern
     New England Workshop on Semantics (SNEWS), MIT, Nov 16.'
   tags:
   - epistemic-modals
@@ -2105,7 +2149,7 @@
 - id: rec-douglas-dillon
   sentence: I received a Douglas Dillon Fellowship ($25,300) from Harvard.
   date: 2013-09
-  desc: Named a Dillon Fellow for 2013–14 on the recommendation of the Department; fund supports
+  cite: Named a Dillon Fellow for 2013–14 on the recommendation of the Department; fund supports
     international students at Harvard.
   tags:
   - funding
@@ -2132,7 +2176,7 @@
   - theoretical
   - uottawa
   - uottawa-research-assistant
-  desc: Mihoc, Teodora. 2013. The Romanian presumptive mood and the key to the Romanian <em>will</em>-future.
+  cite: Mihoc, Teodora. 2013. The Romanian presumptive mood and the key to the Romanian <em>will</em>-future.
     Refereed talk at Toronto-Ottawa-Montreal Workshop on Semantics (TOM) 6, McGill U, Mar
     23.
   bibtex: "@misc{mihoc2013tom,\n  author       = {Mihoc, Teodora},\n  title        = {The\
@@ -2159,7 +2203,7 @@
 - id: thesis-ma
   sentence: I wrote a MA thesis on the Romanian presumptive mood.
   date: 2012-08
-  desc: 'Mihoc, Teodora. 2012. The Romanian Presumptive Mood: Inferential evidentiality and
+  cite: 'Mihoc, Teodora. 2012. The Romanian Presumptive Mood: Inferential evidentiality and
     upper-end degree epistemic modality. MA thesis, University of Ottawa.'
   links:
     pdf: /linguistics/papers/mihoc_2012_ma_the_romanian_presumptive_mood.pdf
@@ -2232,7 +2276,7 @@
   sentence: I received an International Differential Admission Scholarship from the University
     of Ottawa.
   date: 2011-09
-  desc: Awarded on the recommendation of the Department of Linguistics (research paper option).
+  cite: Awarded on the recommendation of the Department of Linguistics (research paper option).
     Covered tuition differential for international students plus a $9,000/year departmental
     assistantship.
   tags:
@@ -2268,7 +2312,7 @@
 - id: thesis-ba
   sentence: 'I wrote my BA thesis on from Plato to Derrida: the dissolution of the author.'
   date: 2010-06
-  desc: 'Mihoc, Teodora. 2010. From Plato to Derrida: The dissolution of the author. BA thesis,
+  cite: 'Mihoc, Teodora. 2010. From Plato to Derrida: The dissolution of the author. BA thesis,
     Lucian Blaga University of Sibiu.'
   bibtex: "@mastersthesis{mihoc2010plato,\n  author = {Mihoc, Teodora},\n  title  = {From\
     \ {Plato} to {Derrida}: {T}he dissolution of the author},\n  type   = {{BA} thesis},\n\
@@ -2345,7 +2389,9 @@
   - canonical
   - canonical-senior-technical-author
   - documentation
+  - mentoring
   - people-management
+  - process-improvement
   - writing
 - id: service-promotion-committee-2023
   sentence: I served on the promotion committee for 1 person, reviewing their application
