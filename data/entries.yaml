@@ -1,3 +1,14 @@
+- id: review-security-docs-2023
+  sentence: I gave Canonical's Security team a comprehensive documentation review, with detailed
+    improvement suggestions.
+  date: 2023-07
+  tags:
+  - canonical
+  - canonical-technical-author
+  - diataxis
+  - docset
+  - documentation
+  - writing
 - id: workshop-observability-docs
   sentence: I ran a documentation workshop for the Observability Stack team at a Canonical
     sprint.
@@ -53,6 +64,7 @@
   - diataxis
   - docset
   - documentation
+  - networking
 - id: project-personal-ontology
   sentence: 'I designed and built lifeDB, a system for recording, modeling, and querying one''s
     professional activity, in four layers: a bipartite graph of dated entries and tags (one
@@ -253,7 +265,9 @@
   - talk
 - id: talk-2025-wtd-illustrated-docs
   sentence: 'As an attendee at Write the Docs Berlin, I ran an unconference session about
-    software diagrams. I emphasized three factors: branding, expressive power, and maintainability. I argued that diagrams-as-code shine in maintainability but often struggle with expressive power (and branding).'
+    software diagrams. I emphasized three factors: branding, expressive power, and maintainability.
+    I argued that diagrams-as-code shine in maintainability but often struggle with expressive
+    power (and branding).'
   date: 2025-10-27
   links:
     web: https://docs.google.com/spreadsheets/d/11O2NRC3mQRIdH44OGgjSil3Y6YqpBIfvKqvVTYAsacQ/edit?gid=1637667081#gid=1637667081
@@ -265,8 +279,8 @@
   - speaking
   - talk
 - id: diagrams-c4-structurizr-2024
-  sentence: I used the C4 model and structurizr, its champion tool, to diagram software
-    architecture in my documentation.
+  sentence: I used the C4 model and structurizr, its champion tool, to diagram software architecture
+    in my documentation.
   date: 2024-01/2024-04
   tags:
   - canonical
@@ -276,7 +290,8 @@
   - structurizr
   - writing
 - id: review-c4-structurizr-2024
-  sentence: I wrote an internal report on the C4 model and its champion tool, Structurizr, pointing out shortcomings for distributed systems.
+  sentence: I wrote an internal report on the C4 model and its champion tool, Structurizr,
+    pointing out shortcomings for distributed systems.
   date: 2024-06-27
   tags:
   - canonical
@@ -336,9 +351,9 @@
   sentence: I designed and implemented a new architecture for the core tools in the Juju ecosystem
     docs, migrating Juju, the Terraform Provider for Juju, JAAS, Charmcraft, and Ops off Discourse
     and onto docs-as-code. I moved from 2 hybrid persona-component monoliths (mixing personas
-    and software components, with overlaps and gaps) to 6 modular, component-based docsets --
-    one per independently-released piece of software, for easy governance, maintenance, and
-    versioning -- kept interoperable through a convergent architecture and a cross-referencing
+    and software components, with overlaps and gaps) to 6 modular, component-based docsets
+    -- one per independently-released piece of software, for easy governance, maintenance,
+    and versioning -- kept interoperable through a convergent architecture and a cross-referencing
     system.
   date: 2024-07/2025-01
   links:

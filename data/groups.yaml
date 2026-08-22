@@ -58,6 +58,8 @@
           label: AI & ML
         - id: cloud-operations
           label: cloud operations
+        - id: networking
+          label: networking
         - id: virtualization
           label: virtualization
     - id: editing
