@@ -2572,3 +2572,31 @@
   - jira
   - knowledge-engineering
   - sphinx
+- id: project-ggarch
+  sentence: I designed ggarch, an open-source diagrams-as-code tool for software architecture
+    that unifies branding, expressive power, and maintainability -- three properties I'd previously
+    argued existing tools never deliver together -- around a typed vocabulary of nodes, edges,
+    lifecycle, cardinality, and abstraction relationships, kept consistent across every view
+    by a validator. An AI coding agent implemented it under my direction.
+  date: 2026-08/present
+  links:
+    web: https://github.com/tmihoc/ggarch
+  tags:
+  - diagrams-as-code
+  - knowledge-engineering
+  - programming
+  - python
+- id: project-juju-architecture-ggarch
+  sentence: As part of the JUJU-9632 epic, I'm rewriting the Juju CLI's architecture documentation
+    as diagrams generated from one ggarch model, replacing static images with versions that
+    stay accurate as the system changes and can be diffed and reviewed like code.
+  date: 2026-09/present
+  links:
+    docs: https://canonical.com/juju/docs/juju-cli/4.1/explanation/architecture/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - diagrams-as-code
+  - docs-as-code
+  - documentation

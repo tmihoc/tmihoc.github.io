@@ -535,6 +535,17 @@ activity is genuine, the matching tool tag follows automatically — genuine Pyt
 Python trivially a tool that was used. The reverse never holds: a talk can run on LaTeX slides
 someone else wrote, earning `latex` but not `markup`-as-authorship, and certainly not
 `programming`.
+
+What counts as "personal authorship" of `programming` specifically no longer means personally
+typing every character. An agentic coding tool can implement a whole codebase from a spec; the
+test is the kind of thing that got made and who drove its creation, not who held the keyboard —
+designing the architecture, the typed vocabulary, the behavior, and directing an AI agent through
+building it is authorship of software, the same way directing research without personally running
+every instrument is still authorship of the research. A reviewer who merely approves someone
+else's PR, or a manager who requests a feature without shaping its design, still doesn't clear the
+bar — direction has to be real, not nominal. This widened test is `programming`-specific for now;
+whether the same logic extends to `writing` for AI-drafted prose is a live question, not yet
+settled either way.
 </details>
 
 <details>
