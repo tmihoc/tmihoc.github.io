@@ -78,7 +78,7 @@
     implementing all three.'
   date: 2026-07/2026-08
   tags:
-  - ai-assisted
+  - ai
   - hugo
   - javascript
   - knowledge-engineering
@@ -2524,12 +2524,12 @@
   links:
     web: https://github.com/juju/juju/pull/22055
   tags:
+  - ai
   - canonical
   - canonical-senior-technical-author
   - documentation
   - go
   - knowledge-engineering
-  - prompt-engineering
   - writing
 - id: project-juju-agents-documentation-rules
   sentence: I created an AI prompt codifying Juju's documentation philosophy, conventions,
@@ -2540,11 +2540,11 @@
   links:
     web: https://github.com/juju/juju/pull/22087
   tags:
+  - ai
   - canonical
   - canonical-senior-technical-author
   - documentation
   - knowledge-engineering
-  - prompt-engineering
   - writing
 - id: project-juju-agents-cloud-reference
   sentence: I created an AI prompt codifying conventions for Juju's cloud reference docs,
@@ -2553,11 +2553,11 @@
   links:
     web: https://github.com/juju/juju/pull/22577
   tags:
+  - ai
   - canonical
   - canonical-senior-technical-author
   - documentation
   - knowledge-engineering
-  - prompt-engineering
   - writing
 - id: project-llms-txt
   sentence: As part of three "Make docs AI friendly" JIRA epics, one per project, I implemented
@@ -2584,7 +2584,7 @@
   links:
     web: https://github.com/tmihoc/ggarch
   tags:
-  - ai-assisted
+  - ai
   - diagrams-as-code
   - knowledge-engineering
   - programming

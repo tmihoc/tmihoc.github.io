@@ -148,8 +148,8 @@
 - id: methodologies
   label: methodologies
   tags:
-    - id: ai-assisted
-      label: AI-assisted
+    - id: ai
+      label: AI
     - id: computational
       label: computational
     - id: cross-linguistic
@@ -168,8 +168,6 @@
       label: lifeDB
     - id: markup
       label: markup
-    - id: prompt-engineering
-      label: prompt engineering
     - id: theoretical
       label: theoretical
     - id: user-research
