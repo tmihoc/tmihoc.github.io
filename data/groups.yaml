@@ -60,6 +60,8 @@
           label: cloud operations
         - id: networking
           label: networking
+        - id: observability
+          label: observability
         - id: virtualization
           label: virtualization
     - id: editing

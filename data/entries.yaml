@@ -18,6 +18,7 @@
   - canonical-senior-technical-author
   - documentation
   - mentoring
+  - observability
   - teaching
   - workshop
 - id: advise-certificate-management-docs
@@ -2588,3 +2589,34 @@
   - knowledge-engineering
   - programming
   - python
+- id: howto-juju-controller-observability
+  sentence: 'I wrote and maintain the Juju how-to guide for monitoring a controller with Prometheus
+    and Grafana, including the Grafana dashboard workflow: generating an admin password, logging
+    in, and importing a dashboard JSON file.'
+  date: 2025-07/present
+  links:
+    docs: https://canonical.com/juju/docs/juju-cli/latest/howto/manage-controllers/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - diataxis
+  - docs-as-code
+  - docset
+  - documentation
+  - observability
+  - writing
+- id: review-jaas-observability-docs
+  sentence: I reviewed a new set of JAAS how-to docs covering Grafana, Loki, and Prometheus
+    integration, in collaboration with the engineer who wrote them.
+  date: 2026-09
+  links:
+    web: https://canonical.com/juju/docs/jaas/v3/howto/observability-cos/
+  tags:
+  - canonical
+  - canonical-senior-technical-author
+  - cloud-operations
+  - diataxis
+  - docset
+  - documentation
+  - observability
