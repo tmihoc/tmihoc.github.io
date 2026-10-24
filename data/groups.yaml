@@ -54,10 +54,12 @@
     - id: documentation
       label: documentation
       tags:
-        - id: ai-ml
-          label: AI & ML
+        - id: artificial-intelligence
+          label: AI
         - id: cloud-operations
           label: cloud operations
+        - id: machine-learning
+          label: ML
         - id: networking
           label: networking
         - id: observability

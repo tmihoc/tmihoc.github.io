@@ -559,7 +559,7 @@
     coherent outputs that are however not coherent with one another.
   date: 2022-12
   tags:
-  - ai-ml
+  - artificial-intelligence
   - linguistics
   - peer-review
 - id: docset-charmed-kubeflow
@@ -568,13 +568,14 @@
   links:
     docs: https://charmed-kubeflow.io/docs
   tags:
-  - ai-ml
+  - artificial-intelligence
   - canonical
   - canonical-technical-author
   - diataxis
   - docset
   - documentation
   - linux
+  - machine-learning
   - writing
 - id: project-juju-is-menu
   sentence: I helped write the copy and design the content flow for the juju.is menu.
@@ -2566,7 +2567,7 @@
     that were adding noise to the AI-facing output.
   date: 2026-03/2026-04
   tags:
-  - ai-ml
+  - artificial-intelligence
   - canonical
   - canonical-senior-technical-author
   - docs-as-code
