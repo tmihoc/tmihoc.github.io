@@ -146,6 +146,8 @@
 - id: methodologies
   label: methodologies
   tags:
+    - id: ai-assisted
+      label: AI-assisted
     - id: computational
       label: computational
     - id: cross-linguistic
