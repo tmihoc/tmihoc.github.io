@@ -8,7 +8,6 @@
   - diataxis
   - docset
   - documentation
-  - writing
 - id: workshop-observability-docs
   sentence: I ran a documentation workshop for the Observability Stack team at a Canonical
     sprint.
@@ -40,7 +39,6 @@
   - diataxis
   - docset
   - documentation
-  - writing
 - id: project-rocks-entrypoint-and-template
   sentence: I played a key role in the design of the Canonical containers entrypoint page
     (introducing Rockcraft, Chisel, and Pebble) and in the documentation template used for
@@ -53,7 +51,6 @@
   - documentation
   - knowledge-engineering
   - ux
-  - writing
 - id: review-netplan-docs
   sentence: I reviewed Netplan's documentation, then reviewed the improvements the team made
     in response to my feedback.
@@ -85,7 +82,6 @@
   - lifedb
   - programming
   - research
-  - writing
   - yaml
 - id: docset-jaas
   sentence: I help write and maintain the JAAS documentation at Canonical.
@@ -290,7 +286,6 @@
   - diagrams-as-code
   - documentation
   - structurizr
-  - writing
 - id: review-c4-structurizr-2024
   sentence: I wrote an internal report on the C4 model and its champion tool, Structurizr,
     pointing out shortcomings for distributed systems.
@@ -2410,7 +2405,6 @@
   - mentoring
   - people-management
   - process-improvement
-  - writing
 - id: service-promotion-committee-2023
   sentence: I served on the promotion committee for 1 person, reviewing their application
     and taking part in the deliberation.
@@ -2457,7 +2451,6 @@
   - research
   - user-research
   - ux
-  - writing
 - id: ongoing-ux-onboarding-sessions-canonical
   sentence: I conduct user research sessions with new Canonical joiners during onboarding,
     as one of the UX research office-hours volunteers they can book — watching them attempt
@@ -2480,7 +2473,6 @@
   - canonical-technical-author
   - documentation
   - knowledge-engineering
-  - writing
 - id: insight-see-link-taxonomy
   sentence: I designed a small taxonomy of typed "See" links to type relationships between
     content (lateral perspective, zoom-in, etc.).
@@ -2490,7 +2482,6 @@
   - canonical-technical-author
   - documentation
   - knowledge-engineering
-  - writing
 - id: pos-freelance-translation
   sentence: I translated 2 books and dozens of articles (English-Romanian).
   date: 2007-01/2011-08
